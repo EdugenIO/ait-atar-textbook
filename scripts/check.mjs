@@ -4,6 +4,8 @@ import { units, chapters, sources } from '../curriculum.js';
 import { lessons } from '../lessons.js';
 import { pacing, teachingWeeks, teachingLessons, examWeeks, sequenceCsv } from '../teaching.js';
 import { sessionPhases, teachingPage, sessionPage } from '../planner-ui.js';
+import { studentTopics } from '../student-topics.js';
+import { readingList, studentContents, studentPage } from '../student-ui.js';
 assert.equal(sources[12].version,'2027');
 assert.equal(sources[11].version,'2026');
 assert.equal(units.length,4);assert.equal(chapters.length,20);
@@ -45,3 +47,19 @@ assert(examWeeks.every(w=>w.teachingLessons===0));
 assert.equal(sequenceCsv().split('\r\n').length,257);
 assert(sessionPage('invalid').includes('Session not found'));
 console.log('Passed: 256 unique sessions; 64 lessons / 3,520 minutes per unit; 55-minute phase budgets; 36 weeks per year; exam separation; all section links; filtered CSV exports.');
+assert.equal(studentTopics.length,4);
+assert.equal(new Set(studentTopics.map(t=>t.id)).size,4);
+for(const topic of studentTopics){
+  assert(teachingWeeks.some(w=>w.unit===topic.unit&&w.week===topic.week));
+  assert(topic.quiz.answer>=0&&topic.quiz.answer<topic.quiz.options.length);
+  assert(topic.sections.length>=4);assert(topic.practice.length>=3);assert(topic.task.steps.length>=4);
+  assert(topic.task.evidence&&topic.task.success.length>=3&&topic.exit);
+  assert(topic.chapterIds.every(id=>chapters.some(c=>c.id===id)));
+  const page=studentPage(topic.id);
+  for(const heading of ['What you’ll learn','Before you begin','Worked example','Try it with support','Practise and explain','Apply independently','Quick check','Chapter recap','Exit question'])assert(page.includes(heading));
+  assert(page.includes('aria-live="polite"'));
+}
+assert.equal(readingList(1).length,8);assert(readingList(1)[0].href==='#read/u1-brief');
+assert(!studentContents(12).includes('href="#unit/1"'));
+assert(studentPage('invalid').includes('Chapter not found'));
+console.log('Passed: four student chapters, valid weekly links, explanation/practice/application structure, answer keys and reading order.');

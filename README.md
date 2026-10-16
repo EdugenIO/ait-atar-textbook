@@ -54,3 +54,9 @@ The included Actions workflow publishes `dist/` on pushes to `main`. Configure S
 5. Maintain a dated review log for syllabus alignment, technical accuracy and accessibility.
 
 This is an independent teaching resource, not an official SCSA publication.
+
+## Student textbook (edition 0.3)
+
+Contents is now a numbered student reading pathway. Four original chapters develop Unit 1 weeks 1–4: understanding a brief, design elements, design principles, and typography/composition. The learning sequence follows the CS companion's approach: retrieval, explicit explanation, worked examples, guided practice, independent transfer, explained feedback and recap. Each chapter links to its four scheduled 55-minute lessons. The workbook is generated from the same chapter data.
+
+Student chapter data: `student-topics.js`. Renderer and interactions: `student-ui.js`. Download: `unit1-design-workbook.md`. The two earlier pilot lessons remain available. Other chapter destinations still show their planned status; these four drafts do not establish complete syllabus coverage.
