@@ -88,3 +88,7 @@ Build the complete structure first, then finish one unit at a time. Mark incompl
 The CS source structure has been inspected, the companion repository scaffolded, and two draft pilot lessons created. Expand the 20-row section register into a requirement-by-requirement mapping, review the pilots, then author Unit 1 in depth.
 
 
+
+## Teaching sequence implemented (16 October 2026)
+
+Each unit uses 16 teaching weeks with four 55-minute lessons per week, then two reserved exam weeks. This gives 64 lessons and 58 hours 40 minutes of teaching per unit, 128 teaching lessons per year and 256 across the course. Projects, feedback, revision and practice are inside these periods. The website now includes unit-filtered weekly plans, individual session pages and CSV/Markdown exports. These are planned sessions; full resources and requirement-level audit remain to be authored. See `docs/teaching-sequence-decisions.md`.

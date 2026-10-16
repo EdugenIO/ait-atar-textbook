@@ -2,6 +2,8 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { units, chapters, sources } from '../curriculum.js';
 import { lessons } from '../lessons.js';
+import { pacing, teachingWeeks, teachingLessons, examWeeks, sequenceCsv } from '../teaching.js';
+import { sessionPhases, teachingPage, sessionPage } from '../planner-ui.js';
 assert.equal(sources[12].version,'2027');
 assert.equal(sources[11].version,'2026');
 assert.equal(units.length,4);assert.equal(chapters.length,20);
@@ -21,3 +23,25 @@ for(const match of html.matchAll(/(?:href|src)="([^"#]+)"/g)){
 }
 assert(html.includes('tabindex="-1"'));assert(html.includes('aria-live="polite"'));
 console.log('Passed: syllabus versions, 4 units, 20 unique section mappings, 2 pilot lessons and project-relative assets.');
+assert.equal(pacing.lessonMinutes,55);
+assert.equal(teachingWeeks.length,64);assert.equal(teachingLessons.length,256);assert.equal(examWeeks.length,8);
+assert.equal(new Set(teachingLessons.map(l=>l.id)).size,256);
+for(const unit of units){
+  const weeks=teachingWeeks.filter(w=>w.unit===unit.id);
+  const slots=teachingLessons.filter(l=>l.unit===unit.id);
+  assert.deepEqual(weeks.map(w=>w.week),Array.from({length:16},(_,i)=>i+1));
+  assert.equal(weeks.length,16);assert.equal(slots.length,64);assert.equal(slots.reduce((s,l)=>s+l.minutes,0),3520);
+  assert.equal(new Set(slots.map(l=>l.task)).size,64);
+  assert.deepEqual(slots.map(l=>l.number),Array.from({length:64},(_,i)=>i+1));
+  for(const w of weeks){assert.equal(w.lessons.length,4);assert(w.evidence);for(const id of w.chapterIds)assert(chapters.some(c=>c.id===id&&c.unit===unit.id));}
+  for(const l of slots){assert.equal(l.minutes,55);assert.equal(sessionPhases(l).reduce((s,p)=>s+p.minutes,0),55);assert(sessionPage(l.id).includes('55 MINUTES'));}
+  assert.deepEqual(examWeeks.filter(w=>w.unit===unit.id).map(w=>w.week),[17,18]);
+  assert.equal(sequenceCsv(unit.id).split('\r\n').length,65);
+  assert.equal((teachingPage(unit.id).match(/class="week-plan"/g)||[]).length,16);
+}
+for(const c of chapters)assert(teachingWeeks.some(w=>w.chapterIds.includes(c.id)),`No scheduled teaching for ${c.id}`);
+for(const year of [11,12])assert.deepEqual([...teachingWeeks,...examWeeks].filter(w=>w.year===year).map(w=>w.yearWeek).sort((a,b)=>a-b),Array.from({length:36},(_,i)=>i+1));
+assert(examWeeks.every(w=>w.teachingLessons===0));
+assert.equal(sequenceCsv().split('\r\n').length,257);
+assert(sessionPage('invalid').includes('Session not found'));
+console.log('Passed: 256 unique sessions; 64 lessons / 3,520 minutes per unit; 55-minute phase budgets; 36 weeks per year; exam separation; all section links; filtered CSV exports.');

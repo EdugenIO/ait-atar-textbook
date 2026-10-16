@@ -15,6 +15,18 @@ Target: https://edugenio.github.io/ait-atar-textbook/
 
 Four unit overviews, 20 chapter destinations, two original draft design lessons, search, glossary, revision guidance, project directions and a downloadable coverage register. All other chapters explicitly show Planned status. No unit is complete or teacher-reviewed.
 
+Edition 0.2 adds the complete **draft teaching sequence**: 256 named 55-minute session plans, unit filters, weekly evidence, lesson navigation, printable plans and downloadable CSV/Markdown schedules. These plans do not imply that 256 full textbook lessons have been authored.
+
+## Teaching time
+
+Each unit has 16 teaching weeks × 4 lessons × 55 minutes = **64 lessons / 58 hours 40 minutes**. Two additional exam weeks follow, giving an **18-week unit block**. Projects, practice, feedback and revision are included within the teaching lessons. Exam weeks have no new teaching allocated, and the school sets examination duration and conditions.
+
+Two units per year give 128 teaching lessons and a 36-week outline including exams. Four units across two years give 256 teaching lessons and eight reserved exam weeks. Week numbers reset per unit; year-week numbers run 1–36 independently for Year 11 and Year 12. These are relative planning weeks, not school term dates.
+
+The sequence follows the companion CS textbook's time structure. Content and lesson tasks are newly authored for AIT.
+
+Data: `teaching.js`. Planner UI: `planner-ui.js`. Generated downloads: `teaching-sequence.md`, `teaching-lessons.csv` and `exam-weeks.csv`. `npm run build` regenerates these exports from the same source used by the site.
+
 The initial visual direction follows the CS companion's bookshelf layout, paper palette, serif headings and static hash routing. It does not import the CS curriculum or application code.
 
 ## Develop and validate
