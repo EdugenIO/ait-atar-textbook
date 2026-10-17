@@ -3,7 +3,7 @@ import {studentTopics} from '../student-topics.js';
 import {chapterVisual,transferPractice,escapeHtml as e} from '../learning-tools.js';
 const styles=(await readFile('style.css','utf8'))+'\n'+(await readFile('learning.css','utf8'));
 
-for(const unit of [1,2,3])for(const answers of [false,true]){
+for(const unit of [1,2,3,4])for(const answers of [false,true]){
   const topics=studentTopics.filter(t=>t.unit===unit);
   const chapters=topics.map((t,i)=>`<article class="workbook-chapter"><h2>${i+1}. ${e(t.title)}</h2><h3>Recall</h3><ul>${t.retrieval.map(q=>`<li>${e(q)}</li>`).join('')}</ul>${chapterVisual(t.id)}<h3>Try it with support</h3><p>${e(t.guided.prompt)}</p>${answers?`<p><strong>Example reasoning:</strong> ${e(t.guided.answer)}</p>`:''}<h3>Practise and explain</h3>${t.practice.map(([verb,q,a])=>`<p><strong>${e(verb)}:</strong> ${e(q)}</p>${answers?`<p>${e(a)}</p>`:'<p class="response-space">Write or sketch your response: __________________________________</p>'}`).join('')}<h3>${e(t.task.title)}</h3><ol>${t.task.steps.map(s=>`<li>${e(s)}</li>`).join('')}</ol><p><strong>Evidence to keep:</strong> ${e(t.task.evidence)}</p>${answers?`<p><strong>Example response:</strong> ${e(t.task.answer)}</p>`:''}${transferPractice(t.id)}<h3>Exit question</h3><p>${e(t.exit)}</p></article>`).join('').replace(/id="visual-heading"|aria-labelledby="visual-heading"|id="fresh-scenario"/g,'');
   const output=answers?chapters:chapters.replace(/<details class="answer">[\s\S]*?<\/details>/g,'');

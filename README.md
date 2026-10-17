@@ -86,3 +86,11 @@ Business communication develops weeks 10–13 with animation, audio export, web 
 ## First Year 12 chapters (edition 0.9)
 
 Three Unit 3 drafts develop interface design (weeks 1–4), devices (weeks 5–6), and rights/collaboration/convergence (weeks 6–8). The official 2027 Year 12 PDF was downloaded through its SCSA course-page link and its printed pages 7–9 were read; these chapter references use printed pages 7–8. The renderer and sidebar now distinguish Year 12 and its 2027 source from Year 11. A separate Unit 3 worksheet/answer pair and practice template are generated. Fictional device observations avoid implying current product recommendations, and legal scenarios use official guidance with qualified conclusions. The original interface pilot source remains in the repository; the main interface destination now opens the developed student chapter. No independent teacher sign-off or full syllabus audit is claimed. These additions remain local.
+
+## Remaining Unit 3 chapters (edition 0.10)
+
+Multimedia publication (weeks 8–11 and 14) develops multi-track production, reusable layouts, colour/output decisions and interactive delivery review. Client project planning (weeks 12–15) develops prototype/structured approaches, purposeful representations, Gantt dependencies/resources, change review and evidence-based handover. All five Unit 3 reading destinations now have drafts, and Unit 3 worksheets contain all five. The six-day Gantt and twelve-second timeline are labelled teaching plans, not recorded production outcomes. SCSA 2027 printed pages 8–9, Adobe documentation and W3C media guidance inform the lessons. Independent teacher sign-off and full requirement-level coverage review remain outstanding. These additions are local and unpublished.
+
+
+## Working edition 0.11
+Two Unit 4 managing-data chapters cover recovery/security (weeks 1–3) and web information/standards (weeks 4–6). Includes backup restore comparisons, boundary-test visuals, practice templates and separate student/answer workbooks. This is draft coverage, not independent curriculum sign-off. Remaining Unit 4 areas are planned.

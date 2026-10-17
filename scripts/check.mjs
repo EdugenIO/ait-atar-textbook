@@ -47,8 +47,8 @@ assert(examWeeks.every(w=>w.teachingLessons===0));
 assert.equal(sequenceCsv().split('\r\n').length,257);
 assert(sessionPage('invalid').includes('Session not found'));
 console.log('Passed: 256 unique sessions; 64 lessons / 3,520 minutes per unit; 55-minute phase budgets; 36 weeks per year; exam separation; all section links; filtered CSV exports.');
-assert.equal(studentTopics.length,16);
-assert.equal(new Set(studentTopics.map(t=>t.id)).size,16);
+assert.equal(studentTopics.length,20);
+assert.equal(new Set(studentTopics.map(t=>t.id)).size,20);
 for(const topic of studentTopics){
   assert(teachingWeeks.some(w=>w.unit===topic.unit&&w.week===topic.week));
   assert(topic.quiz.answer>=0&&topic.quiz.answer<topic.quiz.options.length);
@@ -62,7 +62,7 @@ for(const topic of studentTopics){
 assert.equal(readingList(1).length,8);assert(readingList(1)[0].href==='#read/u1-brief');
 assert(!studentContents(12).includes('href="#unit/1"'));
 assert(studentPage('invalid').includes('Chapter not found'));
-console.log('Passed: sixteen student chapters, valid weekly links, explanation/practice/application structure, answer keys and reading order.');
+console.log('Passed: twenty student chapters, valid weekly links, explanation/practice/application structure, answer keys and reading order.');
 
 assert.equal(readingList(2).length,5);
 assert.equal(readingList(2)[0].href,'#read/u2-data');

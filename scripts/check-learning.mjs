@@ -15,13 +15,13 @@ for(const topic of studentTopics){
   assert(page.includes('data-print-mode="student"')&&page.includes('data-print-mode="answers"'));
   for(const [term] of topic.vocabulary)assert(page.includes(`#glossary/term-${slug(term)}`));
 }
-assert.equal(visualTitles.size,16,'Each chapter needs its own visual teaching example');
+assert.equal(visualTitles.size,20,'Each chapter needs its own visual teaching example');
 const termIds=terms.map(([term])=>'term-'+slug(term));
 assert.equal(new Set(termIds).size,terms.length,'Term URLs must be unique');
 const sorted=[...terms].sort(([a],[b])=>a.localeCompare(b,'en-AU',{numeric:true}));
 assert.deepEqual(terms,sorted);
 for(const id of termIds)assert(glossaryPage().includes(`id="${id}"`));
-for(const unit of [1,2,3]){
+for(const unit of [1,2,3,4]){
 const student=await readFile(`unit${unit}-student-workbook.html`,'utf8');
 const answers=await readFile(`unit${unit}-answer-workbook.html`,'utf8');
 assert(!student.includes('<details class="answer">'),'Student download must omit answer disclosures entirely');
@@ -31,7 +31,7 @@ for(const topic of studentTopics.filter(t=>t.unit===unit)){
   assert(student.includes(escapeHtml(topic.guided.prompt)));
 }
 }
-console.log('Passed: sixteen distinct visual guides, transfer practice, glossary destinations, both print controls and answer-free student worksheets.');
+console.log('Passed: twenty distinct visual guides, transfer practice, glossary destinations, both print controls and answer-free student worksheets.');
 
 assert.equal((studentPage('u1-hardware').match(/Session plan/g)||[]).length,8);
 assert.equal((studentPage('u1-typography').match(/Session plan/g)||[]).length,4);
@@ -47,3 +47,9 @@ for(const id of ['u2-applications','u2-projects'])assert.equal((studentPage(id).
 assert(studentPage('u2-projects').includes('WEEKS 1, 12, 14, 15'));
 
 for(const [id,count] of [['u3-design',16],['u3-hardware',8],['u3-impacts',12]])assert.equal((studentPage(id).match(/Session plan/g)||[]).length,count);
+
+assert.equal((studentPage('u3-applications').match(/Session plan/g)||[]).length,20);
+assert.equal((studentPage('u3-projects').match(/Session plan/g)||[]).length,16);
+assert(studentPage('u3-design').includes('unit3-student-workbook.html'));
+
+for(const id of ['u4-data','u4-web']){assert.equal((studentPage(id).match(/Session plan/g)||[]).length,12);assert(studentPage(id).includes('unit4-student-workbook.html'));}

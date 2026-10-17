@@ -1,8 +1,10 @@
-import {unit3Topics} from './unit3-first-chapters.js?v=0.9';
-import {unit2FinalTopics} from './unit2-final-chapters.js?v=0.9';
-import {unit2Topics} from './unit2-first-chapters.js?v=0.9';
-import {nextTopics} from './unit1-next-chapters.js?v=0.9';
-import {hardwareTopic} from './chapter-hardware.js?v=0.9';
+import {unit4Topics} from './unit4-first-chapters.js?v=0.11';
+import {unit3FinalTopics} from './unit3-final-chapters.js?v=0.11';
+import {unit3Topics} from './unit3-first-chapters.js?v=0.11';
+import {unit2FinalTopics} from './unit2-final-chapters.js?v=0.11';
+import {unit2Topics} from './unit2-first-chapters.js?v=0.11';
+import {nextTopics} from './unit1-next-chapters.js?v=0.11';
+import {hardwareTopic} from './chapter-hardware.js?v=0.11';
 export const studentTopics = [
   {
     id:'u1-brief',unit:1,week:1,title:'Understanding a design brief',chapterIds:['u1-projects','u1-design'],pages:'7–8, 10',
@@ -74,5 +76,7 @@ export const studentTopics = [
   ...nextTopics,
   ...unit2Topics,
   ...unit2FinalTopics,
-  ...unit3Topics
+  ...unit3Topics,
+  ...unit3FinalTopics,
+  ...unit4Topics
 ];
