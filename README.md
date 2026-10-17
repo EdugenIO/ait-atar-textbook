@@ -60,3 +60,9 @@ This is an independent teaching resource, not an official SCSA publication.
 Contents is now a numbered student reading pathway. Four original chapters develop Unit 1 weeks 1–4: understanding a brief, design elements, design principles, and typography/composition. The learning sequence follows the CS companion's approach: retrieval, explicit explanation, worked examples, guided practice, independent transfer, explained feedback and recap. Each chapter links to its four scheduled 55-minute lessons. The workbook is generated from the same chapter data.
 
 Student chapter data: `student-topics.js`. Renderer and interactions: `student-ui.js`. Download: `unit1-design-workbook.md`. The two earlier pilot lessons remain available. Other chapter destinations still show their planned status; these four drafts do not establish complete syllabus coverage.
+
+## Visual learning update (edition 0.4)
+
+The first four student chapters now have different visual walkthroughs: brief-to-evidence decisions, seven design elements, relationships and balance, and grids/thirds/type hierarchy. Each includes prediction, revealed reasoning and a changed example. Fresh library, sport, festival and canteen scenarios support transfer. Glossary terms are alphabetised and linkable; headings support direct section links. Chapter printing separates student and answer copies, and the generated HTML worksheets omit practice answers from the student download entirely. The shared palette and reading proportions match the CS companion.
+
+Run `npm run check` for the original validation plus visual/glossary/worksheet checks, then `npm run build`. These changes do not establish complete syllabus coverage or independent teacher review.
