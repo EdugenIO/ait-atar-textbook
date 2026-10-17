@@ -1,5 +1,10 @@
-import { studentTopics } from './student-topics.js?v=0.4';
-import { glossary } from './curriculum.js?v=0.4';
+import {unit3Visuals,unit3Transfer} from './unit3-first-chapters.js?v=0.9';
+import {unit2FinalVisuals,unit2FinalTransfer} from './unit2-final-chapters.js?v=0.9';
+import {unit2Visuals,unit2Transfer} from './unit2-first-chapters.js?v=0.9';
+import {nextVisuals,nextTransfer} from './unit1-next-chapters.js?v=0.9';
+import {hardwareVisual,hardwareTransfer} from './chapter-hardware.js?v=0.9';
+import { studentTopics } from './student-topics.js?v=0.9';
+import { glossary } from './curriculum.js?v=0.9';
 
 export const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const slug = value => value.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -10,6 +15,11 @@ export function glossaryPage(){
 }
 
 const visualContent = {
+  ...unit3Visuals,
+  ...unit2FinalVisuals,
+  ...unit2Visuals,
+  ...nextVisuals,
+  'u1-hardware': hardwareVisual,
   'u1-brief': {
     title:'Turn a request into a decision',
     graphic:`<ol class="decision-chain"><li><strong>1 · Request</strong>Promote a repair café.</li><li><strong>2 · Audience need</strong>Residents need the date and venue.</li><li><strong>3 · Criterion</strong>A viewer can find both details on the poster.</li><li><strong>4 · Design choice</strong>Group the date and venue below the title.</li><li><strong>5 · Evidence</strong>Ask a viewer to find them. Record any difficulty.</li></ol>`,
@@ -51,6 +61,11 @@ const visualContent = {
 export function chapterVisual(id){const v=visualContent[id];if(!v)return '';return `<section class="visual-guide" aria-labelledby="visual-heading"><p class="eyebrow">Visual walkthrough</p><h2 id="visual-heading">${v.title}</h2><figure>${v.graphic}<figcaption>${v.caption}</figcaption></figure><p><strong>Pause and predict:</strong> ${v.predict}</p><details class="answer"><summary>Show the explanation</summary><p>${v.answer}</p></details><p><strong>Try a small change:</strong> ${v.change}</p><details class="answer"><summary>Compare your reasoning</summary><p>${v.changeAnswer}</p></details></section>`;}
 
 const transfer = {
+  ...unit3Transfer,
+  ...unit2FinalTransfer,
+  ...unit2Transfer,
+  ...nextTransfer,
+  'u1-hardware': hardwareTransfer,
   'u1-brief':['A fresh client: the school library','The library needs a phone-friendly guide for new Year 11 students. It must show opening hours, where to borrow a laptop and how to ask for help. The librarian has not supplied the final hours.','Name the client and audience. Write one testable criterion, one design decision and one question for the client.','The librarian is the client; new Year 11 students are the audience. A criterion could be that a student can locate laptop-borrowing instructions on the first screen. Group those instructions under a clear heading. Confirm the opening hours rather than inventing them.'],
   'u1-elements':['A fresh context: a sports-club notice','A sports club needs a notice saying “Training moved to Court 2”. The background photograph makes the small text hard to read.','Change two elements. Explain what each change could do, and how you would check the result.','For example, place the message in a plain rectangular panel (shape) and use a dark message on a pale panel (tone). Check the actual viewing size and ask someone to read the new location. A different solution can work if supported by evidence.'],
   'u1-principles':['A fresh context: a festival guide','A festival page gives its title, sponsor list and “Find a stage” control equal prominence. Visitors mainly need to locate their next event.','Choose a dominant item, group related information and describe the viewing path you would test.','Make the stage-finding control prominent and group event names with locations. A possible path is guide title → stage finder → event details. Test whether visitors can find their next stage; do not assume the largest title always serves the task.'],
@@ -59,7 +74,7 @@ const transfer = {
 export function transferPractice(id){const [title,context,prompt,answer]=transfer[id];return `<section class="transfer-practice"><h2 id="fresh-scenario">${title}</h2><p>${context}</p><p>${prompt}</p><details class="answer"><summary>Compare with an example response</summary><p>${answer}</p></details></section>`;}
 
 export function bindPrintControls(){
-  document.querySelectorAll('[data-print-mode]').forEach(button=>button.addEventListener('click',()=>{
+  document.querySelectorAll('button[data-print-mode]').forEach(button=>button.addEventListener('click',()=>{
     document.body.dataset.printMode=button.dataset.printMode;
     window.print();
   }));

@@ -34,7 +34,7 @@ const rows = [
 ];
 export const chapters = rows.map(([unit, slug, area, title, pages, evidence]) => ({
   id:`u${unit}-${slug}`, unit, year:unit<3?11:12, area, title, pages, evidence,
-  registerId:`AIT-U${unit}-${slug.toUpperCase()}`, status: (unit===1||unit===3)&&slug==='design'?'Draft pilot':'Planned'
+  registerId:`AIT-U${unit}-${slug.toUpperCase()}`, status: (unit===1&&slug!=='design')||(unit===2)||(unit===3&&['hardware','impacts'].includes(slug))?'Classroom draft':(unit===1||unit===3)&&slug==='design'?'Draft pilot':'Planned'
 }));
 export const glossary = {
   'Accessibility':'Designing a resource so people with different abilities can perceive, understand and operate it.',

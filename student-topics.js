@@ -1,3 +1,8 @@
+import {unit3Topics} from './unit3-first-chapters.js?v=0.9';
+import {unit2FinalTopics} from './unit2-final-chapters.js?v=0.9';
+import {unit2Topics} from './unit2-first-chapters.js?v=0.9';
+import {nextTopics} from './unit1-next-chapters.js?v=0.9';
+import {hardwareTopic} from './chapter-hardware.js?v=0.9';
 export const studentTopics = [
   {
     id:'u1-brief',unit:1,week:1,title:'Understanding a design brief',chapterIds:['u1-projects','u1-design'],pages:'7–8, 10',
@@ -64,4 +69,10 @@ export const studentTopics = [
     quiz:{question:'What is the best reason to use a grid?',options:['It guarantees that viewers read in the intended order.','It provides consistent alignment relationships for the composition.','It removes the need for feedback.'],answer:1,explanation:'A grid supports organisation and alignment. The effectiveness of the resulting layout still depends on its content, audience and testing.'},
     recap:'Use typography and composition to express relationships. Explain the intended effect, inspect the actual output and revise using evidence.',exit:'Choose one annotation from your design. Improve it by adding a precise effect and a way to test it.'
   }
+,
+  hardwareTopic,
+  ...nextTopics,
+  ...unit2Topics,
+  ...unit2FinalTopics,
+  ...unit3Topics
 ];
