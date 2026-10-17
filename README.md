@@ -106,3 +106,9 @@ Seven generated process illustrations are placed across all 20 authored chapters
 
 ## Working edition 0.15
 Adds Unit 4 secure LAN design for weeks 7–8, with protocol/standard distinctions, an illustrated request journey, worked client proposal, troubleshooting, annotated examples and practice templates. Twenty-one authored chapters; remaining Unit 4 impacts and services/projects chapters are planned.
+
+## Working edition 0.16
+Adds Unit 4 digital participation for weeks 9–11: information categories, workplace conduct/monitoring, censorship, cloud criteria and shared responsibility, global markets and outsourcing. Includes a fictional centre comparison, illustrated information review, two section diagrams, annotated practice and worksheets. Current legal guidance is linked; independent curriculum review remains pending.
+
+## Working edition 0.17
+Adds Unit 4 tutorials and fictional-data forms for weeks 6, 13 and 14, with an offline no-storage demonstration, worked learning sequence, accessible feedback and boundary tests. Twenty-three authored chapters. Service agreements and project evaluation remain planned; independent curriculum review remains pending.

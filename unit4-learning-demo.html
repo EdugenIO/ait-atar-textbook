@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Workshop form tutorial · AIT ATAR</title>
+<style>
+:root{color-scheme:light;--ink:#213b32;--paper:#fbf9f2;--line:#c6d2c9}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:#263c33;font:17px/1.65 system-ui,sans-serif}main{max-width:900px;margin:auto;padding:36px 22px}h1,h2{font-family:Georgia,serif;line-height:1.2}h1{font-size:clamp(30px,6vw,46px)}h2{font-size:27px}a{color:#24543d}section{margin:30px 0;padding:22px;border:1px solid var(--line);background:#fff}label{display:block;font-weight:700;margin-top:20px}.hint{margin:5px 0;color:#42554b;font-size:15px}input,select,button{font:inherit}input,select{display:block;width:100%;max-width:360px;padding:12px;border:1px solid #54675b;background:#fff;color:#162a20;border-radius:3px}button{background:#214e37;color:#fff;border:2px solid #214e37;padding:11px 18px;cursor:pointer;margin:20px 8px 0 0}button.secondary{background:#fff;color:#214e37}:focus-visible{outline:3px solid #9d5e00;outline-offset:3px}.error{color:#8b2424;font-weight:650;margin:5px 0}.error:empty{display:none}[aria-invalid=true]{border:2px solid #8b2424}#result{margin-top:20px;padding:14px;border-left:4px solid #24543d;background:#eef3ec}#result:empty{display:none}.badge{font-size:13px;letter-spacing:.06em;font-weight:700}.model{background:#eef3ec;padding:15px}.actions{display:flex;flex-wrap:wrap}li{margin:8px 0}details{margin:16px 0}summary{cursor:pointer;font-weight:650}footer{font-size:14px;margin-top:28px}@media(max-width:500px){section{padding:16px}main{padding:24px 16px}}@media print{button,.back{display:none}section{break-inside:auto}input,select{max-width:100%}}
+</style></head><body><main>
+<p class="badge">AIT ATAR · OPTIONAL PRACTICE · NO MARKS OR ACCOUNTS</p><h1>Learn to check a workshop request</h1>
+<p>This demonstration checks invented values on this page. It does not send, save or register a booking. Do not enter personal information.</p>
+<section><h2>1. Read the goal</h2><p>Choose a listed workshop and enter a whole-number group size from 1 to 12. Use the feedback to correct an invalid value.</p>
+<h2>2. Study the model</h2><p class="model"><strong>Design workshop + 4 people:</strong> a workshop is selected and 4 is a whole number within the allowed range. The values should pass these practice rules.</p>
+<h2>3. Predict, try and explain</h2><ol><li>Choose Design workshop and enter <strong>13</strong>. Predict the result before checking.</li><li>Change the value to <strong>12</strong>. Explain why the result changes.</li><li>Choose Media workshop and try <strong>2.5</strong>. Correct it using the rule.</li></ol>
+<details><summary>Compare your reasoning after trying</summary><p>13 is above the maximum. 12 is accepted because the upper boundary is included. 2.5 is inside the numeric range but is not a whole number, so it is rejected.</p></details></section>
+<section aria-labelledby="form-heading"><h2 id="form-heading">Try the practice form</h2><p>Both fields are required. Check the values, read any feedback and correct the relevant field.</p>
+<form id="practice-form" novalidate>
+<label for="workshop">Workshop (required)</label><p id="workshop-hint" class="hint">Choose one of the two fictional workshops.</p>
+<select id="workshop" required aria-describedby="workshop-hint workshop-error"><option value="">Choose a workshop</option><option value="design">Design workshop</option><option value="media">Media workshop</option></select><p id="workshop-error" class="error"></p>
+<label for="group-size">Group size (required)</label><p id="size-hint" class="hint">Enter a whole number from 1 to 12. Use fictional values only.</p>
+<input id="group-size" type="text" inputmode="numeric" autocomplete="off" required aria-describedby="size-hint size-error"><p id="size-error" class="error"></p>
+<div class="actions"><button type="submit">Check practice values</button><button type="button" id="clear-practice" class="secondary">Clear practice values</button></div>
+<div id="result" role="status" aria-live="polite" tabindex="-1"></div>
+</form></section>
+<section><h2>What did this check establish?</h2><p>Accepted values meet this demonstration’s listed-option and whole-number range rules. They do not prove the information is true, reserve places or test a real service’s storage and security.</p><p>A real receiving service needs its own validation and appropriate information handling. This page has no receiving service or response storage.</p><h2>Try a fresh case</h2><p>Before checking, predict the result for an empty field, 0, 1, 12, 13 and letters. Record expected and actual results in the chapter worksheet.</p></section>
+<p class="back"><a href="index.html#read/u4-applications">Return to the chapter</a></p><footer>Original classroom practice · AIT ATAR · Draft for teacher review. Works offline when saved locally.</footer>
+</main><script>
+const form=document.querySelector('#practice-form');
+const workshop=document.querySelector('#workshop');
+const size=document.querySelector('#group-size');
+const result=document.querySelector('#result');
+function showError(field,id,message){document.getElementById(id).textContent=message;if(message)field.setAttribute('aria-invalid','true');else field.removeAttribute('aria-invalid');}
+form.addEventListener('submit',event=>{
+ event.preventDefault();
+ const workshopError=['design','media'].includes(workshop.value)?'':'Choose a listed workshop.';
+ const raw=size.value.trim();
+ const valid=/^\d+$/.test(raw)&&Number.isSafeInteger(Number(raw))&&Number(raw)>=1&&Number(raw)<=12;
+ const sizeError=valid?'':'Enter a whole number from 1 to 12.';
+ showError(workshop,'workshop-error',workshopError);showError(size,'size-error',sizeError);
+ const errors=[];if(workshopError)errors.push('Workshop: '+workshopError);if(sizeError)errors.push('Group size: '+sizeError);
+ result.textContent=errors.length?'Please correct the following. '+errors.join(' '):'Practice values accepted: '+workshop.options[workshop.selectedIndex].text+', group size '+Number(raw)+'. These values meet the listed rules. No booking was made and no response was sent or saved.';
+ result.focus();
+});
+document.querySelector('#clear-practice').addEventListener('click',()=>{form.reset();showError(workshop,'workshop-error','');showError(size,'size-error','');result.textContent='Practice values cleared. No response was saved.';workshop.focus();});
+</script></body></html>

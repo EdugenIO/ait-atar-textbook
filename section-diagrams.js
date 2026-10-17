@@ -1,6 +1,10 @@
-import {unit4NetworkDiagrams} from './unit4-network-chapter.js?v=0.15';
+import {unit4LearningDiagrams} from './unit4-learning-chapter.js?v=0.17';
+import {unit4ImpactsDiagrams} from './unit4-impacts-chapter.js?v=0.17';
+import {unit4NetworkDiagrams} from './unit4-network-chapter.js?v=0.17';
 export const sectionDiagrams={
 ...unit4NetworkDiagrams,
+...unit4ImpactsDiagrams,
+...unit4LearningDiagrams,
   "u1-brief": [
     {
       "after": 1,
@@ -883,7 +887,7 @@ export const sectionDiagrams={
   ]
 };
 const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const sequenceDiagrams=new Set(['u1-principles:1','u1-principles:3','u1-hardware:1','u1-applications:3','u1-impacts:1','u1-impacts:3','u1-projects:1','u2-data:3','u2-applications:1','u2-applications:3','u2-projects:1','u3-design:1','u3-hardware:1','u3-projects:3','u4-web:3']);
+const sequenceDiagrams=new Set(['u4-applications:3','u1-principles:1','u1-principles:3','u1-hardware:1','u1-applications:3','u1-impacts:1','u1-impacts:3','u1-projects:1','u2-data:3','u2-applications:1','u2-applications:3','u2-projects:1','u3-design:1','u3-hardware:1','u3-projects:3','u4-web:3']);
 export function sectionDiagram(topicId,index){
  const diagram=sectionDiagrams[topicId]?.find(d=>d.after===index);
  if(!diagram)return '';
