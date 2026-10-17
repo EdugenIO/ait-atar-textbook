@@ -106,3 +106,14 @@ assert.equal((studentPage('u4-impacts').match(/Session plan/g)||[]).length,12);
 assert.equal((studentPage('u4-applications').match(/Session plan/g)||[]).length,12);
 
 assert.equal((studentPage('u4-projects').match(/Session plan/g)||[]).length,16);
+
+for(const unit of [1,2,3,4]){
+ const answers=await readFile(`unit${unit}-answer-workbook.html`,'utf8');
+ assert(!answers.includes('<details class="answer">'),'Answer workbooks must not leave answer panels collapsed by default');
+ assert(answers.includes('<details class="answer" open>'));
+}
+for(const topic of studentTopics){
+ const seen=new Set([topic.id]);let cursor=topic;
+ while(cursor.prerequisite){assert(!seen.has(cursor.prerequisite),'Prerequisite cycle');seen.add(cursor.prerequisite);cursor=studentTopics.find(t=>t.id===cursor.prerequisite);assert(cursor,'Missing prerequisite');}
+}
+console.log('Passed: printable answer visibility and complete acyclic prerequisite links.');

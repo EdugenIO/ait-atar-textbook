@@ -7,3 +7,5 @@ for (const name of ['unit4-project-chapter.js', 'unit4-project-evaluation-practi
 console.log('Static site built in dist/');
 
 await cp('assets','dist/assets',{recursive:true});
+
+await cp('audits','dist/audits',{recursive:true});

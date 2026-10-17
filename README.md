@@ -115,3 +115,6 @@ Adds Unit 4 tutorials and fictional-data forms for weeks 6, 13 and 14, with an o
 
 ## Working edition 0.18
 Adds the final Unit 4 services/project chapter, with fictional SLA comparisons, availability arithmetic, outsourcing and software evaluation, survey/client/self-reflection evidence and a build–test–revise–handover task. All 24 reading chapters are authored drafts; this does not mean independent requirement-level curriculum sign-off. The full coverage/accuracy audit remains the next stage.
+
+## Working edition 0.19 · Audit corrections
+First-pass review of all four units and 24 authored chapters, with a 185-checkpoint paraphrased inventory in audits/. Fixes stale pilot labels, answer-print disclosure visibility, design-right certification detail and timetable/assessment messaging. The audit identifies practical-depth gaps; it is not independent syllabus or accessibility certification.
