@@ -1,3 +1,4 @@
+import {unit4NetworkPlacement} from './unit4-network-chapter.js?v=0.15';
 export const processImages={
   "computer": {
     "file": "computer-workflow.webp",
@@ -71,6 +72,7 @@ export const processImages={
   }
 };
 export const imagePlacements={
+...unit4NetworkPlacement,
   "u1-brief": {
     "asset": "project",
     "title": "Read the brief before making the product",

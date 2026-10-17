@@ -1,4 +1,6 @@
+import {unit4NetworkDiagrams} from './unit4-network-chapter.js?v=0.15';
 export const sectionDiagrams={
+...unit4NetworkDiagrams,
   "u1-brief": [
     {
       "after": 1,

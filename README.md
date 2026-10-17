@@ -103,3 +103,6 @@ All 20 authored chapters now include two annotations on their worked example, a 
 
 ## Working edition 0.14
 Seven generated process illustrations are placed across all 20 authored chapters, with chapter-specific guidance, descriptive alt text and readable step explanations. Web images use compressed WebP and lazy loading; downloadable worksheets embed the images for offline use. Prompt records are in assets/processes/README.md. Images are teaching models, not literal hardware/circuit schematics or evidence of a tested system.
+
+## Working edition 0.15
+Adds Unit 4 secure LAN design for weeks 7–8, with protocol/standard distinctions, an illustrated request journey, worked client proposal, troubleshooting, annotated examples and practice templates. Twenty-one authored chapters; remaining Unit 4 impacts and services/projects chapters are planned.

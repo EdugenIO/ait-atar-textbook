@@ -1,4 +1,6 @@
+import {unit4NetworkReinforcement} from './unit4-network-chapter.js?v=0.15';
 export const reinforcementActivities={
+...unit4NetworkReinforcement,
   "u1-brief": {
     "context": "A library welcome guide",
     "mistake": "The client asks for a guide, so I will choose the information without asking about students.",

@@ -18,7 +18,7 @@ for(const topic of studentTopics){
   assert(page.includes('data-print-mode="student"')&&page.includes('data-print-mode="answers"'));
   for(const [term] of topic.vocabulary)assert(page.includes(`#glossary/term-${slug(term)}`));
 }
-assert.equal(visualTitles.size,20,'Each chapter needs its own visual teaching example');
+assert.equal(visualTitles.size,21,'Each chapter needs its own visual teaching example');
 const termIds=terms.map(([term])=>'term-'+slug(term));
 assert.equal(new Set(termIds).size,terms.length,'Term URLs must be unique');
 const sorted=[...terms].sort(([a],[b])=>a.localeCompare(b,'en-AU',{numeric:true}));
@@ -34,7 +34,7 @@ for(const topic of studentTopics.filter(t=>t.unit===unit)){
   assert(student.includes(escapeHtml(topic.guided.prompt)));
 }
 }
-console.log('Passed: twenty distinct visual guides, transfer practice, glossary destinations, both print controls and answer-free student worksheets.');
+console.log('Passed: twenty-one distinct visual guides, transfer practice, glossary destinations, both print controls and answer-free student worksheets.');
 
 assert.equal((studentPage('u1-hardware').match(/Session plan/g)||[]).length,8);
 assert.equal((studentPage('u1-typography').match(/Session plan/g)||[]).length,4);
@@ -72,7 +72,7 @@ for(const topic of studentTopics){
   assert(answers.includes(escapeHtml(diagram.answer)));
  }
 }
-console.log('Passed: 40 section diagrams across all authored chapters, with prompts in worksheets and explanations only in answer copies.');
+console.log('Passed: 42 section diagrams across all authored chapters, with prompts in worksheets and explanations only in answer copies.');
 
 assert.equal(Object.keys(reinforcementActivities).length,studentTopics.length);
 for(const topic of studentTopics){
@@ -85,7 +85,7 @@ for(const topic of studentTopics){
  for(const text of [a.correction,a.completion]){assert(!student.includes(escapeHtml(text)));assert(answers.includes(escapeHtml(text)));}
  assert(student.includes(escapeHtml(topic.worked.title)));
 }
-console.log('Passed: annotated models and two reinforcement activities in all 20 chapters; student worksheets preserve prompts and omit solutions.');
+console.log('Passed: annotated models and two reinforcement activities in all 21 chapters; student worksheets preserve prompts and omit solutions.');
 
 assert.equal(Object.keys(imagePlacements).length,studentTopics.length);
 for(const topic of studentTopics){
@@ -97,4 +97,6 @@ for(const topic of studentTopics){
  assert(worksheet.includes('data:image/webp;base64,'),'Downloaded worksheets must include offline images');
  assert(!worksheet.includes('src="assets/processes/'),'No external image dependency in downloaded worksheets');
 }
-console.log('Passed: illustrated processes in all 20 chapters, descriptive alternatives and embedded worksheet images.');
+console.log('Passed: illustrated processes in all 21 chapters, descriptive alternatives and embedded worksheet images.');
+
+assert.equal((studentPage('u4-networks').match(/Session plan/g)||[]).length,8);

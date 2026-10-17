@@ -1,12 +1,13 @@
-import {unit4Visuals,unit4Transfer} from './unit4-first-chapters.js?v=0.14';
-import {unit3FinalVisuals,unit3FinalTransfer} from './unit3-final-chapters.js?v=0.14';
-import {unit3Visuals,unit3Transfer} from './unit3-first-chapters.js?v=0.14';
-import {unit2FinalVisuals,unit2FinalTransfer} from './unit2-final-chapters.js?v=0.14';
-import {unit2Visuals,unit2Transfer} from './unit2-first-chapters.js?v=0.14';
-import {nextVisuals,nextTransfer} from './unit1-next-chapters.js?v=0.14';
-import {hardwareVisual,hardwareTransfer} from './chapter-hardware.js?v=0.14';
-import { studentTopics } from './student-topics.js?v=0.14';
-import { glossary } from './curriculum.js?v=0.14';
+import {unit4NetworkVisuals,unit4NetworkTransfer} from './unit4-network-chapter.js?v=0.15';
+import {unit4Visuals,unit4Transfer} from './unit4-first-chapters.js?v=0.15';
+import {unit3FinalVisuals,unit3FinalTransfer} from './unit3-final-chapters.js?v=0.15';
+import {unit3Visuals,unit3Transfer} from './unit3-first-chapters.js?v=0.15';
+import {unit2FinalVisuals,unit2FinalTransfer} from './unit2-final-chapters.js?v=0.15';
+import {unit2Visuals,unit2Transfer} from './unit2-first-chapters.js?v=0.15';
+import {nextVisuals,nextTransfer} from './unit1-next-chapters.js?v=0.15';
+import {hardwareVisual,hardwareTransfer} from './chapter-hardware.js?v=0.15';
+import { studentTopics } from './student-topics.js?v=0.15';
+import { glossary } from './curriculum.js?v=0.15';
 
 export const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const slug = value => value.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -19,6 +20,7 @@ export function glossaryPage(){
 const visualContent = {
   ...unit3FinalVisuals,
   ...unit4Visuals,
+...unit4NetworkVisuals,
   ...unit3Visuals,
   ...unit2FinalVisuals,
   ...unit2Visuals,
@@ -67,6 +69,7 @@ export function chapterVisual(id){const v=visualContent[id];if(!v)return '';retu
 const transfer = {
   ...unit3FinalTransfer,
   ...unit4Transfer,
+ ...unit4NetworkTransfer,
   ...unit3Transfer,
   ...unit2FinalTransfer,
   ...unit2Transfer,
