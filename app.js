@@ -1,10 +1,10 @@
-import { glossaryPage, slug } from './learning-tools.js';
-import { studentContents, studentUnitCard, studentUnit, studentPage, bindStudentInteractions } from './student-ui.js';
-import { studentTopics } from './student-topics.js';
-import { units, chapters, sources, glossary } from './curriculum.js';
-import { lessons } from './lessons.js';
-import { teachingPage, sessionPage } from './planner-ui.js';
-import { sequenceCsv } from './teaching.js';
+import { glossaryPage, slug } from './learning-tools.js?v=0.4';
+import { studentContents, studentUnitCard, studentUnit, studentPage, bindStudentInteractions } from './student-ui.js?v=0.4';
+import { studentTopics } from './student-topics.js?v=0.4';
+import { units, chapters, sources, glossary } from './curriculum.js?v=0.4';
+import { lessons } from './lessons.js?v=0.4';
+import { teachingPage, sessionPage } from './planner-ui.js?v=0.4';
+import { sequenceCsv } from './teaching.js?v=0.4';
 const main = document.querySelector('main');
 const studentGlossary = {...glossary,...Object.fromEntries(studentTopics.flatMap(t=>t.vocabulary))};
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

@@ -1,7 +1,7 @@
-import { chapterVisual, transferPractice, slug, bindPrintControls } from './learning-tools.js';
-import { studentTopics } from './student-topics.js';
-import { units, chapters, sources } from './curriculum.js';
-import { teachingWeeks } from './teaching.js';
+import { chapterVisual, transferPractice, slug, bindPrintControls } from './learning-tools.js?v=0.4';
+import { studentTopics } from './student-topics.js?v=0.4';
+import { units, chapters, sources } from './curriculum.js?v=0.4';
+import { teachingWeeks } from './teaching.js?v=0.4';
 const e=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function readingList(unit){
   const developed=studentTopics.filter(t=>t.unit===unit).map(t=>({title:t.title,href:`#read/${t.id}`,status:'Classroom draft',week:t.week}));

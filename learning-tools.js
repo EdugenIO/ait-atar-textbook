@@ -1,5 +1,5 @@
-import { studentTopics } from './student-topics.js';
-import { glossary } from './curriculum.js';
+import { studentTopics } from './student-topics.js?v=0.4';
+import { glossary } from './curriculum.js?v=0.4';
 
 export const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const slug = value => value.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');

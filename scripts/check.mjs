@@ -21,7 +21,7 @@ const html=await readFile('index.html','utf8');
 for(const match of html.matchAll(/(?:href|src)="([^"#]+)"/g)){
   if(match[1].startsWith('http'))continue;
   assert(!match[1].startsWith('/'),'Assets must work on GitHub Pages project paths');
-  await readFile(match[1]);
+  await readFile(match[1].split('?')[0]);
 }
 assert(html.includes('tabindex="-1"'));assert(html.includes('aria-live="polite"'));
 console.log('Passed: syllabus versions, 4 units, 20 unique section mappings, 2 pilot lessons and project-relative assets.');
