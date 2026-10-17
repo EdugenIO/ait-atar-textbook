@@ -1,10 +1,12 @@
-import {unit4LearningDiagrams} from './unit4-learning-chapter.js?v=0.17';
-import {unit4ImpactsDiagrams} from './unit4-impacts-chapter.js?v=0.17';
-import {unit4NetworkDiagrams} from './unit4-network-chapter.js?v=0.17';
+import {unit4ProjectDiagrams} from './unit4-project-chapter.js?v=0.18';
+import {unit4LearningDiagrams} from './unit4-learning-chapter.js?v=0.18';
+import {unit4ImpactsDiagrams} from './unit4-impacts-chapter.js?v=0.18';
+import {unit4NetworkDiagrams} from './unit4-network-chapter.js?v=0.18';
 export const sectionDiagrams={
 ...unit4NetworkDiagrams,
 ...unit4ImpactsDiagrams,
 ...unit4LearningDiagrams,
+...unit4ProjectDiagrams,
   "u1-brief": [
     {
       "after": 1,

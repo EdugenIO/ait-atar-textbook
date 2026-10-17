@@ -1,6 +1,7 @@
-import {unit4LearningPlacement} from './unit4-learning-chapter.js?v=0.17';
-import {unit4ImpactsPlacement} from './unit4-impacts-chapter.js?v=0.17';
-import {unit4NetworkPlacement} from './unit4-network-chapter.js?v=0.17';
+import {unit4ProjectPlacement} from './unit4-project-chapter.js?v=0.18';
+import {unit4LearningPlacement} from './unit4-learning-chapter.js?v=0.18';
+import {unit4ImpactsPlacement} from './unit4-impacts-chapter.js?v=0.18';
+import {unit4NetworkPlacement} from './unit4-network-chapter.js?v=0.18';
 export const processImages={
   "computer": {
     "file": "computer-workflow.webp",
@@ -77,6 +78,7 @@ export const imagePlacements={
 ...unit4NetworkPlacement,
 ...unit4ImpactsPlacement,
 ...unit4LearningPlacement,
+...unit4ProjectPlacement,
   "u1-brief": {
     "asset": "project",
     "title": "Read the brief before making the product",

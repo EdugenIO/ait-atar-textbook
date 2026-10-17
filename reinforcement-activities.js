@@ -1,10 +1,12 @@
-import {unit4LearningReinforcement} from './unit4-learning-chapter.js?v=0.17';
-import {unit4ImpactsReinforcement} from './unit4-impacts-chapter.js?v=0.17';
-import {unit4NetworkReinforcement} from './unit4-network-chapter.js?v=0.17';
+import {unit4ProjectReinforcement} from './unit4-project-chapter.js?v=0.18';
+import {unit4LearningReinforcement} from './unit4-learning-chapter.js?v=0.18';
+import {unit4ImpactsReinforcement} from './unit4-impacts-chapter.js?v=0.18';
+import {unit4NetworkReinforcement} from './unit4-network-chapter.js?v=0.18';
 export const reinforcementActivities={
 ...unit4NetworkReinforcement,
 ...unit4ImpactsReinforcement,
 ...unit4LearningReinforcement,
+...unit4ProjectReinforcement,
   "u1-brief": {
     "context": "A library welcome guide",
     "mistake": "The client asks for a guide, so I will choose the information without asking about students.",

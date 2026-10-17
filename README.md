@@ -112,3 +112,6 @@ Adds Unit 4 digital participation for weeks 9–11: information categories, work
 
 ## Working edition 0.17
 Adds Unit 4 tutorials and fictional-data forms for weeks 6, 13 and 14, with an offline no-storage demonstration, worked learning sequence, accessible feedback and boundary tests. Twenty-three authored chapters. Service agreements and project evaluation remain planned; independent curriculum review remains pending.
+
+## Working edition 0.18
+Adds the final Unit 4 services/project chapter, with fictional SLA comparisons, availability arithmetic, outsourcing and software evaluation, survey/client/self-reflection evidence and a build–test–revise–handover task. All 24 reading chapters are authored drafts; this does not mean independent requirement-level curriculum sign-off. The full coverage/accuracy audit remains the next stage.
