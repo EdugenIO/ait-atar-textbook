@@ -100,3 +100,6 @@ Adds 40 section-specific reinforcement diagrams across all 20 authored chapters.
 
 ## Working edition 0.13
 All 20 authored chapters now include two annotations on their worked example, a contextual spot-the-mistake activity and a partially completed example. Printable workbooks include the worked model and annotations; student copies exclude correction/completion answers. Activities use fictional scenarios without marks, accounts or saved responses.
+
+## Working edition 0.14
+Seven generated process illustrations are placed across all 20 authored chapters, with chapter-specific guidance, descriptive alt text and readable step explanations. Web images use compressed WebP and lazy loading; downloadable worksheets embed the images for offline use. Prompt records are in assets/processes/README.md. Images are teaching models, not literal hardware/circuit schematics or evidence of a tested system.

@@ -1,3 +1,4 @@
+import {processImages,imagePlacements} from '../process-images.js';
 import {reinforcementActivities} from '../reinforcement-activities.js';
 import {sectionDiagrams} from '../section-diagrams.js';
 import assert from 'node:assert/strict';
@@ -85,3 +86,15 @@ for(const topic of studentTopics){
  assert(student.includes(escapeHtml(topic.worked.title)));
 }
 console.log('Passed: annotated models and two reinforcement activities in all 20 chapters; student worksheets preserve prompts and omit solutions.');
+
+assert.equal(Object.keys(imagePlacements).length,studentTopics.length);
+for(const topic of studentTopics){
+ const asset=processImages[imagePlacements[topic.id].asset];
+ const bytes=await readFile('assets/processes/'+asset.file);
+ assert.equal(bytes.toString('ascii',0,4),'RIFF');assert(asset.alt.length>40);
+ assert.equal((studentPage(topic.id).match(/class="process-illustration"/g)||[]).length,1);
+ const worksheet=await readFile(`unit${topic.unit}-student-workbook.html`,'utf8');
+ assert(worksheet.includes('data:image/webp;base64,'),'Downloaded worksheets must include offline images');
+ assert(!worksheet.includes('src="assets/processes/'),'No external image dependency in downloaded worksheets');
+}
+console.log('Passed: illustrated processes in all 20 chapters, descriptive alternatives and embedded worksheet images.');
