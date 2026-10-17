@@ -1,3 +1,4 @@
+import {sectionDiagrams} from '../section-diagrams.js';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {studentTopics} from '../student-topics.js';
@@ -53,3 +54,20 @@ assert.equal((studentPage('u3-projects').match(/Session plan/g)||[]).length,16);
 assert(studentPage('u3-design').includes('unit3-student-workbook.html'));
 
 for(const id of ['u4-data','u4-web']){assert.equal((studentPage(id).match(/Session plan/g)||[]).length,12);assert(studentPage(id).includes('unit4-student-workbook.html'));}
+
+assert.equal(Object.keys(sectionDiagrams).length,studentTopics.length);
+for(const topic of studentTopics){
+ const diagrams=sectionDiagrams[topic.id];
+ assert.equal(diagrams.length,2);
+ assert.equal((studentPage(topic.id).match(/class="lesson-diagram"/g)||[]).length,2);
+ const student=await readFile(`unit${topic.unit}-student-workbook.html`,'utf8');
+ const answers=await readFile(`unit${topic.unit}-answer-workbook.html`,'utf8');
+ for(const diagram of diagrams){
+  assert(diagram.after<topic.sections.length);
+  assert(student.includes(escapeHtml(diagram.title)));
+  assert(student.includes(escapeHtml(diagram.prompt)));
+  assert(!student.includes(escapeHtml(diagram.answer)));
+  assert(answers.includes(escapeHtml(diagram.answer)));
+ }
+}
+console.log('Passed: 40 section diagrams across all authored chapters, with prompts in worksheets and explanations only in answer copies.');

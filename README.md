@@ -94,3 +94,6 @@ Multimedia publication (weeks 8–11 and 14) develops multi-track production, re
 
 ## Working edition 0.11
 Two Unit 4 managing-data chapters cover recovery/security (weeks 1–3) and web information/standards (weeks 4–6). Includes backup restore comparisons, boundary-test visuals, practice templates and separate student/answer workbooks. This is draft coverage, not independent curriculum sign-off. Remaining Unit 4 areas are planned.
+
+## Working edition 0.12
+Adds 40 section-specific reinforcement diagrams across all 20 authored chapters. Each has labelled nodes, a reasoning prompt and an explained answer. Diagrams reflow on narrow screens and are included in printable workbooks; student copies omit answer panels.
