@@ -1,10 +1,10 @@
-import { glossaryPage, slug } from './learning-tools.js?v=0.4';
-import { studentContents, studentUnitCard, studentUnit, studentPage, bindStudentInteractions } from './student-ui.js?v=0.4';
-import { studentTopics } from './student-topics.js?v=0.4';
-import { units, chapters, sources, glossary } from './curriculum.js?v=0.4';
-import { lessons } from './lessons.js?v=0.4';
-import { teachingPage, sessionPage } from './planner-ui.js?v=0.4';
-import { sequenceCsv } from './teaching.js?v=0.4';
+import { glossaryPage, slug } from './learning-tools.js?v=0.4.1';
+import { studentContents, studentUnitCard, studentUnit, studentPage, bindStudentInteractions } from './student-ui.js?v=0.4.1';
+import { studentTopics } from './student-topics.js?v=0.4.1';
+import { units, chapters, sources, glossary } from './curriculum.js?v=0.4.1';
+import { lessons } from './lessons.js?v=0.4.1';
+import { teachingPage, sessionPage } from './planner-ui.js?v=0.4.1';
+import { sequenceCsv } from './teaching.js?v=0.4.1';
 const main = document.querySelector('main');
 const studentGlossary = {...glossary,...Object.fromEntries(studentTopics.flatMap(t=>t.vocabulary))};
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -26,7 +26,7 @@ function render(focus=false){const [route='',value,section]=location.hash.slice(
   main.querySelectorAll('h2,h3').forEach(heading=>{if(!heading.id){const base=slug(heading.textContent.replace(/^\d+\.\s*/,''));let id=base,n=2;while(usedIds.has(id))id=base+'-'+n++;heading.id=id;usedIds.add(id);}const link=document.createElement('a');link.className='section-link no-print';link.href=route==='glossary'?'#glossary/'+heading.id:'#'+[route||'home',...(['read','lesson','session','unit','year','teaching','coverage'].includes(route)?[value]:[]),heading.id].filter(Boolean).join('/');link.textContent=' #';link.setAttribute('aria-label','Link to '+heading.textContent);heading.append(link);});
 document.title=`${main.querySelector('h1').innerText.replace(/\s+/g,' ')} | AIT ATAR`;
   document.querySelectorAll('.bookshelf a').forEach(a=>{const active=(route==='teaching'&&a.hash==='#teaching')||(route==='session'&&a.hash==='#teaching')||(route==='read'&&a.hash==='#year/11')||a.hash===location.hash||((route==='unit'||route==='lesson')&&a.hash===`#year/${route==='unit'?(Number(value)<3?11:12):(chapters.find(c=>c.id===value)?.year)}`)||(!location.hash&&a.hash==='#home');if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
-  document.querySelector('#print')?.addEventListener('click',()=>window.print());
+  document.querySelector('button#print')?.addEventListener('click',()=>window.print());
   document.querySelector('#download')?.addEventListener('click',()=>downloadRegister(Number(value)||null));
   document.querySelector('#sequence-download')?.addEventListener('click',()=>{const url=URL.createObjectURL(new Blob(['\uFEFF'+sequenceCsv(Number(value)||null)],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=`ait-teaching-${value||'all'}.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
   if(route==='read')bindStudentInteractions(value);

@@ -1,5 +1,5 @@
-import { studentTopics } from './student-topics.js?v=0.4';
-import { glossary } from './curriculum.js?v=0.4';
+import { studentTopics } from './student-topics.js?v=0.4.1';
+import { glossary } from './curriculum.js?v=0.4.1';
 
 export const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const slug = value => value.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -59,7 +59,7 @@ const transfer = {
 export function transferPractice(id){const [title,context,prompt,answer]=transfer[id];return `<section class="transfer-practice"><h2 id="fresh-scenario">${title}</h2><p>${context}</p><p>${prompt}</p><details class="answer"><summary>Compare with an example response</summary><p>${answer}</p></details></section>`;}
 
 export function bindPrintControls(){
-  document.querySelectorAll('[data-print-mode]').forEach(button=>button.addEventListener('click',()=>{
+  document.querySelectorAll('button[data-print-mode]').forEach(button=>button.addEventListener('click',()=>{
     document.body.dataset.printMode=button.dataset.printMode;
     window.print();
   }));

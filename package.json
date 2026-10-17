@@ -1,11 +1,11 @@
 {
   "name": "ait-atar-textbook",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node scripts/check.mjs && node scripts/check-learning.mjs",
+    "check": "node scripts/check.mjs && node scripts/check-learning.mjs && node scripts/check-print-clicks.mjs",
     "dev": "node scripts/serve.mjs"
   }
 }
