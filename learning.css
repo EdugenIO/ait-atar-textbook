@@ -32,3 +32,10 @@ h1{font-size:clamp(38px,5vw,64px)}h2{font-size:30px;margin-top:38px}.lesson h1{f
 .diagram-prompt{margin:18px 0 10px;font-size:15px}.lesson-diagram details{font-size:14px}
 @media(max-width:650px){.lesson-diagram{padding:16px}.diagram-nodes{grid-template-columns:1fr;gap:22px}.diagram-nodes.flow li:not(:last-child)::after{content:'↓';top:auto;bottom:-26px;right:50%}}
 @media print{.lesson-diagram{break-inside:avoid;padding:12px}.diagram-nodes{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.diagram-nodes li{font-size:11px;padding:8px}.diagram-nodes.flow li:not(:last-child)::after{content:'→';right:-18px;top:35%;bottom:auto}.diagram-nodes li{print-color-adjust:exact}}
+
+.example-annotation{font:14px/1.55 system-ui,sans-serif;border-left:3px solid var(--green);padding:8px 12px;margin:12px 0 0;background:var(--soft)}
+.reinforcement-practice{margin:30px 0;padding:5px 22px 22px;border:1px solid var(--line);background:var(--paper,#fffdf8)}
+.mistake-example{border-left:3px solid #946324;padding:14px 18px;margin:16px 0;background:var(--soft);font-size:16px}
+.completion-steps li,.annotated-example li{margin-bottom:14px}.completion-steps{overflow-wrap:anywhere}
+@media(max-width:600px){.reinforcement-practice{padding:4px 14px 18px}.mistake-example{padding:12px}.example-annotation{font-size:13px}}
+@media print{.example-annotation,.mistake-example{break-inside:avoid}.reinforcement-practice{break-inside:auto}.reinforcement-practice h2{break-after:avoid}.completion-steps{break-inside:avoid}}

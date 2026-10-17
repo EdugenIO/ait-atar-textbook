@@ -1,3 +1,4 @@
+import {reinforcementActivities} from '../reinforcement-activities.js';
 import {sectionDiagrams} from '../section-diagrams.js';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
@@ -71,3 +72,16 @@ for(const topic of studentTopics){
  }
 }
 console.log('Passed: 40 section diagrams across all authored chapters, with prompts in worksheets and explanations only in answer copies.');
+
+assert.equal(Object.keys(reinforcementActivities).length,studentTopics.length);
+for(const topic of studentTopics){
+ const a=reinforcementActivities[topic.id];const page=studentPage(topic.id);
+ assert.equal((page.match(/class="example-annotation"/g)||[]).length,2);
+ assert(page.includes(escapeHtml(a.mistake))&&page.includes(escapeHtml(a.completion)));
+ const student=await readFile(`unit${topic.unit}-student-workbook.html`,'utf8');
+ const answers=await readFile(`unit${topic.unit}-answer-workbook.html`,'utf8');
+ for(const text of [a.mistake,...a.steps,...a.annotations])assert(student.includes(escapeHtml(text)));
+ for(const text of [a.correction,a.completion]){assert(!student.includes(escapeHtml(text)));assert(answers.includes(escapeHtml(text)));}
+ assert(student.includes(escapeHtml(topic.worked.title)));
+}
+console.log('Passed: annotated models and two reinforcement activities in all 20 chapters; student worksheets preserve prompts and omit solutions.');

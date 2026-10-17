@@ -97,3 +97,6 @@ Two Unit 4 managing-data chapters cover recovery/security (weeks 1–3) and web 
 
 ## Working edition 0.12
 Adds 40 section-specific reinforcement diagrams across all 20 authored chapters. Each has labelled nodes, a reasoning prompt and an explained answer. Diagrams reflow on narrow screens and are included in printable workbooks; student copies omit answer panels.
+
+## Working edition 0.13
+All 20 authored chapters now include two annotations on their worked example, a contextual spot-the-mistake activity and a partially completed example. Printable workbooks include the worked model and annotations; student copies exclude correction/completion answers. Activities use fictional scenarios without marks, accounts or saved responses.

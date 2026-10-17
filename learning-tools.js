@@ -1,12 +1,12 @@
-import {unit4Visuals,unit4Transfer} from './unit4-first-chapters.js?v=0.12';
-import {unit3FinalVisuals,unit3FinalTransfer} from './unit3-final-chapters.js?v=0.12';
-import {unit3Visuals,unit3Transfer} from './unit3-first-chapters.js?v=0.12';
-import {unit2FinalVisuals,unit2FinalTransfer} from './unit2-final-chapters.js?v=0.12';
-import {unit2Visuals,unit2Transfer} from './unit2-first-chapters.js?v=0.12';
-import {nextVisuals,nextTransfer} from './unit1-next-chapters.js?v=0.12';
-import {hardwareVisual,hardwareTransfer} from './chapter-hardware.js?v=0.12';
-import { studentTopics } from './student-topics.js?v=0.12';
-import { glossary } from './curriculum.js?v=0.12';
+import {unit4Visuals,unit4Transfer} from './unit4-first-chapters.js?v=0.13';
+import {unit3FinalVisuals,unit3FinalTransfer} from './unit3-final-chapters.js?v=0.13';
+import {unit3Visuals,unit3Transfer} from './unit3-first-chapters.js?v=0.13';
+import {unit2FinalVisuals,unit2FinalTransfer} from './unit2-final-chapters.js?v=0.13';
+import {unit2Visuals,unit2Transfer} from './unit2-first-chapters.js?v=0.13';
+import {nextVisuals,nextTransfer} from './unit1-next-chapters.js?v=0.13';
+import {hardwareVisual,hardwareTransfer} from './chapter-hardware.js?v=0.13';
+import { studentTopics } from './student-topics.js?v=0.13';
+import { glossary } from './curriculum.js?v=0.13';
 
 export const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const slug = value => value.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
