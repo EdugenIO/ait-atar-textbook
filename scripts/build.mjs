@@ -9,3 +9,5 @@ console.log('Static site built in dist/');
 await cp('assets','dist/assets',{recursive:true});
 
 await cp('audits','dist/audits',{recursive:true});
+
+await cp('practical-packs','dist/practical-packs',{recursive:true});

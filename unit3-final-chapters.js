@@ -1,6 +1,6 @@
 export const unit3FinalTopics=[
 {
- id:'u3-applications',unit:3,week:8,weeks:[8,9,10,11,14],prerequisite:'u2-applications',title:'Producing multimedia publications',chapterIds:['u3-applications'],pages:'8–9',
+ id:'u3-applications',practical:'practical-packs/media-starter/index.html',unit:3,week:8,weeks:[8,9,10,11,14],prerequisite:'u2-applications',title:'Producing multimedia publications',chapterIds:['u3-applications'],pages:'8–9',
  intro:'A multimedia publication combines content, timing, sound and interaction. Make each choice serve the audience, keep the work editable and check the actual output before judging it finished.',
  goals:['Explain multi-layer video and sound editing.','Use titles, transitions and effects for a stated purpose.','Plan reusable publication templates and appropriate colour handling.','Compare print, screen and interactive outputs using evidence.'],
  retrieval:['How is an editable project different from an exported delivery file?','Why does a working link need more evidence than a screenshot?'],

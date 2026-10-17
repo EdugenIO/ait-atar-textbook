@@ -1,6 +1,6 @@
 export const unit2FinalTopics=[
 {
- id:'u2-applications',unit:2,week:10,weeks:[10,11,12,13],prerequisite:'u1-applications',title:'Business documents and communication',chapterIds:['u2-applications'],pages:'13',
+ id:'u2-applications',practical:'practical-packs/media-starter/index.html',unit:2,week:10,weeks:[10,11,12,13],prerequisite:'u1-applications',title:'Business documents and communication',chapterIds:['u2-applications'],pages:'13',
  intro:'A business message should help someone do something. Combine clear text, useful media and working navigation, then check the result on the devices your audience uses.',
  goals:['Compare frame-by-frame animation with tweening.','Edit and export an audio message for its audience.','Explain HTML, CSS, links and a navigation map.','Test responsive layouts, controls and collaboration decisions.'],
  retrieval:['Why keep an editable source as well as a delivery copy?','What makes an image suitable for the audience’s viewing size?'],

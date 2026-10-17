@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "fictional": true,
+  "images": {
+    "repair-cafe-master.png": {
+      "width": 1600,
+      "height": 1000,
+      "bytes": 312666
+    },
+    "scene-01.png": {
+      "width": 1280,
+      "height": 720,
+      "bytes": 19329
+    },
+    "scene-02.png": {
+      "width": 1280,
+      "height": 720,
+      "bytes": 21641
+    },
+    "scene-03.png": {
+      "width": 1280,
+      "height": 720,
+      "bytes": 17113
+    }
+  },
+  "audio": {
+    "ambience-tone.wav": {
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width": 2,
+      "frames": 529200,
+      "seconds": 12.0,
+      "bytes": 1058444
+    },
+    "narration-raw.wav": {
+      "channels": 1,
+      "sample_rate": 22050,
+      "sample_width": 2,
+      "frames": 305779,
+      "seconds": 13.867528,
+      "bytes": 611602
+    },
+    "narration-reference.wav": {
+      "channels": 1,
+      "sample_rate": 22050,
+      "sample_width": 2,
+      "frames": 261679,
+      "seconds": 11.867528,
+      "bytes": 523402
+    },
+    "reference-mix.wav": {
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width": 2,
+      "frames": 529200,
+      "seconds": 12.0,
+      "bytes": 1058444,
+      "peak_pcm16": 19629
+    }
+  },
+  "notes": "Image assets are original procedural teaching illustrations. Voice is local synthetic speech. Reference mix is illustrative, not a learner editor project."
+}

@@ -1,6 +1,6 @@
 export const nextTopics = [
 {
- id:'u1-applications',unit:1,week:7,weeks:[7,8,9,10],prerequisite:'u1-hardware',title:'Media files and spreadsheet tools',chapterIds:['u1-applications'],pages:'9–10',
+ id:'u1-applications',practical:'practical-packs/media-starter/index.html',unit:1,week:7,weeks:[7,8,9,10],prerequisite:'u1-hardware',title:'Media files and spreadsheet tools',chapterIds:['u1-applications'],pages:'9–10',
  downloads:[['Resource table (CSV)','campaign-resources.csv']],
  intro:'A useful file must suit its job. Choose formats for the audience and the tools they use, then organise your project data so it can be checked and reused.',
  goals:['Choose suitable graphic and audio formats.','Organise assets and explain software licence choices.','Use exact-match VLOOKUP and HLOOKUP with test data.','Sort and filter records without breaking their relationships.'],

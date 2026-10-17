@@ -1,6 +1,6 @@
 export const unit2Topics=[
 {
- id:'u2-data',unit:2,week:2,weeks:[2,3,4],prerequisite:'u1-applications',title:'Files, compression and version control',chapterIds:['u2-data'],pages:'11–12',downloads:[['Business practice templates','unit2-business-templates.md']],
+ id:'u2-data',practical:'practical-packs/media-starter/index.html',unit:2,week:2,weeks:[2,3,4],prerequisite:'u1-applications',title:'Files, compression and version control',chapterIds:['u2-data'],pages:'11–12',downloads:[['Business practice templates','unit2-business-templates.md']],
  intro:'A business needs files that are small enough to share, clear enough to use and easy to recover. Keep a suitable master, create delivery copies and make changes traceable.',
  goals:['Compare lossy and lossless compression.','Distinguish cropping from resampling and choose output settings.','Plan versions, shared access and recovery.','Choose appropriate maintenance actions without risking useful data.'],
  retrieval:['Why keep an editable master as well as a delivery file?','What happens when you filter records rather than delete them?'],

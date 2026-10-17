@@ -118,3 +118,6 @@ Adds the final Unit 4 services/project chapter, with fictional SLA comparisons, 
 
 ## Working edition 0.19 · Audit corrections
 First-pass review of all four units and 24 authored chapters, with a 185-checkpoint paraphrased inventory in audits/. Fixes stale pilot labels, answer-print disclosure visibility, design-right certification detail and timetable/assessment messaging. The audit identifies practical-depth gaps; it is not independent syllabus or accessibility certification.
+
+## Working edition 0.20 · First practical starter pack
+Adds original raster/SVG assets, still scene cards, synthetic voice and generated tone tracks, reference audio, editable HTML/SVG templates and three Unit 1–3 guides with expected results. The ZIP and online pack page are linked from the relevant chapters. Editor-native projects and final learner video exports remain learner-produced; the pack does not claim those application workflows were executed on this machine. Maintenance, online response handling and dated case studies remain follow-up work.
