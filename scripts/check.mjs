@@ -56,7 +56,7 @@ for(const topic of studentTopics){
   assert(topic.task.evidence&&topic.task.success.length>=3&&topic.exit);
   assert(topic.chapterIds.every(id=>chapters.some(c=>c.id===id)));
   const page=studentPage(topic.id);
-  for(const heading of ['What you’ll learn','Before you begin','Worked example','Try it with support','Practise and explain','Apply independently','Quick check','Chapter recap','Exit question'])assert(page.includes(heading));
+  for(const heading of ['What you’ll learn','Before you begin','Worked example','Try it with support','Practise and explain','Apply independently','Check your understanding','Chapter recap','Exit question'])assert(page.includes(heading));
   assert(page.includes('aria-live="polite"'));
 }
 assert.equal(readingList(1).length,8);assert(readingList(1)[0].href==='#read/u1-brief');

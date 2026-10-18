@@ -134,3 +134,5 @@ h1{font-size:clamp(38px,5vw,64px)}h2{font-size:30px;margin-top:38px}.lesson h1{f
 @media print { .svg-image-scroll { overflow:visible; } .svg-lesson-image { min-width:0; width:100%; break-inside:avoid; } }
 
 .learning-strategy{margin:1.8rem 0;padding:1.2rem;border-inline-start:4px solid var(--accent,#337b81);background:var(--surface,#f2f6f5);border-radius:8px}.learning-strategy h2{margin-top:.3rem}.learning-strategy li{margin-block:.6rem}@media print{.learning-strategy{break-inside:auto;border:1px solid #aaa;background:white}.learning-strategy .eyebrow{color:#222}}
+
+.topic-unit-card h2{font-weight:400}.topic-unit-card h2 a{text-decoration:none}.topic-unit-card .chapter,.topic-unit-card .chapter-number{font-weight:400}.topic-unit-card .chapter small{white-space:nowrap}
