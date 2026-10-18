@@ -1,16 +1,17 @@
-import {unit4ProjectVisuals,unit4ProjectTransfer} from './unit4-project-chapter.js?v=0.28';
-import {unit4LearningVisuals,unit4LearningTransfer} from './unit4-learning-chapter.js?v=0.28';
-import {unit4ImpactsVisuals,unit4ImpactsTransfer} from './unit4-impacts-chapter.js?v=0.28';
-import {unit4NetworkVisuals,unit4NetworkTransfer} from './unit4-network-chapter.js?v=0.28';
-import {unit4Visuals,unit4Transfer} from './unit4-first-chapters.js?v=0.28';
-import {unit3FinalVisuals,unit3FinalTransfer} from './unit3-final-chapters.js?v=0.28';
-import {unit3Visuals,unit3Transfer} from './unit3-first-chapters.js?v=0.28';
-import {unit2FinalVisuals,unit2FinalTransfer} from './unit2-final-chapters.js?v=0.28';
-import {unit2Visuals,unit2Transfer} from './unit2-first-chapters.js?v=0.28';
-import {nextVisuals,nextTransfer} from './unit1-next-chapters.js?v=0.28';
-import {hardwareVisual,hardwareTransfer} from './chapter-hardware.js?v=0.28';
-import { studentTopics } from './student-topics.js?v=0.28';
-import { glossary } from './curriculum.js?v=0.28';
+import {practiceStimulus} from './practice-stimuli.js?v=0.29';
+import {unit4ProjectVisuals,unit4ProjectTransfer} from './unit4-project-chapter.js?v=0.29';
+import {unit4LearningVisuals,unit4LearningTransfer} from './unit4-learning-chapter.js?v=0.29';
+import {unit4ImpactsVisuals,unit4ImpactsTransfer} from './unit4-impacts-chapter.js?v=0.29';
+import {unit4NetworkVisuals,unit4NetworkTransfer} from './unit4-network-chapter.js?v=0.29';
+import {unit4Visuals,unit4Transfer} from './unit4-first-chapters.js?v=0.29';
+import {unit3FinalVisuals,unit3FinalTransfer} from './unit3-final-chapters.js?v=0.29';
+import {unit3Visuals,unit3Transfer} from './unit3-first-chapters.js?v=0.29';
+import {unit2FinalVisuals,unit2FinalTransfer} from './unit2-final-chapters.js?v=0.29';
+import {unit2Visuals,unit2Transfer} from './unit2-first-chapters.js?v=0.29';
+import {nextVisuals,nextTransfer} from './unit1-next-chapters.js?v=0.29';
+import {hardwareVisual,hardwareTransfer} from './chapter-hardware.js?v=0.29';
+import { studentTopics } from './student-topics.js?v=0.29';
+import { glossary } from './curriculum.js?v=0.29';
 
 export const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const slug = value => value.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -89,7 +90,7 @@ const transfer = {
   'u1-principles':['A fresh context: a festival guide','A festival page gives its title, sponsor list and “Find a stage” control equal prominence. Visitors mainly need to locate their next event.','Choose a dominant item, group related information and describe the viewing path you would test.','Make the stage-finding control prominent and group event names with locations. A possible path is guide title → stage finder → event details. Test whether visitors can find their next stage; do not assume the largest title always serves the task.'],
   'u1-typography':['A fresh context: a canteen menu','A phone menu uses the same text size for food names, prices and section headings. Prices almost line up.','Sketch a clearer hierarchy and alignment. Explain how you would test it with a student.','Use distinct section headings, consistent item text and a shared alignment for prices. Keep each price clearly associated with its item. Ask a student to find an item and its price on the phone-sized output, then revise any confusion.']
 };
-export function transferPractice(id){const [title,context,prompt,answer]=transfer[id];return `<section class="transfer-practice"><h2 id="fresh-scenario">${title}</h2><p>${context}</p><p>${prompt}</p><details class="answer"><summary>Compare with an example response</summary><p>${answer}</p></details></section>`;}
+export function transferPractice(id){const [title,context,prompt,answer]=transfer[id];return `<section class="transfer-practice"><h2 id="fresh-scenario">${title}</h2><p>${context}</p><p>${prompt}</p>${practiceStimulus(id,'transfer')}<details class="answer"><summary>Compare with an example response</summary><p>${answer}</p></details></section>`;}
 
 export function bindPrintControls(){
   document.querySelectorAll('button[data-print-mode]').forEach(button=>button.addEventListener('click',()=>{

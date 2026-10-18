@@ -1,11 +1,11 @@
 {
   "name": "ait-atar-textbook",
-  "version": "0.28.0",
+  "version": "0.29.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node scripts/check.mjs && node scripts/check-learning.mjs && node scripts/check-print-clicks.mjs && node scripts/check-practical.mjs && node scripts/check-response-lab.mjs && node scripts/check-topic-pages.mjs && node scripts/check-typography-lab.mjs && node scripts/check-scenario-labs.mjs && node scripts/check-design-studio.mjs && node scripts/check-topic-figures.mjs && node scripts/check-svg-illustrations.mjs && node scripts/check-concept-sketches.mjs",
+    "check": "node scripts/check.mjs && node scripts/check-learning.mjs && node scripts/check-print-clicks.mjs && node scripts/check-practical.mjs && node scripts/check-response-lab.mjs && node scripts/check-topic-pages.mjs && node scripts/check-typography-lab.mjs && node scripts/check-scenario-labs.mjs && node scripts/check-design-studio.mjs && node scripts/check-topic-figures.mjs && node scripts/check-svg-illustrations.mjs && node scripts/check-concept-sketches.mjs && node scripts/check-practice-stimuli.mjs",
     "dev": "node scripts/serve.mjs"
   }
 }

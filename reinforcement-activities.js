@@ -1,7 +1,7 @@
-import {unit4ProjectReinforcement} from './unit4-project-chapter.js?v=0.28';
-import {unit4LearningReinforcement} from './unit4-learning-chapter.js?v=0.28';
-import {unit4ImpactsReinforcement} from './unit4-impacts-chapter.js?v=0.28';
-import {unit4NetworkReinforcement} from './unit4-network-chapter.js?v=0.28';
+import {unit4ProjectReinforcement} from './unit4-project-chapter.js?v=0.29';
+import {unit4LearningReinforcement} from './unit4-learning-chapter.js?v=0.29';
+import {unit4ImpactsReinforcement} from './unit4-impacts-chapter.js?v=0.29';
+import {unit4NetworkReinforcement} from './unit4-network-chapter.js?v=0.29';
 export const reinforcementActivities={
 ...unit4NetworkReinforcement,
 ...unit4ImpactsReinforcement,
@@ -280,7 +280,7 @@ export const reinforcementActivities={
   "u4-data": {
     "context": "A recovery sequence",
     "mistake": "For Tuesday’s incremental restore, use Sunday’s full backup and Tuesday’s increment; Monday’s increment is unnecessary.",
-    "correction": "In the simple chain shown, restore F, then I1, then I2. Missing I1 means this chain cannot be assumed to recover Tuesday completely.",
+    "correction": "For the stated Sunday–Tuesday incremental scheme, restore F, then I1, then I2. Missing I1 means this chain cannot be assumed to recover Tuesday completely.",
     "steps": [
       "Scheme: Sunday full, Monday differential, Tuesday differential.",
       "Files for Tuesday recovery: ____________________.",

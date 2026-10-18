@@ -1,7 +1,7 @@
-import {unit4ProjectPlacement} from './unit4-project-chapter.js?v=0.28';
-import {unit4LearningPlacement} from './unit4-learning-chapter.js?v=0.28';
-import {unit4ImpactsPlacement} from './unit4-impacts-chapter.js?v=0.28';
-import {unit4NetworkPlacement} from './unit4-network-chapter.js?v=0.28';
+import {unit4ProjectPlacement} from './unit4-project-chapter.js?v=0.29';
+import {unit4LearningPlacement} from './unit4-learning-chapter.js?v=0.29';
+import {unit4ImpactsPlacement} from './unit4-impacts-chapter.js?v=0.29';
+import {unit4NetworkPlacement} from './unit4-network-chapter.js?v=0.29';
 export const processImages={
   "computer": {
     "file": "computer-workflow.webp",
