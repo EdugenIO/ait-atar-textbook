@@ -128,3 +128,7 @@ h1{font-size:clamp(38px,5vw,64px)}h2{font-size:30px;margin-top:38px}.lesson h1{f
 
 .diagram-scroll { max-width:100%; overflow:auto; }
 @media print { .diagram-scroll { overflow:visible; } }
+
+.svg-image-scroll { overflow:auto; max-width:100%; }
+.svg-lesson-image { display:block; width:100%; height:auto; min-width:640px; }
+@media print { .svg-image-scroll { overflow:visible; } .svg-lesson-image { min-width:0; width:100%; break-inside:avoid; } }

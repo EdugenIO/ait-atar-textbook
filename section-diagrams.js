@@ -1,7 +1,7 @@
-import {unit4ProjectDiagrams} from './unit4-project-chapter.js?v=0.26';
-import {unit4LearningDiagrams} from './unit4-learning-chapter.js?v=0.26';
-import {unit4ImpactsDiagrams} from './unit4-impacts-chapter.js?v=0.26';
-import {unit4NetworkDiagrams} from './unit4-network-chapter.js?v=0.26';
+import {unit4ProjectDiagrams} from './unit4-project-chapter.js?v=0.27';
+import {unit4LearningDiagrams} from './unit4-learning-chapter.js?v=0.27';
+import {unit4ImpactsDiagrams} from './unit4-impacts-chapter.js?v=0.27';
+import {unit4NetworkDiagrams} from './unit4-network-chapter.js?v=0.27';
 export const sectionDiagrams={
 ...unit4NetworkDiagrams,
 ...unit4ImpactsDiagrams,
