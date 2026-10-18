@@ -117,3 +117,12 @@ for(const topic of studentTopics){
  while(cursor.prerequisite){assert(!seen.has(cursor.prerequisite),'Prerequisite cycle');seen.add(cursor.prerequisite);cursor=studentTopics.find(t=>t.id===cursor.prerequisite);assert(cursor,'Missing prerequisite');}
 }
 console.log('Passed: printable answer visibility and complete acyclic prerequisite links.');
+
+for(const unit of [1,2,3,4])for(const mode of ['student','answer']){
+ const html=await readFile(`unit${unit}-${mode}-workbook.html`,'utf8');
+ const home='https://edugenio.github.io/ait-atar-textbook/#home';
+ assert.equal(html.split(`href="${home}"`).length-1,2,'Home navigation at both ends of every worksheet');
+ assert(html.includes(`href="https://edugenio.github.io/ait-atar-textbook/#unit/${unit}"`),'Return to matching unit');
+ assert(html.includes('worksheet-navigation no-print'),'Navigation must stay off printed worksheets');
+}
+console.log('Passed: all eight worksheets link to textbook home and matching unit, including downloaded copies.');
