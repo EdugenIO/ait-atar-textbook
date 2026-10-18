@@ -1,11 +1,11 @@
-import {practicalResourceLinks} from './practical-resources.js?v=0.22';
-import {processIllustration} from './process-images.js?v=0.22';
-import {exampleAnnotation,reinforcementPractice} from './reinforcement-activities.js?v=0.22';
-import {sectionDiagram} from './section-diagrams.js?v=0.22';
-import { chapterVisual, transferPractice, slug, bindPrintControls } from './learning-tools.js?v=0.22';
-import { studentTopics } from './student-topics.js?v=0.22';
-import { units, chapters, sources } from './curriculum.js?v=0.22';
-import { teachingWeeks } from './teaching.js?v=0.22';
+import {practicalResourceLinks} from './practical-resources.js?v=0.24';
+import {processIllustration} from './process-images.js?v=0.24';
+import {exampleAnnotation,reinforcementPractice} from './reinforcement-activities.js?v=0.24';
+import {sectionDiagram} from './section-diagrams.js?v=0.24';
+import { chapterVisual, transferPractice, slug, bindPrintControls } from './learning-tools.js?v=0.24';
+import { studentTopics } from './student-topics.js?v=0.24';
+import { units, chapters, sources } from './curriculum.js?v=0.24';
+import { teachingWeeks } from './teaching.js?v=0.24';
 const e=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function weekLabel(values){return values.length===1?String(values[0]):values.every((n,i)=>n===values[0]+i)?`${values[0]}–${values.at(-1)}`:values.join(', ');}
 export function readingList(unit){
