@@ -1,0 +1,10 @@
+output,application_and_version,check,requirement,actual,evidence,revision,retest,status
+screen,,Dimensions,1260 x 888 pixels,,,,,Not run
+screen,,Profile,Embedded sRGB,,,,,Not run
+screen,,Bytes,At most 500000,,,,,Not run
+screen,,Readability,Find date venue and joining instruction at delivery size,,,,,Not run
+print,,Trim and bleed,210 x 148 mm trim; 3 mm bleed each side,,,,,Not run
+print,,Effective resolution,At least 300 PPI under this brief,,,,,Not run
+print,,Profile / conversion / PDF standard,Obtain printer specification,,,,,Not run
+print,,Soft proof,Agreed output profile and recorded display conditions,,,,,Not run
+print,,Physical proof,Appropriate printer paper and process,,,,,Not run

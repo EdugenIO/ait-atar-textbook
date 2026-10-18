@@ -26,7 +26,7 @@ def portable_html(source, included_root, destination):
         return match.group(0)
     return re.sub(r'href="([^"]+)"', rewrite, text)
 
-for folder in ['media-starter', 'maintenance-lab', 'response-lab', 'animation-multimedia', 'web-standards']:
+for folder in ['media-starter', 'maintenance-lab', 'response-lab', 'animation-multimedia', 'web-standards', 'publication-workflow']:
     destination = root / (folder + '-v1.zip')
     included_root = root / folder
     with zipfile.ZipFile(destination, 'w', zipfile.ZIP_DEFLATED) as archive:

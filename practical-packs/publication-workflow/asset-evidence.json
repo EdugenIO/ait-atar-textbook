@@ -1,0 +1,42 @@
+{
+  "master-srgb.png": {
+    "pixels": [
+      2592,
+      1848
+    ],
+    "mode": "RGB",
+    "bytes": 86385,
+    "embedded_profile": "sRGB built-in",
+    "profile_bytes": 588
+  },
+  "screen-reference.jpg": {
+    "pixels": [
+      1260,
+      888
+    ],
+    "mode": "RGB",
+    "bytes": 65139,
+    "embedded_profile": "sRGB built-in",
+    "profile_bytes": 588
+  },
+  "untagged-comparison.png": {
+    "pixels": [
+      1260,
+      888
+    ],
+    "mode": "RGB",
+    "bytes": 78631,
+    "embedded_profile": "none",
+    "profile_bytes": 0
+  },
+  "low-resolution.png": {
+    "pixels": [
+      420,
+      296
+    ],
+    "mode": "RGB",
+    "bytes": 27297,
+    "embedded_profile": "sRGB built-in",
+    "profile_bytes": 588
+  }
+}

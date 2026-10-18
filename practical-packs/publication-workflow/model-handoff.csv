@@ -1,0 +1,4 @@
+record_kind,output,decision,basis,limit
+ILLUSTRATIVE DECISION,screen,Use a separate 1260 x 888 sRGB JPEG,Matches fictional screen brief; actual reference metadata supplied,Readability still needs viewing-task evidence
+ILLUSTRATIVE DECISION,print,Prepare A5 landscape layout and retain bleed,Matches fictional geometry brief,Do not approve colour-managed print until printer conditions and proof are checked
+CALCULATED MODEL,print,Reject 420 px raster at 210 mm under this resolution requirement,420 / (210 / 25.4) = 50.8 PPI,Changing metadata cannot recover missing source detail

@@ -12,7 +12,8 @@ export const practicalResources={
       "practical-packs/animation-multimedia/animation.html"
     ]
   ],
-  "u3-applications": [
+  "u3-projects": [["Publication export and proofing pack", "practical-packs/publication-workflow/index.html"]],
+  "u3-applications": [["Colour profiles, export settings and proofing", "practical-packs/publication-workflow/index.html"],
     [
       "Multi-track editing starter",
       "practical-packs/animation-multimedia/timeline.html"

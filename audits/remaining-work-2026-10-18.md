@@ -49,3 +49,11 @@ Supplied web-standards starter, finished example, explained operations, process 
 In-app browser checks rejected empty/0/21/2.5 and previewed 1/20; keyboard entry through skip link to field and button was observed. These limited checks do not establish WCAG conformance. Second-browser, screen-reader, zoom and supervised classroom verification remain explicit follow-ups. This closes the resource-authoring portion of batch 1, not independent syllabus sign-off.
 
 Next authoring batch: publication and colour-profile operations.
+
+## Batch 2 resource delivery · edition 0.35
+
+Publication workflow pack now supplies editable vector artwork, a tagged raster master, tagged screen reference, untagged and low-resolution teaching cases, measured metadata, two output briefs, concrete desktop-tool steps, a branch diagram, PPI calculator and blank/model proof records. Integrated into Unit 3 applications/projects, their worksheets and portable archives.
+
+Verified supplied raster dimensions, screen byte limit and ICC metadata; inspected the screen artwork visually; exercised low-resolution and invalid-width calculator cases in the in-app browser. Native desktop application operation, printer-specific PDF export, display calibration and physical proof approval remain unperformed. The print brief deliberately requires confirmation of the printer's output conditions; no arbitrary CMYK profile is supplied as universal.
+
+Next authoring batch: real maintenance and version recovery walkthrough, sample working files and a before/after/restore log. Independent teacher review and actual classroom evidence remain outstanding across batches.
