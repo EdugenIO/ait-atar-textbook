@@ -46,11 +46,19 @@ Exit question: Write one design criterion and describe the evidence you would us
 
 ### Guided practice
 
-A poster uses a detailed photograph behind a small date label. Identify two elements you could change and predict the effect.
+The example poster uses a detailed background behind a small date label. Identify two elements you could change and predict the effect.
+
+![A textured outdoor scene sits behind the title and a small date label.](assets/practice/photo-date.svg)
+
+
 
 ### Explain
 
 1. Distinguish: A circle and a shaded sphere appear in a graphic. Which primarily shows shape and which shows form?
+
+![A is a flat blue circle. B is a blue circle shaded from light to dark.](assets/practice/shape-form.svg)
+
+
 2. Explain: Why is “I used blue” an incomplete annotation?
 3. Apply: How could you show two categories without relying on colour alone?
 
@@ -81,13 +89,29 @@ Exit question: Describe one element in your current design and propose a change 
 
 ### Guided practice
 
-A poster has three unrelated sections with different heading fonts and equal gaps between every item. Suggest changes that could improve unity.
+A poster has three information sections with different heading fonts and equal gaps between every item. Suggest changes that could improve unity.
+
+![Three poster sections use different heading fonts. Every heading and information item is spaced equally.](assets/practice/unity.svg)
+
+
 
 ### Explain
 
 1. Explain: Can an asymmetrical design be balanced?
+
+![A places matching circles on either side of a centre line. B places one large circle left and three smaller circles right.](assets/practice/balance.svg)
+
+
 2. Analyse: Why might six equally dominant headings make a poster harder to use?
+
+![Six headings have the same size, weight and coloured background.](assets/practice/headings.svg)
+
+
 3. Distinguish: How do repetition and proximity support unity in different ways?
+
+![Three poster sections use different heading fonts. Every heading and information item is spaced equally.](assets/practice/unity.svg)
+
+
 
 ### Apply: Redesign the information order
 
@@ -118,6 +142,10 @@ Exit question: Write a three-part annotation: visual choice → design principle
 ### Guided practice
 
 A mobile poster uses centred paragraphs, tight line spacing and a very small venue label. Choose two changes and explain how you would check them.
+
+![A narrow poster has centred paragraphs with tight line spacing and a small venue label.](assets/practice/mobile.svg)
+
+
 
 ### Explain
 
