@@ -12,7 +12,7 @@ for(const t of studentTopics){
  if(src.startsWith('data:'))continue;assert(!/^https?:/.test(src),'Lesson images should be bundled for reliable delivery');images.add(src);
  }}
 }
-for(const src of images){const path=resolve('dist',src);assert((await stat(path)).size>0,'Missing built image '+src);if(src.endsWith('.svg')){const svg=await readFile(path,'utf8');assert(svg.includes('<svg')&&svg.includes('<title')&&svg.includes('<desc'),'Incomplete SVG '+src);}}
+for(const src of images){const path=resolve(src);assert((await stat(path)).size>0,'Missing source image '+src);if(src.endsWith('.svg')){const svg=await readFile(path,'utf8');assert(svg.includes('<svg')&&svg.includes('<title')&&svg.includes('<desc'),'Incomplete SVG '+src);}}
 const alignment=await readFile('assets/concepts/u1-typography-1.svg','utf8');assert(!alignment.includes('Tea       $3'),'SVG spaces do not position columns');
 for(const t of studentTopics.filter(t=>t.id==='u1-typography'))for(const [i,section] of t.sections.entries()){
  const page=topicPage(t.id,chapterPages(t)[i].key);assert(/<img\b|<svg\b/.test(page),'Typography concept needs a visible example: '+section[0]);
