@@ -1,6 +1,6 @@
-import { studentTopics } from './student-topics.js?v=0.27';
-import { lessonPhases, teachingWeeks, teachingLessons } from './teaching.js?v=0.27';
-import { units, chapters } from './curriculum.js?v=0.27';
+import { studentTopics } from './student-topics.js?v=0.28';
+import { lessonPhases, teachingWeeks, teachingLessons } from './teaching.js?v=0.28';
+import { units, chapters } from './curriculum.js?v=0.28';
 const e=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const chapterLinks=ids=>ids.map(id=>{const c=chapters.find(c=>c.id===id);return `<a href="#lesson/${id}">${e(c.title)}</a> <small>(${c.status})</small>`;}).join(' · ');
 export function teachingPage(unit){

@@ -1,7 +1,8 @@
-import {unit4ProjectDiagrams} from './unit4-project-chapter.js?v=0.27';
-import {unit4LearningDiagrams} from './unit4-learning-chapter.js?v=0.27';
-import {unit4ImpactsDiagrams} from './unit4-impacts-chapter.js?v=0.27';
-import {unit4NetworkDiagrams} from './unit4-network-chapter.js?v=0.27';
+import {conceptSketches} from './concept-sketches.js?v=0.28';
+import {unit4ProjectDiagrams} from './unit4-project-chapter.js?v=0.28';
+import {unit4LearningDiagrams} from './unit4-learning-chapter.js?v=0.28';
+import {unit4ImpactsDiagrams} from './unit4-impacts-chapter.js?v=0.28';
+import {unit4NetworkDiagrams} from './unit4-network-chapter.js?v=0.28';
 export const sectionDiagrams={
 ...unit4NetworkDiagrams,
 ...unit4ImpactsDiagrams,
@@ -54,23 +55,10 @@ export const sectionDiagrams={
   "u1-elements": [
     {
       "after": 1,
-      "title": "Use space to show a group",
-      "nodes": [
-        [
-          "Separate items",
-          "Title     Time     Venue"
-        ],
-        [
-          "Group related items",
-          "Session title / time + venue"
-        ],
-        [
-          "Check",
-          "Can readers match details to the right session?"
-        ]
-      ],
-      "prompt": "What could happen if the venue is closer to another session?",
-      "answer": "Readers may associate it with the wrong session. Adjust grouping and check the result.",
+      "title": "See line, shape and space in use",
+      "nodes": [["Line", "A divider separates event and booking details."], ["Shape", "A rectangle contains the date."], ["Space", "The time and venue stay close; the booking action sits apart."]],
+      "prompt": "Which two details are grouped together through space?",
+      "answer": "The time and venue are close together. The larger gap separates them from the booking action.",
       "kind": "flow"
     },
     {
@@ -889,9 +877,10 @@ export const sectionDiagrams={
   ]
 };
 const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const sequenceDiagrams=new Set(['u4-applications:3','u1-principles:1','u1-principles:3','u1-hardware:1','u1-applications:3','u1-impacts:1','u1-impacts:3','u1-projects:1','u2-data:3','u2-applications:1','u2-applications:3','u2-projects:1','u3-design:1','u3-hardware:1','u3-projects:3','u4-web:3']);
 export function sectionDiagram(topicId,index){
  const diagram=sectionDiagrams[topicId]?.find(d=>d.after===index);
  if(!diagram)return '';
- return `<figure class="lesson-diagram"><figcaption><strong>Picture the idea · ${escape(diagram.title)}</strong></figcaption><ol class="diagram-nodes ${sequenceDiagrams.has(topicId+':'+index)?'flow':'comparison'}">${diagram.nodes.map(([label,text])=>`<li><strong>${escape(label)}</strong><span>${escape(text)}</span></li>`).join('')}</ol><p class="diagram-prompt"><strong>Pause and explain:</strong> ${escape(diagram.prompt)}</p><details class="answer"><summary>Check your reasoning</summary><p>${escape(diagram.answer)}</p></details></figure>`;
+ const image=conceptSketches[topicId+':'+index];
+ if(!image)throw new Error('Missing concept demonstration: '+topicId+':'+index);
+ return `<figure class="lesson-diagram"><figcaption><strong>Picture the idea · ${escape(diagram.title)}</strong></figcaption><div class="svg-image-scroll" tabindex="0" role="region" aria-label="${escape(image.title)}"><img class="svg-lesson-image" src="assets/concepts/${image.file}" width="900" height="540" alt="${escape(image.description)}" loading="lazy"></div><p class="no-print"><a class="svg-source-link" href="assets/concepts/${image.file}" target="_blank" rel="noopener">Open full-size SVG image</a></p><p class="diagram-description">${diagram.nodes.map(([label,text])=>`<strong>${escape(label)}:</strong> ${escape(text)}`).join(' ')}</p><p class="diagram-prompt"><strong>Pause and explain:</strong> ${escape(diagram.prompt)}</p><details class="answer"><summary>Check your reasoning</summary><p>${escape(diagram.answer)}</p></details></figure>`;
 }
