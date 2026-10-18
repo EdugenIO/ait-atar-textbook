@@ -1,0 +1,34 @@
+export const practicalResources={
+  "u2-data": [
+    [
+      "Maintenance practice lab",
+      "practical-packs/maintenance-lab/index.html"
+    ]
+  ],
+  "u2-applications": [
+    [
+      "Animation starter and reference frames",
+      "practical-packs/animation-multimedia/animation.html"
+    ]
+  ],
+  "u3-applications": [
+    [
+      "Multi-track editing starter",
+      "practical-packs/animation-multimedia/timeline.html"
+    ]
+  ],
+  "u4-applications": [
+    [
+      "Local response-handling lab",
+      "practical-packs/response-lab/index.html"
+    ]
+  ],
+  "u4-projects": [
+    [
+      "Response review and evaluation lab",
+      "practical-packs/response-lab/index.html"
+    ]
+  ]
+};
+const e=value=>String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+export function practicalResourceLinks(id){return practicalResources[id]?`<aside class="notice no-print"><strong>Practise with working resources</strong><ul>${practicalResources[id].map(([label,url])=>`<li><a href="${e(url)}">${e(label)} →</a></li>`).join('')}</ul><a href="practical-packs/index.html">Browse all practical resources</a></aside>`:'';}

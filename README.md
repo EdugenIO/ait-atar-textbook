@@ -121,3 +121,6 @@ First-pass review of all four units and 24 authored chapters, with a 185-checkpo
 
 ## Working edition 0.20 · First practical starter pack
 Adds original raster/SVG assets, still scene cards, synthetic voice and generated tone tracks, reference audio, editable HTML/SVG templates and three Unit 1–3 guides with expected results. The ZIP and online pack page are linked from the relevant chapters. Editor-native projects and final learner video exports remain learner-produced; the pack does not claim those application workflows were executed on this machine. Maintenance, online response handling and dated case studies remain follow-up work.
+
+## Working edition 0.21 · Remaining practical resources
+Adds maintenance simulation with supervised OS follow-up, a loopback response-handling service with receiving-side validation/reviewer capability/export/deletion, and animation/multi-track browser starters with reference frames and editable plans. All packs have local guides and ZIPs. Native application, real OS and classroom learning verification remain separate review tasks; these resources do not claim production readiness.

@@ -1,0 +1,3 @@
+const result=document.querySelector('#result');async function call(path,options){try{const r=await fetch(path,options);const body=await r.json();result.textContent='HTTP '+r.status+': '+JSON.stringify(body);}catch{result.textContent='Local server unavailable. Check that the lab is running.';}}
+const send=data=>call('/api/response',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+document.querySelector('#form').onsubmit=e=>{e.preventDefault();send({workshop:document.querySelector('#workshop').value,size:Number(document.querySelector('#size').value)});};document.querySelector('#invalid').onclick=()=>send({workshop:'design',size:13});document.querySelector('#denied').onclick=()=>call('/api/records');

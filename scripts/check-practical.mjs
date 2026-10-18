@@ -30,3 +30,17 @@ async function inspect(folder){for(const name of await readdir(folder,{withFileT
 await inspect(root);
 assert((await readFile('practical-packs/media-starter-v1.zip')).length>100000);
 console.log('Passed: source image dimensions, non-clipping PCM, exact trim reference, local pack links and download archive.');
+
+await inspect(resolve('practical-packs'));
+for(const name of ['maintenance-lab','response-lab','animation-multimedia'])assert((await readFile('practical-packs/'+name+'-v1.zip')).length>2000);
+for(let i=1;i<=24;i++)assert((await readFile('practical-packs/animation-multimedia/frames/frame-'+String(i).padStart(2,'0')+'.svg','utf8')).includes('<svg'));
+const plan=JSON.parse(await readFile('practical-packs/animation-multimedia/reference-plan.json','utf8'));
+assert.equal(plan.titles.length,3);assert(plan.toneGain>=0&&plan.toneGain<=1);
+console.log('Passed: all resource-library links, three new archives and complete animation frame/reference inputs.');
+
+for (const page of ['index.html','media-starter/index.html','maintenance-lab/index.html','response-lab/index.html','animation-multimedia/index.html']) {
+ const html=await readFile('practical-packs/'+page,'utf8');
+ assert(/href="[^\"]*#home">Textbook home<\/a>/.test(html),page+' needs a home link');
+ if(page!=='index.html') assert(html.includes('>Practical library</a>'),page+' needs a library link');
+}
+console.log('Passed: practical library and all pack guides have explicit home navigation.');
