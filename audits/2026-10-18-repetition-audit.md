@@ -28,9 +28,9 @@ Word counts below are approximate rendered text counts from markup, including la
 | Chapter | Focused concept pages | Named topics | Previous full view words | New overview words |
 |---|---:|---|---:|---:|
 | u1-brief | 4 | A request is a starting point; Separate the people from the purpose; Investigate the situation; Make success observable | 2320 | 215 |
-| u1-elements | 4 | Describe before you judge; Line, shape and space; Colour and tone are related but different; Texture and three-dimensional form | 2265 | 238 |
+| u1-elements | 4 | Describe before you judge; Line, shape and space; Colour and tone are related but different; Texture and three-dimensional form | 2272 | 238 |
 | u1-principles | 4 | Visual weight and balance; Emphasis and dominance; Unity, proximity, repetition and pattern; Movement does not require animation | 2265 | 235 |
-| u1-typography | 5 | Typography communicates structure; Use alignment deliberately; Use the rule of thirds as a guide; Consider reading direction and context; Annotate and revise | 2399 | 236 |
+| u1-typography | 5 | Typography communicates structure; Use alignment deliberately; Use the rule of thirds as a guide; Consider reading direction and context; Annotate and revise | 2417 | 236 |
 | u1-hardware | 8 | Follow the task through a system; What the CPU does; RAM is working space; storage keeps files; Primary and secondary memory or storage; Choose peripherals for the job; Compare systems by the way they will be used; The operating system supports the work; Check compatibility before recommending a system | 3158 | 437 |
 | u1-applications | 8 | Choose an image representation; Compare graphic formats; Choose an audio format; Keep assets findable; Install, update and check licences; Build a vertical lookup; Turn the lookup sideways; Test missing values and protect relationships | 2933 | 314 |
 | u1-impacts | 7 | Permission and acknowledgement answer different questions; Exceptions have conditions; Respect the creator as well as the licence; Keep a source log; Compare ways people connect; Respond to harm without amplifying it; Set workable communication boundaries | 2733 | 293 |

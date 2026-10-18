@@ -22,4 +22,4 @@ for(const [slot,key] of Object.entries(practiceSlots)){
  }
 }
 assert.equal(practiceStimulus('missing','guided'),'');
-console.log('Passed: all 14 stimulus placements, descriptive SVGs, focused/full routes and offline student/answer copies.');
+console.log('Passed: all 17 stimulus placements, descriptive SVGs, focused/full routes and offline student/answer copies.');

@@ -100,7 +100,7 @@ export const conceptSketches = {
   "u1-typography:1": {
     "file": "u1-typography-1.svg",
     "title": "Align for scanning",
-    "description": "Illustration labels: Tea       $3; Cake         $5; Soup    $8; Tea; Cake; Soup; $3; $5; $8; Shared edges help readers scan and pair items with prices.. Shared edge: Headings and body text start consistently. Related columns: Each price stays associated with its item. Check: Find one item and its price",
+    "description": "Illustration labels: Tea; Cake; Soup; $3; $5; $8; A · Uneven price positions; B · Consistent columns; Tea; Cake; Soup; $3; $5; $8; Shared edges help readers scan and pair items with prices.. Shared edge: Headings and body text start consistently. Related columns: Each price stays associated with its item. Check: Find one item and its price",
     "width": 900,
     "height": 540
   },

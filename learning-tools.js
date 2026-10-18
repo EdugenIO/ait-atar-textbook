@@ -1,17 +1,17 @@
-import {practiceStimulus} from './practice-stimuli.js?v=0.30';
-import {unit4ProjectVisuals,unit4ProjectTransfer} from './unit4-project-chapter.js?v=0.30';
-import {unit4LearningVisuals,unit4LearningTransfer} from './unit4-learning-chapter.js?v=0.30';
-import {unit4ImpactsVisuals,unit4ImpactsTransfer} from './unit4-impacts-chapter.js?v=0.30';
-import {unit4NetworkVisuals,unit4NetworkTransfer} from './unit4-network-chapter.js?v=0.30';
-import {unit4Visuals,unit4Transfer} from './unit4-first-chapters.js?v=0.30';
-import {unit3FinalVisuals,unit3FinalTransfer} from './unit3-final-chapters.js?v=0.30';
-import {unit3Visuals,unit3Transfer} from './unit3-first-chapters.js?v=0.30';
-import {unit2FinalVisuals,unit2FinalTransfer} from './unit2-final-chapters.js?v=0.30';
-import {unit2Visuals,unit2Transfer} from './unit2-first-chapters.js?v=0.30';
-import {nextVisuals,nextTransfer} from './unit1-next-chapters.js?v=0.30';
-import {hardwareVisual,hardwareTransfer} from './chapter-hardware.js?v=0.30';
-import { studentTopics } from './student-topics.js?v=0.30';
-import { glossary } from './curriculum.js?v=0.30';
+import {practiceStimulus} from './practice-stimuli.js?v=0.31';
+import {unit4ProjectVisuals,unit4ProjectTransfer} from './unit4-project-chapter.js?v=0.31';
+import {unit4LearningVisuals,unit4LearningTransfer} from './unit4-learning-chapter.js?v=0.31';
+import {unit4ImpactsVisuals,unit4ImpactsTransfer} from './unit4-impacts-chapter.js?v=0.31';
+import {unit4NetworkVisuals,unit4NetworkTransfer} from './unit4-network-chapter.js?v=0.31';
+import {unit4Visuals,unit4Transfer} from './unit4-first-chapters.js?v=0.31';
+import {unit3FinalVisuals,unit3FinalTransfer} from './unit3-final-chapters.js?v=0.31';
+import {unit3Visuals,unit3Transfer} from './unit3-first-chapters.js?v=0.31';
+import {unit2FinalVisuals,unit2FinalTransfer} from './unit2-final-chapters.js?v=0.31';
+import {unit2Visuals,unit2Transfer} from './unit2-first-chapters.js?v=0.31';
+import {nextVisuals,nextTransfer} from './unit1-next-chapters.js?v=0.31';
+import {hardwareVisual,hardwareTransfer} from './chapter-hardware.js?v=0.31';
+import { studentTopics } from './student-topics.js?v=0.31';
+import { glossary } from './curriculum.js?v=0.31';
 
 export const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const slug = value => value.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -86,7 +86,7 @@ const transfer = {
   ...nextTransfer,
   'u1-hardware': hardwareTransfer,
   'u1-brief':['A fresh client: the school library','The library needs a phone-friendly guide for new Year 11 students. It must show opening hours, where to borrow a laptop and how to ask for help. The librarian has not supplied the final hours.','Name the client and audience. Write one testable criterion, one design decision and one question for the client.','The librarian is the client; new Year 11 students are the audience. A criterion could be that a student can locate laptop-borrowing instructions on the first screen. Group those instructions under a clear heading. Confirm the opening hours rather than inventing them.'],
-  'u1-elements':['A fresh context: a sports-club notice','A sports club needs a notice saying “Training moved to Court 2”. The background photograph makes the small text hard to read.','Change two elements. Explain what each change could do, and how you would check the result.','For example, place the message in a plain rectangular panel (shape) and use a dark message on a pale panel (tone). Check the actual viewing size and ask someone to read the new location. A different solution can work if supported by evidence.'],
+  'u1-elements':['A fresh context: a sports-club notice','A sports club needs a notice saying “Training moved to Court 2”. The detailed background makes the small text hard to read.','Change two elements. Explain what each change could do, and how you would check the result.','For example, place the message in a plain rectangular panel (shape) and use a dark message on a pale panel (tone). Check the actual viewing size and ask someone to read the new location. A different solution can work if supported by evidence.'],
   'u1-principles':['A fresh context: a festival guide','A festival page gives its title, sponsor list and “Find a stage” control equal prominence. Visitors mainly need to locate their next event.','Choose a dominant item, group related information and describe the viewing path you would test.','Make the stage-finding control prominent and group event names with locations. A possible path is guide title → stage finder → event details. Test whether visitors can find their next stage; do not assume the largest title always serves the task.'],
   'u1-typography':['A fresh context: a canteen menu','A phone menu uses the same text size for food names, prices and section headings. Prices almost line up.','Sketch a clearer hierarchy and alignment. Explain how you would test it with a student.','Use distinct section headings, consistent item text and a shared alignment for prices. Keep each price clearly associated with its item. Ask a student to find an item and its price on the phone-sized output, then revise any confusion.']
 };
