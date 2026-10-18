@@ -1,15 +1,16 @@
-import {designExperiences,designExperience} from './design-studio.js?v=0.25';
-import {recoveryLab,participationLab} from './scenario-labs.js?v=0.25';
-import {sources} from './curriculum.js?v=0.25';
-import {typographyLab,typographyTopicSupport} from './typography-lab.js?v=0.25';
-import {studentTopics} from './student-topics.js?v=0.25';
-import {studentPage} from './student-ui.js?v=0.25';
-import {escapeHtml as e,slug,chapterVisual,transferPractice} from './learning-tools.js?v=0.25';
-import {sectionDiagram} from './section-diagrams.js?v=0.25';
-import {processIllustration} from './process-images.js?v=0.25';
-import {reinforcementPractice} from './reinforcement-activities.js?v=0.25';
-import {practicalResources} from './practical-resources.js?v=0.25';
-import {teachingWeeks} from './teaching.js?v=0.25';
+import {topicFigure} from './topic-figures.js?v=0.26';
+import {designExperiences,designExperience} from './design-studio.js?v=0.26';
+import {recoveryLab,participationLab} from './scenario-labs.js?v=0.26';
+import {sources} from './curriculum.js?v=0.26';
+import {typographyLab,typographyTopicSupport} from './typography-lab.js?v=0.26';
+import {studentTopics} from './student-topics.js?v=0.26';
+import {studentPage} from './student-ui.js?v=0.26';
+import {escapeHtml as e,slug,chapterVisual,transferPractice} from './learning-tools.js?v=0.26';
+import {sectionDiagram} from './section-diagrams.js?v=0.26';
+import {processIllustration} from './process-images.js?v=0.26';
+import {reinforcementPractice} from './reinforcement-activities.js?v=0.26';
+import {practicalResources} from './practical-resources.js?v=0.26';
+import {teachingWeeks} from './teaching.js?v=0.26';
 export function chapterPages(t){return [...t.sections.map(([title],i)=>({key:slug(title),title,index:i})),...(t.id==='u1-typography'?[{key:'layout-lab',title:'Explore a poster layout'}]:[]),...(t.id==='u4-data'?[{key:'recovery-lab',title:'Explore a backup recovery'}]:[]),...(t.id==='u4-impacts'?[{key:'participation-lab',title:'Who can take part?'}]:[]),...(designExperiences[t.id]?[designExperiences[t.id]]:[]),{key:'worked-example',title:'Worked example and application'},{key:'more-practice',title:'Optional practice'},{key:'visual-guide',title:'Visual walkthrough'},{key:'resources',title:'Files, worksheets and lesson plans'}];}
 const url=(id,key)=>`#topic/${id}/${key}`;
 const missing=()=>'<h1>Topic not found</h1><p><a href="#contents">Browse textbook contents</a></p>';
@@ -20,7 +21,7 @@ function chapterNavigation(t){const siblings=studentTopics.filter(chapter=>chapt
 function answer(label,text){return `<details class="answer"><summary>${label}</summary><p>${e(text)}</p></details>`;}
 export function chapterOverview(id){const t=studentTopics.find(t=>t.id===id);if(!t)return missing();return `<article class="lesson chapter-overview">${trail(t)}<p class="eyebrow">UNIT ${t.unit} · CHAPTER OVERVIEW</p><h1>${e(t.title)}</h1><p class="lede">${e(t.intro)}</p><p class="reference">Classroom draft · teacher review pending</p><h2>What you’ll learn</h2><ul>${t.goals.map(g=>`<li>${e(g)}</li>`).join('')}</ul>${menu(t)}<p><a class="button" href="${url(id,chapterPages(t)[0].key)}">Start the first topic →</a></p><details><summary>Before you begin</summary>${t.prerequisite?`<p><a href="#read/${t.prerequisite}">Revisit the prerequisite chapter</a></p>`:''}<ul>${t.retrieval.map(q=>`<li>${e(q)}</li>`).join('')}</ul></details>${glossary(t)}<p class="no-print"><a href="#read/${id}/full">Read or print the complete chapter</a> · <a href="${url(id,'resources')}">Chapter resources</a></p>${chapterNavigation(t)}</article>`;}
 export function topicPage(id,key){const t=studentTopics.find(t=>t.id===id);if(!t)return missing();const pages=chapterPages(t),position=pages.findIndex(p=>p.key===key),page=pages[position];if(!page)return missing();let body='';
- if(page.index!==undefined){body=`<p class="topic-explanation">${e(t.sections[page.index][1])}</p>${sectionDiagram(id,page.index)}${id==='u1-typography'?typographyTopicSupport(key):''}`;}
+ if(page.index!==undefined){body=`<p class="topic-explanation">${e(t.sections[page.index][1])}</p>${sectionDiagram(id,page.index)}${topicFigure(id,page.index)}${id==='u1-typography'?typographyTopicSupport(key):''}`;}
  else if(designExperiences[id]?.key===key){body=designExperience(id);}
  else if(key==='recovery-lab'){body=recoveryLab();}
  else if(key==='participation-lab'){body=participationLab();}
