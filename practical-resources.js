@@ -5,7 +5,8 @@ export const practicalResources={
       "practical-packs/maintenance-lab/index.html"
     ]
   ],
-  "u2-applications": [
+  "u4-web": [["Web standards implementation pack", "practical-packs/web-standards/index.html"]],
+  "u2-applications": [["Web standards implementation pack", "practical-packs/web-standards/index.html"],
     [
       "Animation starter and reference frames",
       "practical-packs/animation-multimedia/animation.html"
@@ -17,7 +18,7 @@ export const practicalResources={
       "practical-packs/animation-multimedia/timeline.html"
     ]
   ],
-  "u4-applications": [
+  "u4-applications": [["Accessible tutorial page and browser checks", "practical-packs/web-standards/index.html"],
     [
       "Local response-handling lab",
       "practical-packs/response-lab/index.html"

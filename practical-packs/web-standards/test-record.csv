@@ -1,0 +1,11 @@
+test_id,browser_and_version,date,viewport_or_zoom,input_method,task_or_value,expected,actual,evidence,revision_and_retest
+K1,,,,,Skip link then field and button,Logical focus order; visible focus; no trap,Not run,,
+V1,,,,,empty,Rejected,Not run,,
+V2,,,,,0,Rejected,Not run,,
+V3,,,,,1,Local preview,Not run,,
+V4,,,,,20,Local preview,Not run,,
+V5,,,,,21,Rejected,Not run,,
+V6,,,,,2.5,Rejected,Not run,,
+R1,,,,,Narrow layout / 200% zoom,Content and controls usable,Not run,,
+L1,,,,,Language and date source / announcement,Correct tags; record actual announcement,Not run,,
+B2,,,,,Repeat tasks in second browser,Record independently,Not run,,

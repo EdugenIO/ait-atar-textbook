@@ -1,0 +1,51 @@
+# AIT textbook remaining work
+
+Baseline: edition 0.33. This reconciles the 18 October syllabus audit with subsequent presentation changes; it is not a new independent syllabus sign-off. The 185 earlier checkpoints are local grouped checkpoints, not 185 official syllabus requirements.
+
+## Already implemented
+
+- 24 complete main topic lessons across all four units, unit contents and in-page navigation.
+- Visual walkthroughs, concept SVGs, contextual practice stimuli and printable images.
+- Varied chapter activities, worked/guided/independent practice and optional teaching guidance.
+- Student/answer worksheets with home navigation.
+- Media sources, animation and timeline starters, maintenance model and local response-handling lab.
+- Automated checks for routes, image files, printing and activity behaviour.
+
+Implementation is distinct from independent subject review and classroom verification.
+
+## Work through in this order
+
+| Order | Deliverable | Topics | Completion evidence |
+|---|---|---|---|
+| 1 | Standards and accessible web implementation | Unit 4 web; Unit 2 applications | Editable starter and explained finished page; semantic headings, labels, keyboard operation, language/date example, repeatable browser/access checks and a completed observation/revision log. Explicitly separate measured results from example records. |
+| 2 | Publication and colour-profile operations | Unit 3 applications/projects | Supplied output brief, editable source, concrete approved-tool operations, profile selection/inspection and export/proof checklist. Distinguish colour schemes from profiles and actual proof results from intentions. |
+| 3 | Real maintenance and version recovery | Unit 2 data | Approved disposable-environment steps, sample files and completed before/after/version/restore log. Preserve the existing simulation as a model rather than evidence that a real utility ran. |
+| 4 | Evidence that leads to a revision | Unit 4 projects/web/applications | Supplied fictional survey dataset and observation notes, worked analysis, sample limitations, justified revision and retest. Include a browser comparison and a source-comparison set. |
+| 5 | Spreadsheet and format exemplars | Unit 1 applications | Editable worked lookup workbook with formulas, missing-code cases and safe sort/filter checks; compact legacy/current-format comparison tied to intended uses. |
+| 6 | Dated device and global cases | Unit 3 hardware/impacts; Unit 4 impacts | Bounded worked cases with primary sources, publication/access dates, supported claims, unknowns and a review date. Verify current facts when authoring. |
+| 7 | Tool workflow and lesson integration | Units 1–4 | Each operational skill points to the correct starter/lab and approved-tool pathway; native workflows are followed and outputs inspected. Existing public textbook remains usable without accounts. |
+| 8 | Requirement-by-requirement reconciliation | All units | Reconcile official nested syllabus items against explanation, worked example and practice; record exact destinations, depth limitations and reviewer decision. Keep unresolved items visible. |
+| 9 | Final editorial and usability pass | All units and downloads | Check repeated instructions, prerequisite terms, readability for ages 16–17, mobile/keyboard navigation, image legibility and print output after substantive edits. |
+| 10 | Independent subject review | All units | A subject teacher checks the reconciled requirements, actual exemplars, terminology and pacing. Keep draft status until that review supports changing it. |
+
+## Definition of done for each authoring batch
+
+1. Explain the skill in clear language and show a concrete example.
+2. Supply the input needed for the task; do not refer to an absent design or dataset.
+3. Show a worked operation and an appropriate independent attempt.
+4. Provide expected checks and qualified example reasoning.
+5. Link the material in the complete topic lesson and applicable worksheet/resources.
+6. Check the delivered page and actual outputs; publish only after the relevant checks pass.
+7. Update this record with completed evidence and remaining limitations.
+
+## Next batch
+
+Start with the standards and accessible web implementation pack. It closes a documented operational gap and provides reusable evidence for later browser testing and evaluation activities. Avoid adding more generic diagrams to already developed design chapters while these gaps remain.
+
+## Batch 1 resource delivery · edition 0.34
+
+Supplied web-standards starter, finished example, explained operations, process SVG, blank test record and clearly labelled illustrative revision record. Linked from Unit 2 applications, Unit 4 web, Unit 4 online learning, their worksheets and the practical library; individual and complete-library archives include the files.
+
+In-app browser checks rejected empty/0/21/2.5 and previewed 1/20; keyboard entry through skip link to field and button was observed. These limited checks do not establish WCAG conformance. Second-browser, screen-reader, zoom and supervised classroom verification remain explicit follow-ups. This closes the resource-authoring portion of batch 1, not independent syllabus sign-off.
+
+Next authoring batch: publication and colour-profile operations.

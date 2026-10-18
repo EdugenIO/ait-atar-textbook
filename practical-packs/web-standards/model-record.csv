@@ -1,0 +1,3 @@
+record_kind,task,fictional_observation,interpretation,revision,retest_plan
+ILLUSTRATIVE — NOT EXECUTED,Find the workshop date,Reader asks whether 04/05 means April 5 or May 4,Numeric date is ambiguous in this context,Write 4 May 2027 and retain machine date 2027-05-04,Ask another reader to identify the date; record the actual reply
+ILLUSTRATIVE — NOT EXECUTED,Identify number-field purpose,Reader relies on disappearing placeholder,Field needs a persistent associated label,Add visible label linked by for/id,Inspect association and repeat the task with keyboard/available assistive technology
