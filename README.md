@@ -124,3 +124,7 @@ Adds original raster/SVG assets, still scene cards, synthetic voice and generate
 
 ## Working edition 0.21 · Remaining practical resources
 Adds maintenance simulation with supervised OS follow-up, a loopback response-handling service with receiving-side validation/reviewer capability/export/deletion, and animation/multi-track browser starters with reference frames and editable plans. All packs have local guides and ZIPs. Native application, real OS and classroom learning verification remain separate review tasks; these resources do not claim production readiness.
+
+### Focused reading structure (working edition 0.22)
+
+Chapter links now open concise overviews. Named concepts have direct `#topic/<chapter>/<topic>` routes, chapter topic menus and previous/next links. Practice, visual walkthroughs and resources have separate destinations. Existing `#read/<chapter>/<heading>` deep links and the complete printable chapter remain available; use `#read/<chapter>/full` for the full view. See `audits/2026-10-18-repetition-audit.md` for the content-role decisions and per-chapter inventory. This restructuring reuses the existing explanations; topic expansion and classroom review remain separate work.
