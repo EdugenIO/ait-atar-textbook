@@ -1,0 +1,27 @@
+import assert from 'node:assert/strict';
+import vm from 'node:vm';
+import {readFile} from 'node:fs/promises';
+const html=await readFile('practical-packs/maintenance-lab/index.html','utf8');
+const nodes=Object.fromEntries([...html.matchAll(/\bid="([^"]+)"/g)].map(([,id])=>[id,{id,checked:false,disabled:id==='quarantine',textContent:'',value:id==='drive'?'ssd':id==='action'?'defrag':'',handlers:{},addEventListener(type,fn){this.handlers[type]=fn;},replaceChildren(...children){this.children=children;}}]));
+const exports=[];let clicked=false;
+vm.runInNewContext(await readFile('practical-packs/maintenance-lab/lab-v2.js','utf8'),{document:{getElementById:id=>nodes[id]||null,createElement:tag=>({textContent:'',click(){clicked=true;},remove(){}})},Blob,URL:{createObjectURL:b=>{exports.push(b);return 'blob:test';},revokeObjectURL(){}},setTimeout:fn=>fn()});
+const click=id=>nodes[id].onclick();
+nodes.temp.checked=true;click('inspect');
+assert(nodes['cleanup-result']?.textContent.includes('300 MB'),'Preview feedback must appear inside the cleanup section beside the controls, not only at the bottom of the page');
+nodes.drive.value='hdd';nodes.action.value='optimise';click('reset');
+assert.equal(nodes.drive.value,'ssd','Reset must restore drive selection');assert.equal(nodes.action.value,'defrag','Reset must restore operation selection');
+click('clean');assert(nodes['cleanup-result'].textContent.includes('Choose a category'));
+nodes.temp.checked=true;click('clean');assert(nodes['cleanup-result'].textContent.includes('confirm'));
+nodes.confirm.checked=true;nodes.temp.handlers.change();assert.equal(nodes.confirm.checked,false,'Changing a selection invalidates earlier review');
+nodes.confirm.checked=true;click('clean');assert(nodes.space.textContent.includes('2300'));nodes.confirm.checked=true;click('clean');assert(nodes.space.textContent.includes('2300'),'Cannot reclaim twice');
+nodes.cache.checked=true;nodes.confirm.checked=true;click('clean');assert(nodes.space.textContent.includes('2500'));
+nodes.downloads.checked=true;nodes.confirm.checked=true;click('clean');assert(nodes['cleanup-result'].textContent.includes('blocked'));assert(nodes.space.textContent.includes('2500'));
+click('optimise');assert(nodes['drive-result'].textContent.includes('Not applied'));
+nodes.drive.value='hdd';click('optimise');assert(nodes['drive-result'].textContent.includes('defragmentation completed'));
+nodes.action.value='optimise';click('optimise');assert(nodes['drive-result'].textContent.includes('drive-aware optimisation completed'));
+click('scan');assert.equal(nodes.quarantine.disabled,false);click('quarantine');assert.equal(nodes.quarantine.disabled,true);assert(nodes['protection-result'].textContent.includes('quarantine'));click('scan');assert(nodes['protection-result'].textContent.includes('remains quarantined'));
+click('restore');assert(nodes['recovery-result'].textContent.includes('working record exists'));click('delete-record');assert(nodes.record.textContent.includes('missing'));click('restore');assert(nodes.record.textContent.includes('Booking version 1'));
+click('export');assert(clicked);assert((await exports.at(-1).text()).includes('Restored Booking version 1'));assert(nodes['export-result'].textContent.includes('log'));assert(nodes['log-copy'].value.includes('Restored Booking version 1'));
+click('reset');assert(nodes.space.textContent.includes('2000'));assert(nodes.record.textContent.includes('Booking version 2'));assert.equal(nodes.quarantine.disabled,true);assert.equal(nodes.temp.checked,false);assert.equal(nodes.log.children.length,1);
+for(const [control,result] of [['clean','cleanup-result'],['optimise','drive-result'],['scan','protection-result'],['restore','recovery-result'],['export','export-result']]){const section=html.split('<section').find(s=>s.includes(`id="${control}"`));assert(section?.split('</section>')[0].includes(`id="${result}"`),'Feedback must share its control section');}
+console.log('Passed: local feedback, full reset, cleanup guards/idempotence, drive choices, scan/quarantine, recovery, log export and copy fallback.');
