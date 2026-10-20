@@ -1,5 +1,16 @@
 # Applied Information Technology ATAR — Classroom Textbook
 
+## Current status — edition 0.36, 20 October 2026
+
+All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, six practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current audit](audits/2026-10-20-textbook-audit.md) and [remaining work](audits/remaining-work-2026-10-18.md).
+
+The dated edition notes below are historical: statements that an earlier batch was local or unpublished describe that milestone, not today's deployed site.
+
+Audit corrections improve annotation contrast and reserve publication-image dimensions, including matching ZIP copies. `npm run audit` checks rendered-page local resources, static IDs and image metadata in addition to `npm run check` and `npm run build`.
+
+## Historical development notes
+
+
 Initial companion to https://edugenio.github.io/cs-atar-textbook/.
 
 Target: https://edugenio.github.io/ait-atar-textbook/
@@ -11,7 +22,7 @@ Target: https://edugenio.github.io/ait-atar-textbook/
 - Official documents are linked in `curriculum.js` and the site's About page. They retain SCSA's own terms.
 - `curriculum.js` is a **section-level** authoring register, not a full dot-point audit. Printed page references were checked against the content-area headings. Expand it to individual knowledge/skill requirements before claiming complete coverage.
 
-## Current scope
+## Initial scope (historical)
 
 Four unit overviews, 20 chapter destinations, two original draft design lessons, search, glossary, revision guidance, project directions and a downloadable coverage register. All other chapters explicitly show Planned status. No unit is complete or teacher-reviewed.
 
@@ -45,7 +56,7 @@ Preview: http://127.0.0.1:4174/ait-atar-textbook/
 
 The included Actions workflow publishes `dist/` on pushes to `main`. Configure Settings → Pages → Source as GitHub Actions. Relative assets and hash routes support the `/ait-atar-textbook/` project path and direct refreshes.
 
-## Next authoring work
+## Original authoring plan (historical)
 
 1. Expand each section into individual syllabus requirements, including nested items, with source references and evidence expectations.
 2. Teacher-review the two pilot lessons before using them as the house style.
