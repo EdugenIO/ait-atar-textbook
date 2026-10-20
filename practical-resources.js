@@ -1,4 +1,5 @@
 export const practicalResources={
+  "u1-applications": [["Editable spreadsheet lookups, tasks and explained answers", "practical-packs/spreadsheet-lookups/index.html"]],
   "u2-data": [
     [
       "Maintenance practice lab",

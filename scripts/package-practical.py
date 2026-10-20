@@ -3,6 +3,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 import re
 import zipfile
+import sys
 
 repository = Path(__file__).resolve().parent.parent
 root = repository / 'practical-packs'
@@ -26,7 +27,10 @@ def portable_html(source, included_root, destination):
         return match.group(0)
     return re.sub(r'href="([^"]+)"', rewrite, text)
 
-for folder in ['media-starter', 'maintenance-lab', 'response-lab', 'animation-multimedia', 'web-standards', 'publication-workflow']:
+folders = ['media-starter', 'maintenance-lab', 'response-lab', 'animation-multimedia', 'web-standards', 'publication-workflow', 'spreadsheet-lookups']
+selected = sys.argv[1:] or folders
+assert all(folder in folders for folder in selected), 'Unknown practical pack'
+for folder in selected:
     destination = root / (folder + '-v1.zip')
     included_root = root / folder
     with zipfile.ZipFile(destination, 'w', zipfile.ZIP_DEFLATED) as archive:

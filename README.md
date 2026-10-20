@@ -1,8 +1,8 @@
 # Applied Information Technology ATAR — Classroom Textbook
 
-## Current status — edition 0.36, 20 October 2026
+## Current status — edition 0.37, 20 October 2026
 
-All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, six practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current audit](audits/2026-10-20-textbook-audit.md) and [remaining work](audits/remaining-work-2026-10-18.md).
+All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, seven practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current audit](audits/2026-10-20-textbook-audit.md) and [remaining work](audits/remaining-work-2026-10-18.md).
 
 The dated edition notes below are historical: statements that an earlier batch was local or unpublished describe that milestone, not today's deployed site.
 
@@ -139,3 +139,8 @@ Adds maintenance simulation with supervised OS follow-up, a loopback response-ha
 ### Focused reading structure (working edition 0.22)
 
 Chapter links now open concise overviews. Named concepts have direct `#topic/<chapter>/<topic>` routes, chapter topic menus and previous/next links. Practice, visual walkthroughs and resources have separate destinations. Existing `#read/<chapter>/<heading>` deep links and the complete printable chapter remain available; use `#read/<chapter>/full` for the full view. See `audits/2026-10-18-repetition-audit.md` for the content-role decisions and per-chapter inventory. This restructuring reuses the existing explanations; topic expansion and classroom review remain separate work.
+
+
+## Spreadsheet practical · edition 0.37
+
+Unit 1 weeks 9–10 now link an editable four-sheet workbook, student tasks, explained answers and recovery CSV. Worked formulas, changed-input recalculation, duplicate first-match behaviour and blank independent outputs were checked. Native spreadsheet filter interaction remains a classroom verification task. See [the delivery record](audits/2026-10-20-spreadsheet-practical.md).

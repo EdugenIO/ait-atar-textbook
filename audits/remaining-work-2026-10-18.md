@@ -59,3 +59,8 @@ Publication workflow pack now supplies editable vector artwork, a tagged raster 
 Verified supplied raster dimensions, screen byte limit and ICC metadata; inspected the screen artwork visually; exercised low-resolution and invalid-width calculator cases in the in-app browser. Native desktop application operation, printer-specific PDF export, display calibration and physical proof approval remain unperformed. The print brief deliberately requires confirmation of the printer's output conditions; no arbitrary CMYK profile is supplied as universal.
 
 Next authoring batch: real maintenance and version recovery walkthrough, sample working files and a before/after/restore log. Independent teacher review and actual classroom evidence remain outstanding across batches.
+
+
+## Spreadsheet practical delivery · edition 0.37
+
+Unit 1 spreadsheet resource authoring is delivered: editable workbook, exact vertical/horizontal lookups, missing/duplicate/zero/space cases, safe sort/filter tasks, independent practice and explained answers. Linked in the chapter, weeks 9–10, print worksheets and practical library. Formula recalculation, input changes and duplicate record swaps were checked; native Excel/LibreOffice filtering remains unperformed. The legacy/current-format comparison and independent syllabus review remain open. See [verification and limits](2026-10-20-spreadsheet-practical.md).

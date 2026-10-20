@@ -1,11 +1,11 @@
 {
   "name": "ait-atar-textbook",
-  "version": "0.36.0",
+  "version": "0.37.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node scripts/check.mjs && node scripts/check-learning.mjs && node scripts/check-print-clicks.mjs && node scripts/check-practical.mjs && node scripts/check-response-lab.mjs && node scripts/check-topic-pages.mjs && node scripts/check-typography-lab.mjs && node scripts/check-scenario-labs.mjs && node scripts/check-design-studio.mjs && node scripts/check-topic-figures.mjs && node scripts/check-svg-illustrations.mjs && node scripts/check-concept-sketches.mjs && node scripts/check-practice-stimuli.mjs && node scripts/check-instructional-strategies.mjs && node scripts/check-image-assets.mjs && node scripts/check-reading-experience.mjs && node scripts/check-web-standards.mjs && node scripts/check-publication-workflow.mjs && node scripts/check-maintenance-lab.mjs && node scripts/check-animation-playback.mjs && node scripts/check-sidebar-layout.mjs",
+    "check": "node scripts/check.mjs && node scripts/check-learning.mjs && node scripts/check-print-clicks.mjs && node scripts/check-practical.mjs && node scripts/check-response-lab.mjs && node scripts/check-topic-pages.mjs && node scripts/check-typography-lab.mjs && node scripts/check-scenario-labs.mjs && node scripts/check-design-studio.mjs && node scripts/check-topic-figures.mjs && node scripts/check-svg-illustrations.mjs && node scripts/check-concept-sketches.mjs && node scripts/check-practice-stimuli.mjs && node scripts/check-instructional-strategies.mjs && node scripts/check-image-assets.mjs && node scripts/check-reading-experience.mjs && node scripts/check-web-standards.mjs && node scripts/check-publication-workflow.mjs && node scripts/check-maintenance-lab.mjs && node scripts/check-animation-playback.mjs && node scripts/check-sidebar-layout.mjs && node scripts/check-spreadsheet-lookups.mjs",
     "dev": "node scripts/serve.mjs",
     "audit": "node scripts/audit-textbook.mjs"
   }
