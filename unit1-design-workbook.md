@@ -235,7 +235,7 @@ A student uses =VLOOKUP("A02",$A$2:$C$4,2,FALSE) with the worked table. Predict 
 5. Sort complete rows by quantity, then filter one format. Check that records still match their original codes.
 6. Record folder names, editable masters, delivery copies and one software licence check.
 
-Evidence to keep: A spreadsheet or hand-traced table, predicted and observed results, format decisions and a short file plan.
+Evidence to keep: An editable spreadsheet with both lookup formulas, predicted and observed results, format decisions and a short file plan. Hand tracing is preparation; it does not demonstrate using spreadsheet software.
 
 Check your work:
 

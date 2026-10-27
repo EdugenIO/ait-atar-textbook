@@ -1,7 +1,7 @@
-import {unit4ProjectReinforcement} from './unit4-project-chapter.js?v=0.37';
-import {unit4LearningReinforcement} from './unit4-learning-chapter.js?v=0.37';
-import {unit4ImpactsReinforcement} from './unit4-impacts-chapter.js?v=0.37';
-import {unit4NetworkReinforcement} from './unit4-network-chapter.js?v=0.37';
+import {unit4ProjectReinforcement} from './unit4-project-chapter.js?v=0.38';
+import {unit4LearningReinforcement} from './unit4-learning-chapter.js?v=0.38';
+import {unit4ImpactsReinforcement} from './unit4-impacts-chapter.js?v=0.38';
+import {unit4NetworkReinforcement} from './unit4-network-chapter.js?v=0.38';
 export const reinforcementActivities={
 ...unit4NetworkReinforcement,
 ...unit4ImpactsReinforcement,

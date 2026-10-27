@@ -137,3 +137,6 @@ h1{font-size:clamp(38px,5vw,64px)}h2{font-size:30px;margin-top:38px}.lesson h1{f
 
 .topic-unit-card h2{font-weight:400}.topic-unit-card h2 a{text-decoration:none}.topic-unit-card .chapter,.topic-unit-card .chapter-number{font-weight:400}.topic-unit-card .chapter small{white-space:nowrap}
 .type-pair .plan-thumbnail small{font-size:13px;color:var(--ink)}
+
+/* Shared keyboard access for wide examples and search pagination. */
+main pre{max-width:100%;overflow:auto}main .table-scroll{max-width:100%;overflow:auto}main .table-scroll:focus-visible,main pre:focus-visible{outline:3px solid #9d650e;outline-offset:3px}#results .search-status{font-size:13px;color:var(--muted);margin:12px 0 6px}#results .search-more{font-size:14px;width:100%;margin:10px 0}@media print{main .table-scroll,main pre{overflow:visible;max-width:none}main pre{white-space:pre-wrap;overflow-wrap:anywhere}}

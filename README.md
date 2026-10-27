@@ -1,8 +1,8 @@
 # Applied Information Technology ATAR — Classroom Textbook
 
-## Current status — edition 0.37, 20 October 2026
+## Current status — edition 0.38, 27 October 2026
 
-All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, seven practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current audit](audits/2026-10-20-textbook-audit.md) and [remaining work](audits/remaining-work-2026-10-18.md).
+All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, seven practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current syllabus/functionality audit](audits/2026-10-27-syllabus-and-functionality-audit.md), the browser `#audits` hub and [remaining work](audits/remaining-work-2026-10-18.md).
 
 The dated edition notes below are historical: statements that an earlier batch was local or unpublished describe that milestone, not today's deployed site.
 

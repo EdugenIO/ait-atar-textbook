@@ -1,14 +1,14 @@
-import {learningStrategy,teachingStrategyGuide} from './instructional-strategies.js?v=0.37';
+import {learningStrategy,teachingStrategyGuide} from './instructional-strategies.js?v=0.38';
 import {practiceStimulus} from './practice-stimuli.js';
-import {topicFigure} from './topic-figures.js?v=0.37';
-import {practicalResourceLinks} from './practical-resources.js?v=0.37';
-import {processIllustration} from './process-images.js?v=0.37';
-import {exampleAnnotation,reinforcementPractice} from './reinforcement-activities.js?v=0.37';
-import {sectionDiagram} from './section-diagrams.js?v=0.37';
-import { chapterVisual, transferPractice, slug, bindPrintControls } from './learning-tools.js?v=0.37';
-import { studentTopics } from './student-topics.js?v=0.37';
-import { units, chapters, sources } from './curriculum.js?v=0.37';
-import { teachingWeeks } from './teaching.js?v=0.37';
+import {topicFigure} from './topic-figures.js?v=0.38';
+import {practicalResourceLinks} from './practical-resources.js?v=0.38';
+import {processIllustration} from './process-images.js?v=0.38';
+import {exampleAnnotation,reinforcementPractice} from './reinforcement-activities.js?v=0.38';
+import {sectionDiagram} from './section-diagrams.js?v=0.38';
+import { chapterVisual, transferPractice, slug, bindPrintControls } from './learning-tools.js?v=0.38';
+import { studentTopics } from './student-topics.js?v=0.38';
+import { units, chapters, sources } from './curriculum.js?v=0.38';
+import { teachingWeeks } from './teaching.js?v=0.38';
 const e=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function weekLabel(values){return values.length===1?String(values[0]):values.every((n,i)=>n===values[0]+i)?`${values[0]}–${values.at(-1)}`:values.join(', ');}
 export function readingList(unit){

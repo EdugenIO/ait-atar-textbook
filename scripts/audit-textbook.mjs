@@ -3,6 +3,9 @@ import {resolve,dirname,relative,extname} from 'node:path';
 import {studentTopics} from '../student-topics.js';
 import {studentPage} from '../student-ui.js';
 import {chapterPages,topicPage} from '../chapter-pages.js';
+import {auditHub} from '../audit-hub.js';
+import {sessionPage,teachingPage} from '../planner-ui.js';
+import {teachingLessons} from '../teaching.js';
 const root=resolve('.'),broken=[],images=[],external=new Set(),pages=[];
 async function inspect(label,html,base=root){
   const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
@@ -19,6 +22,9 @@ async function inspect(label,html,base=root){
   for(const m of html.matchAll(/<img\b[^>]*>/g))images.push({page:label,alt:/\balt="[^"]*"/.test(m[0]),dimensions:/\bwidth=/.test(m[0])&&/\bheight=/.test(m[0]),src:/\bsrc="([^"]+)"/.exec(m[0])?.[1]});
 }
 for(const t of studentTopics){await inspect(`#read/${t.id}`,studentPage(t.id));for(const p of chapterPages(t))await inspect(`#topic/${t.id}/${p.key}`,topicPage(t.id,p.key));}
+await inspect('#audits',auditHub());
+for(const unit of [1,2,3,4])await inspect(`#teaching/${unit}`,teachingPage(unit));
+for(const lesson of teachingLessons)await inspect(`#session/${lesson.id}`,sessionPage(lesson.id));
 async function walk(dir){const out=[];for(const entry of await readdir(dir,{withFileTypes:true})){if(['.git','dist','node_modules'].includes(entry.name))continue;const path=resolve(dir,entry.name);if(entry.isDirectory())out.push(...await walk(path));else if(extname(path)==='.html')out.push(path);}return out;}
 for(const file of await walk(root))await inspect(relative(root,file),await readFile(file,'utf8'),dirname(file));
 const result={authoredChapters:studentTopics.length,inspectedPages:pages.length,brokenLocalLinks:[...new Map(broken.map(x=>[JSON.stringify(x),x])).values()],duplicateIds:pages.filter(p=>p.duplicateIds.length),imageTags:images.length,imagesWithoutAlt:images.filter(i=>!i.alt),imagesWithoutDimensions:images.filter(i=>!i.dimensions).length,uniqueExternalLinks:external.size,longestChapters:pages.filter(p=>p.page.startsWith('#read')).sort((a,b)=>b.words-a.words).slice(0,6)};

@@ -1,5 +1,7 @@
 # AIT textbook remaining work
 
+27 October update: [current syllabus/functionality review](2026-10-27-syllabus-and-functionality-audit.md), edition 0.38, supersedes the next-batch recommendations below. First complete actual native-tool evidence and the missing Year 12 worked data/case sets, then reconcile nested requirements. CS-style ranked search, keyboard scroll regions, route/skip focus and an audit hub are delivered. Planner cards, presentations and AIT-specific assessment/practice libraries are subsequent batches; detailed acceptance criteria are in `#audits` and the current report.
+
 20 October update: [styling, media and content audit](2026-10-20-textbook-audit.md), edition 0.36. All existing checks and the additional resource inventory pass after minor annotation-contrast, image-dimension and documentation corrections. Practical/operational evidence and independent review remain outstanding; the priorities below are retained.
 
 Baseline: edition 0.33. This reconciles the 18 October syllabus audit with subsequent presentation changes; it is not a new independent syllabus sign-off. The 185 earlier checkpoints are local grouped checkpoints, not 185 official syllabus requirements.
