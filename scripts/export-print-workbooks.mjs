@@ -23,7 +23,7 @@ for(const unit of [1,2,3,4])for(const answers of [false,true]){
   for(const asset of [...Object.values(practiceImages).map(a=>({...a,folder:'practice'})),...Object.values(svgIllustrations).map(a=>({...a,folder:'diagrams'})),...Object.values(conceptSketches).map(a=>({...a,folder:'concepts'}))]){const file='assets/'+asset.folder+'/'+asset.file;if(output.includes('src="'+file+'"')){const data=await readFile(file);output=output.replaceAll('src="'+file+'"','src="data:image/svg+xml;base64,'+data.toString('base64')+'"');}}
   output=output.replace(/<p class="no-print"><a class="svg-source-link"[\s\S]*?<\/p>/g,'');
   output=output.replace(/<a class="process-image-link no-print"[^>]*>[\s\S]*?<\/a>/g,'').replaceAll('loading="lazy"','loading="eager"');
-  for(const asset of Object.values(processImages)){const file='assets/processes/'+asset.file;if(output.includes(file)){const data=await readFile(file);output=output.replaceAll(file,'data:image/webp;base64,'+data.toString('base64'));}}
+  for(const asset of Object.values(processImages)){const file='assets/processes/'+asset.file;if(output.includes(file)){const data=await readFile(file);const mime=asset.file.endsWith('.svg')?'image/svg+xml':'image/webp';output=output.replaceAll(file,'data:'+mime+';base64,'+data.toString('base64'));}}
   const mode=answers?'answers':'student';
   const bookHome='https://edugenio.github.io/ait-atar-textbook/';
   const returnNavigation=`<nav class="worksheet-navigation no-print" aria-label="Textbook navigation"><a class="button" href="${bookHome}#home">← Back to textbook home</a><a href="${bookHome}#unit/${unit}">Unit ${unit} contents</a></nav>`;

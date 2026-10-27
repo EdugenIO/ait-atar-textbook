@@ -91,7 +91,9 @@ assert.equal(Object.keys(imagePlacements).length,studentTopics.length);
 for(const topic of studentTopics){
  const asset=processImages[imagePlacements[topic.id].asset];
  const bytes=await readFile('assets/processes/'+asset.file);
- assert.equal(bytes.toString('ascii',0,4),'RIFF');assert(asset.alt.length>40);
+ if(asset.file.endsWith('.svg'))assert(bytes.toString('utf8').includes('<svg')&&bytes.toString('utf8').includes('<desc'));
+ else assert.equal(bytes.toString('ascii',0,4),'RIFF');
+ assert(asset.alt.length>40);
  assert.equal((studentPage(topic.id).match(/class="process-illustration"/g)||[]).length,1);
  const worksheet=await readFile(`unit${topic.unit}-student-workbook.html`,'utf8');
  assert(worksheet.includes('data:image/webp;base64,'),'Downloaded worksheets must include offline images');

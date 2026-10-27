@@ -1,7 +1,8 @@
-import {unit4ProjectPlacement} from './unit4-project-chapter.js?v=0.43';
-import {unit4LearningPlacement} from './unit4-learning-chapter.js?v=0.43';
-import {unit4ImpactsPlacement} from './unit4-impacts-chapter.js?v=0.43';
-import {unit4NetworkPlacement} from './unit4-network-chapter.js?v=0.43';
+import {processVariants} from './process-variants.js?v=0.44';
+import {unit4ProjectPlacement} from './unit4-project-chapter.js?v=0.44';
+import {unit4LearningPlacement} from './unit4-learning-chapter.js?v=0.44';
+import {unit4ImpactsPlacement} from './unit4-impacts-chapter.js?v=0.44';
+import {unit4NetworkPlacement} from './unit4-network-chapter.js?v=0.44';
 export const processImages={
   "computer": {
     "file": "computer-workflow.webp",
@@ -180,9 +181,13 @@ export const imagePlacements={
     "note": "Include source checking, semantic structure, accessible interaction, form rules and compatibility tests in the review stage."
   }
 };
+for(const [id,variant] of Object.entries(processVariants)){
+ processImages[id]=variant;
+ imagePlacements[id]={...imagePlacements[id],asset:id,title:variant.title,note:variant.note};
+}
 const e=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function processIllustration(id){
  const placement=imagePlacements[id];if(!placement)return '';
  const asset=processImages[placement.asset];
- return `<figure class="process-illustration"><figcaption><strong>Illustrated process · ${e(placement.title)}</strong></figcaption><a class="process-image-link no-print" href="assets/processes/${asset.file}" target="_blank" rel="noopener">Open full-size illustration</a><img width="${asset.width}" height="${asset.height}" src="assets/processes/${asset.file}" alt="${e(asset.alt)}" loading="lazy" decoding="async"><ol>${asset.steps.map(step=>`<li>${e(step)}</li>`).join('')}</ol><p>${e(placement.note)}</p><p class="reference">AI-generated teaching illustration. Read the numbered explanation for the process; objects and connections are simplified.</p></figure>`;
+ return `<figure class="process-illustration"><figcaption><strong>Illustrated process · ${e(placement.title)}</strong></figcaption><a class="process-image-link no-print" href="assets/processes/${asset.file}" target="_blank" rel="noopener">Open full-size illustration</a><img width="${asset.width}" height="${asset.height}" src="assets/processes/${asset.file}" alt="${e(asset.alt)}" loading="lazy" decoding="async"><ol>${asset.steps.map(step=>`<li>${e(step)}</li>`).join('')}</ol><p>${e(placement.note)}</p><p class="reference">${e(asset.credit||'AI-generated teaching illustration. Read the numbered explanation for the process; objects and connections are simplified.')}</p></figure>`;
 }

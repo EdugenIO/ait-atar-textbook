@@ -1,7 +1,7 @@
-import { studentTopics } from './student-topics.js?v=0.43';
-import { lessonPhases, teachingWeeks, teachingLessons } from './teaching.js?v=0.43';
-import { units, chapters } from './curriculum.js?v=0.43';
-import {practicalResources} from './practical-resources.js?v=0.43';
+import { studentTopics } from './student-topics.js?v=0.44';
+import { lessonPhases, teachingWeeks, teachingLessons } from './teaching.js?v=0.44';
+import { units, chapters } from './curriculum.js?v=0.44';
+import {practicalResources} from './practical-resources.js?v=0.44';
 const sessionCompanions=(unit,week)=>{const links=new Map(studentTopics.filter(t=>t.unit===unit&&(t.weeks||[t.week]).includes(week)).flatMap(t=>(practicalResources[t.id]||[]).filter(([,url])=>/production-workflows|worked-cases|unit1-evidence|unit2-evidence|unit3-evidence|unit4-evidence/.test(url))).map(([label,url])=>[url,label]));return links.size?'<h2>Worked practical companions</h2><ul>'+[...links].map(([url,label])=>'<li><a href="'+url+'">'+label+'</a></li>').join('')+'</ul><p>Use the relevant workflow within this session; the reference result is separate from your own observed evidence.</p>':'';};
 const e=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const chapterLinks=ids=>ids.map(id=>{const c=chapters.find(c=>c.id===id);return `<a href="#lesson/${id}">${e(c.title)}</a> <small>(${c.status})</small>`;}).join(' · ');

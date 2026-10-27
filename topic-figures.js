@@ -1,5 +1,5 @@
-import {svgIllustrations} from './svg-illustrations.js?v=0.43';
-import {escapeHtml as e} from './learning-tools.js?v=0.43';
+import {svgIllustrations} from './svg-illustrations.js?v=0.44';
+import {escapeHtml as e} from './learning-tools.js?v=0.44';
 const table=(headers,rows)=>`<div class="figure-table-wrap" tabindex="0" role="region" aria-label="Illustrated comparison"><table><thead><tr>${headers.map(h=>`<th scope="col">${e(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${row.map((v,i)=>i===0?`<th scope="row">${e(v)}</th>`:`<td>${e(v)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
 const sequence=items=>`<ol class="figure-sequence">${items.map(([title,text])=>`<li><strong>${e(title)}</strong><span>${e(text)}</span></li>`).join('')}</ol>`;
 const svg=(id,title,description,body)=>`<div class="diagram-scroll" tabindex="0" role="region" aria-label="${e(title)}"><svg class="teaching-svg" viewBox="0 0 640 300" role="img" aria-labelledby="topic-${id}-title topic-${id}-desc"><title id="topic-${id}-title">${e(title)}</title><desc id="topic-${id}-desc">${e(description)}</desc>${body}</svg></div>`;

@@ -1,0 +1,130 @@
+{
+  "edition": "0.44",
+  "scope": "Main-chapter image inventory, excluding repeated focused views and worksheets of the same chapter. Inline SVG/HTML visual blocks are outside the img-file inventory.",
+  "uniqueFiles": 24,
+  "uniqueHashes": 24,
+  "allChapterImageFiles": 97,
+  "crossChapterImageReuse": [],
+  "chapters": [
+    {
+      "chapter": "u1-brief",
+      "file": "project-workflow.webp",
+      "sha256": "65551cea879e369f2cd6bfcbb0e6ec2ecf246ba56ee39e6e34d8f82195aa9b35"
+    },
+    {
+      "chapter": "u1-elements",
+      "file": "design-workflow.webp",
+      "sha256": "64cbe766ccbd2dc57031d5477ec32bf6cb1b98a8e260f269aeb81d5a224c8074"
+    },
+    {
+      "chapter": "u1-principles",
+      "file": "u1-principles-process.svg",
+      "sha256": "23cf44385eaa315d6ec6276a54536dda75f285ba4c835c3b0ed5ecb53b8a9bd4"
+    },
+    {
+      "chapter": "u1-typography",
+      "file": "u1-typography-process.svg",
+      "sha256": "7d1320a9ffd1028df1c94a85f891bc7467f1a50a10133a19344c1a29d721a1e4"
+    },
+    {
+      "chapter": "u1-hardware",
+      "file": "computer-workflow.webp",
+      "sha256": "08fb76b97085bea492e98b1b4077640ca2fbf3113953118958034f51617515cc"
+    },
+    {
+      "chapter": "u1-applications",
+      "file": "u1-applications-process.svg",
+      "sha256": "49477008ebf35e8c8f5aac0d716c3383688184834da860bc49aa332085897d85"
+    },
+    {
+      "chapter": "u1-impacts",
+      "file": "rights-workflow.webp",
+      "sha256": "3dacc5bc352a6c762e101b90e5454764d7dc04e3c53e109a746e3b20fb66ea1f"
+    },
+    {
+      "chapter": "u1-projects",
+      "file": "u1-projects-process.svg",
+      "sha256": "2a9bb753c43c333a7d540a68ee0906fb59b3b577ea8af0655f77b91bb8428bb1"
+    },
+    {
+      "chapter": "u2-data",
+      "file": "u2-data-process.svg",
+      "sha256": "4a25161432f8150d5f62bb994d75d9b0dd6df78dfd158f0ed5d0e497ab9e9385"
+    },
+    {
+      "chapter": "u2-networks",
+      "file": "network-workflow.webp",
+      "sha256": "98c22957c070893d849bc6b478ce58b1878c6d742e8d5a23d673f50ff4cfb58a"
+    },
+    {
+      "chapter": "u2-impacts",
+      "file": "u2-impacts-process.svg",
+      "sha256": "11727d5473ce2ca86836f4bcd959f5609199e53b398ce0ba84c692e59971a26b"
+    },
+    {
+      "chapter": "u2-applications",
+      "file": "u2-applications-process.svg",
+      "sha256": "55c861ba81410cf2c8dfaa256b49acd6cc559dc5c28bc14e826b2550d235b3b5"
+    },
+    {
+      "chapter": "u2-projects",
+      "file": "u2-projects-process.svg",
+      "sha256": "62cc1e7c66dfcf946689cef55ae2727b4286b4ba952329ca8396be95adb89511"
+    },
+    {
+      "chapter": "u3-design",
+      "file": "u3-design-process.svg",
+      "sha256": "4b645e703a025dacdbc72986ab0a914605f75c56847d3e55bea3611cbefe2f65"
+    },
+    {
+      "chapter": "u3-hardware",
+      "file": "u3-hardware-process.svg",
+      "sha256": "d65f78106ef4955be8315da15e7bd162bb47e550cee01480c9eee4cfac0ebeda"
+    },
+    {
+      "chapter": "u3-impacts",
+      "file": "u3-impacts-process.svg",
+      "sha256": "0bf14c6ff13af73bd579e9df8b507010e02d1346702d56912578edf735a7d19b"
+    },
+    {
+      "chapter": "u3-applications",
+      "file": "media-workflow.webp",
+      "sha256": "dc903229a765030d60359accae1a181ff339c3406cbd2cc4cae18ff8defafe16"
+    },
+    {
+      "chapter": "u3-projects",
+      "file": "u3-projects-process.svg",
+      "sha256": "f3fb1031ae146cb2db1c110df5d4a142e78e6cda99465bc588fe4408942ad333"
+    },
+    {
+      "chapter": "u4-data",
+      "file": "recovery-workflow.webp",
+      "sha256": "58fde894ae47ce80b42e53a09b5a01cf58bec823970da1bae7de6bf127e85c86"
+    },
+    {
+      "chapter": "u4-web",
+      "file": "u4-web-process.svg",
+      "sha256": "ffb040391b9b9e91844b696aa33be0e78100ce798645d595356707e4b168bc81"
+    },
+    {
+      "chapter": "u4-networks",
+      "file": "u4-networks-process.svg",
+      "sha256": "975da51073c1fc0076256facb457ee0b98b2d8e71d1ea9a1cbea2f18b2bc0c9a"
+    },
+    {
+      "chapter": "u4-impacts",
+      "file": "u4-impacts-process.svg",
+      "sha256": "2dcde080347061aa56d8bc0b5d9cc6fb528cb0a9f4aadae8a963ffd83c26b0b1"
+    },
+    {
+      "chapter": "u4-applications",
+      "file": "u4-applications-process.svg",
+      "sha256": "131a5e4d8d0150cbef5594f17dfd603120daf0bbf77cee3cf77e1ccf8ea5e709"
+    },
+    {
+      "chapter": "u4-projects",
+      "file": "u4-projects-process.svg",
+      "sha256": "c351e48cfa2d2067856f82412d0f7cab04aa41ac7ac4a0f7cd2cdbf74754b78a"
+    }
+  ]
+}
