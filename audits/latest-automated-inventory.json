@@ -1,12 +1,12 @@
 {
   "authoredChapters": 24,
-  "inspectedPages": 645,
+  "inspectedPages": 656,
   "brokenLocalLinks": [],
   "duplicateIds": [],
-  "imageTags": 470,
+  "imageTags": 473,
   "imagesWithoutAlt": [],
   "imagesWithoutDimensions": 0,
-  "uniqueExternalLinks": 90,
+  "uniqueExternalLinks": 95,
   "longestChapters": [
     {
       "page": "#read/u4-projects",
@@ -25,7 +25,7 @@
     },
     {
       "page": "#read/u3-applications",
-      "words": 3295,
+      "words": 3367,
       "duplicateIds": []
     },
     {

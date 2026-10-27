@@ -1,8 +1,8 @@
 # Applied Information Technology ATAR — Classroom Textbook
 
-## Current status — edition 0.41, 27 October 2026
+## Current status — edition 0.42, 27 October 2026
 
-All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, eleven practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current syllabus/functionality audit](audits/2026-10-27-syllabus-and-functionality-audit.md), the browser `#audits` hub and [remaining work](audits/remaining-work-2026-10-18.md).
+All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, twelve practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current syllabus/functionality audit](audits/2026-10-27-syllabus-and-functionality-audit.md), the browser `#audits` hub and [remaining work](audits/remaining-work-2026-10-18.md).
 
 The dated edition notes below are historical: statements that an earlier batch was local or unpublished describe that milestone, not today's deployed site.
 
@@ -159,3 +159,8 @@ Two new packs supply actual image/audio/video/animation exports, a disposable ZI
 ## Individual Unit 2 reconciliation · edition 0.41
 
 89 source-order rows (73 leaves, 16 parent contexts) map Unit 2 content to explanation, worked models and independent tasks. Eight targeted guides include an annotated LAN model and functional three-page HTML/CSS reference. [Findings and limits](audits/2026-10-27-unit2-reconciliation.md). Actual OS utility use remains an explicit operational gap. Regenerate with `python scripts/build-unit2-reconciliation.py`, package unit2-evidence and run checks.
+
+
+## Individual Unit 3 reconciliation · edition 0.42
+
+75 source-order rows (67 leaves, eight parent contexts) link the 2027 Year 12 Unit 3 requirements to specific explanations, seven worked guides and independent production/check sequences. The editable festival HTML/CSS provides navigation, contextual help and print structure; the planning model distinguishes representations and dependency/resource checks. Actual learner/native-tool output and independent subject review remain unverified, including multi-track projects and colour-profile/proof operations. Unit 4 is the remaining individual content map. See [the Unit 3 review](audits/2026-10-27-unit3-reconciliation.md).

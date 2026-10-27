@@ -1,4 +1,6 @@
 export const practicalResources={
+  "u3-design": [["Unit 3 requirement-linked worked evidence", "practical-packs/unit3-evidence/interface.html"]],
+  "u3-impacts": [["Unit 3 requirement-linked worked evidence", "practical-packs/unit3-evidence/rights.html"]],
   "u2-projects": [["Unit 2 requirement-linked worked evidence", "practical-packs/unit2-evidence/project.html"]],
   "u2-impacts": [["Unit 2 requirement-linked worked evidence", "practical-packs/unit2-evidence/privacy.html"]],
   "u2-networks": [["Unit 2 requirement-linked worked evidence", "practical-packs/unit2-evidence/lan.html"]],
@@ -11,7 +13,7 @@ export const practicalResources={
   "u1-brief": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/planning.html"]],
   "u4-impacts": [["Historical global access-restriction comparison", "practical-packs/worked-cases/global-access.html"]],
   "u4-data": [["Source verifiability, accuracy and currency case", "practical-packs/worked-cases/source-checking.html"]],
-  "u3-hardware": [["Dated mobile-device trend: worked comparison", "practical-packs/worked-cases/mobile-trend.html"]],
+  "u3-hardware": [["Unit 3 requirement-linked worked evidence", "practical-packs/unit3-evidence/devices.html"],["Dated mobile-device trend: worked comparison", "practical-packs/worked-cases/mobile-trend.html"]],
   "u1-applications": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/formats.html"],["Measured image/audio export workflow", "practical-packs/production-workflows/formats.html"],["Editable spreadsheet lookups, tasks and explained answers", "practical-packs/spreadsheet-lookups/index.html"]],
   "u2-data": [["Unit 2 requirement-linked worked evidence", "practical-packs/unit2-evidence/versions.html"],["File export and restore workflows", "practical-packs/production-workflows/index.html"],
     [
@@ -26,8 +28,8 @@ export const practicalResources={
       "practical-packs/animation-multimedia/animation.html"
     ]
   ],
-  "u3-projects": [["Publication export and proofing pack", "practical-packs/publication-workflow/index.html"]],
-  "u3-applications": [["Multi-track production and inspected delivery copy", "practical-packs/production-workflows/multitrack.html"],["Colour profiles, export settings and proofing", "practical-packs/publication-workflow/index.html"],
+  "u3-projects": [["Unit 3 requirement-linked worked evidence", "practical-packs/unit3-evidence/planning.html"],["Publication export and proofing pack", "practical-packs/publication-workflow/index.html"]],
+  "u3-applications": [["Unit 3 requirement-linked worked evidence", "practical-packs/unit3-evidence/timeline.html"],["Multi-track production and inspected delivery copy", "practical-packs/production-workflows/multitrack.html"],["Colour profiles, export settings and proofing", "practical-packs/publication-workflow/index.html"],
     [
       "Multi-track editing starter",
       "practical-packs/animation-multimedia/timeline.html"

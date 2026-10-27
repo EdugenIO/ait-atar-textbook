@@ -1,7 +1,7 @@
-import {studentTopics} from './student-topics.js?v=0.41';
-import {chapterPages} from './chapter-pages.js?v=0.41';
-import {glossary} from './curriculum.js?v=0.41';
-import {slug} from './learning-tools.js?v=0.41';
+import {studentTopics} from './student-topics.js?v=0.42';
+import {chapterPages} from './chapter-pages.js?v=0.42';
+import {glossary} from './curriculum.js?v=0.42';
+import {slug} from './learning-tools.js?v=0.42';
 
 export const normaliseSearch=value=>String(value).normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 const matches=(text,query)=>{

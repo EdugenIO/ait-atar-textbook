@@ -74,3 +74,6 @@ Edition 0.40: Unit 1 individual content reconciliation is authored with 133 sour
 
 
 Edition 0.41: Unit 2 reconciliation delivered with 89 rows and eight targeted guides. Units 1–2 now have detailed content maps; Units 3–4 are next. Actual supervised OS utility use, native learner outputs and independent subject review remain open. See [Unit 2 review](2026-10-27-unit2-reconciliation.md).
+
+
+Edition 0.42: Unit 3 individual reconciliation is authored: 75 rows, 67 leaf reviews and seven targeted guides. Units 1–3 have detailed maps; Unit 4 is next. Actual learner application projects, profile/output checks and independent teacher review remain unverified. See [Unit 3 review](2026-10-27-unit3-reconciliation.md).
