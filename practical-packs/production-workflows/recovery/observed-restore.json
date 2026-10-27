@@ -1,0 +1,8 @@
+{
+  "working_v2_sha256": "bfd9a36dda77772bf053afbb0d006c7f6aa17846ac0d73a42f240de09a439d4e",
+  "restored_sha256": "156bbaef4ad2bcfc024064c79eae6590b433db479ee8a191c64e4a6e1dcb5eb0",
+  "approved_v1_sha256": "156bbaef4ad2bcfc024064c79eae6590b433db479ee8a191c64e4a6e1dcb5eb0",
+  "restored_matches_v1": true,
+  "restored_matches_v2": false,
+  "scope": "Actual disposable-file ZIP backup and restore; not File History, OS cleanup, drive optimisation or malware scanning."
+}

@@ -1,20 +1,23 @@
 export const practicalResources={
-  "u1-applications": [["Editable spreadsheet lookups, tasks and explained answers", "practical-packs/spreadsheet-lookups/index.html"]],
-  "u2-data": [
+  "u4-impacts": [["Historical global access-restriction comparison", "practical-packs/worked-cases/global-access.html"]],
+  "u4-data": [["Source verifiability, accuracy and currency case", "practical-packs/worked-cases/source-checking.html"]],
+  "u3-hardware": [["Dated mobile-device trend: worked comparison", "practical-packs/worked-cases/mobile-trend.html"]],
+  "u1-applications": [["Measured image/audio export workflow", "practical-packs/production-workflows/formats.html"],["Editable spreadsheet lookups, tasks and explained answers", "practical-packs/spreadsheet-lookups/index.html"]],
+  "u2-data": [["File export and restore workflows", "practical-packs/production-workflows/index.html"],
     [
       "Maintenance practice lab",
       "practical-packs/maintenance-lab/index.html"
     ]
   ],
-  "u4-web": [["Web standards implementation pack", "practical-packs/web-standards/index.html"]],
-  "u2-applications": [["Web standards implementation pack", "practical-packs/web-standards/index.html"],
+  "u4-web": [["Conflicting sources: five-document worked case", "practical-packs/worked-cases/source-checking.html"],["Web standards implementation pack", "practical-packs/web-standards/index.html"]],
+  "u2-applications": [["Working animation, edited audio and exported media", "practical-packs/production-workflows/index.html"],["Web standards implementation pack", "practical-packs/web-standards/index.html"],
     [
       "Animation starter and reference frames",
       "practical-packs/animation-multimedia/animation.html"
     ]
   ],
   "u3-projects": [["Publication export and proofing pack", "practical-packs/publication-workflow/index.html"]],
-  "u3-applications": [["Colour profiles, export settings and proofing", "practical-packs/publication-workflow/index.html"],
+  "u3-applications": [["Multi-track production and inspected delivery copy", "practical-packs/production-workflows/multitrack.html"],["Colour profiles, export settings and proofing", "practical-packs/publication-workflow/index.html"],
     [
       "Multi-track editing starter",
       "practical-packs/animation-multimedia/timeline.html"
@@ -26,7 +29,7 @@ export const practicalResources={
       "practical-packs/response-lab/index.html"
     ]
   ],
-  "u4-projects": [
+  "u4-projects": [["Survey findings, implemented revision and retest model", "practical-packs/worked-cases/survey-revision.html"],
     [
       "Response review and evaluation lab",
       "practical-packs/response-lab/index.html"

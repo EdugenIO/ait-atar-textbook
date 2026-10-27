@@ -1,0 +1,26 @@
+{
+  "fictional": true,
+  "paired_participants": 12,
+  "rows": 24,
+  "before": {
+    "completed": 8,
+    "total": 12,
+    "completion_percent": 66.66666666666667,
+    "mean_ease": 2.5,
+    "median_seconds_all_attempts": 30.5
+  },
+  "after": {
+    "completed": 12,
+    "total": 12,
+    "completion_percent": 100,
+    "mean_ease": 4,
+    "median_seconds_all_attempts": 21.5
+  },
+  "change_percentage_points": 33.333333333333336,
+  "limits": [
+    "Invented paired observations, not a real study",
+    "Same participants and task: practice/order effects",
+    "Small convenience group; no population generalisation",
+    "Different input groups too small for a reliable comparative claim"
+  ]
+}

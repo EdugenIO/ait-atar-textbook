@@ -1,0 +1,32 @@
+{
+  "frames": 24,
+  "nominal_fps": 12,
+  "duration_ms": [
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90,
+    80,
+    80,
+    90
+  ],
+  "total_ms": 2000,
+  "note": "GIF stores centiseconds: 80/80/90 ms per three frames preserves a 2 s loop, not identical frame holds."
+}

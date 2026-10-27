@@ -1,0 +1,6 @@
+source_id,fictional_author,document_date,revision,claim,status,decision
+S1,Centre coordinator,2026-10-20,1,"Repair session: Hall 1, 10 am",Superseded,Do not publish without comparing revision 2
+S2,Centre coordinator,2026-10-26,2,"Repair session: Hall 2, 10 am",Current approved schedule for this fictional case,Use for venue and time
+S3,Volunteer repost,2026-10-27,unknown,"Repair session: Hall 1, 10 am",Newer post copying old facts,Newest timestamp does not make venue correct
+S4,Equipment supplier,2026-10-25,1,Our tablet makes all volunteers twice as fast,Marketing; no method supplied,Do not present as measured productivity
+S5,Centre coordinator,2026-10-27,3,Proposed move to Hall 3,Unapproved draft,Seek confirmation; revision number alone is insufficient

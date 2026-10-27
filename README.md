@@ -1,8 +1,8 @@
 # Applied Information Technology ATAR — Classroom Textbook
 
-## Current status — edition 0.38, 27 October 2026
+## Current status — edition 0.39, 27 October 2026
 
-All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, seven practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current syllabus/functionality audit](audits/2026-10-27-syllabus-and-functionality-audit.md), the browser `#audits` hub and [remaining work](audits/remaining-work-2026-10-18.md).
+All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, nine practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current syllabus/functionality audit](audits/2026-10-27-syllabus-and-functionality-audit.md), the browser `#audits` hub and [remaining work](audits/remaining-work-2026-10-18.md).
 
 The dated edition notes below are historical: statements that an earlier batch was local or unpublished describe that milestone, not today's deployed site.
 
@@ -144,3 +144,8 @@ Chapter links now open concise overviews. Named concepts have direct `#topic/<ch
 ## Spreadsheet practical · edition 0.37
 
 Unit 1 weeks 9–10 now link an editable four-sheet workbook, student tasks, explained answers and recovery CSV. Worked formulas, changed-input recalculation, duplicate first-match behaviour and blank independent outputs were checked. Native spreadsheet filter interaction remains a classroom verification task. See [the delivery record](audits/2026-10-20-spreadsheet-practical.md).
+
+
+## Practical workflows and worked cases · edition 0.39
+
+Two new packs supply actual image/audio/video/animation exports, a disposable ZIP-restore example, four worked evidence cases and independent tasks. Linked in nine chapters, relevant sessions, worksheets and the practical library. See [delivery evidence and limits](audits/2026-10-27-practical-workflows-delivery.md). Desktop-editor, OS-utility and printer-specific trials remain separate checks.

@@ -1,0 +1,45 @@
+{
+  "size": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "frames": 360,
+  "duration_seconds": 12,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "source": "source/scene-01.png",
+      "title": "Repair cafe"
+    },
+    {
+      "start": 4,
+      "end": 8,
+      "source": "source/scene-02.png",
+      "title": "Bring a small item"
+    },
+    {
+      "start": 8,
+      "end": 12,
+      "source": "source/scene-03.png",
+      "title": "Hall 2 | Saturday 10 am"
+    }
+  ],
+  "audio": [
+    {
+      "source": "source/narration-reference.wav",
+      "gain": 0.85
+    },
+    {
+      "source": "source/ambience-tone.wav",
+      "gain": 0.12,
+      "fade_out_seconds": [
+        10,
+        12
+      ]
+    }
+  ],
+  "transition": "0.2-second fades to/from black inside each four-second card; no overlap added",
+  "status": "Editable production specification, not a Shotcut-native project file"
+}

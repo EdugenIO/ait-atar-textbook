@@ -1,0 +1,70 @@
+{
+  "generated_on": "2026-10-27",
+  "image_exports": {
+    "campaign-800.png": {
+      "width": 800,
+      "height": 500,
+      "bytes": 111188,
+      "format": "PNG",
+      "sha256": "dde20716a459cfb47e69ff3c596958743fee5a104fdb4be03d5ff4cf03f750bf"
+    },
+    "campaign-800.jpg": {
+      "width": 800,
+      "height": 500,
+      "bytes": 28592,
+      "format": "JPEG",
+      "sha256": "aa80a1159622920969271ca67153e84929caed063a8ce806b581168d891a69ae"
+    },
+    "campaign-800.bmp": {
+      "width": 800,
+      "height": 500,
+      "bytes": 1200054,
+      "format": "BMP",
+      "sha256": "d6f76cab5519afe31c051fe7c7062c901366b88d11d6579d1098c56b49d532c8"
+    },
+    "campaign-800.tif": {
+      "width": 800,
+      "height": 500,
+      "bytes": 145236,
+      "format": "TIFF",
+      "sha256": "03be7f8afb5b49c419229d8bf229edc6084fbf5594df14ced251ed476e1ac6cb"
+    },
+    "campaign-800.gif": {
+      "width": 800,
+      "height": 500,
+      "bytes": 76247,
+      "format": "GIF",
+      "sha256": "6ba3d835451b9a6e008ab6a88077c6261fb056055c31211765ef6438cbaa9a7f"
+    }
+  },
+  "animation": {
+    "frames": 24,
+    "total_ms": 2000
+  },
+  "audio": {
+    "frames": 529200,
+    "sample_rate": 44100,
+    "seconds": 12,
+    "peak_pcm16": 19561,
+    "clipped_samples": 0
+  },
+  "video": {
+    "decoded_frames": 360,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "seconds": 12,
+    "bytes": 267464
+  },
+  "recovery": {
+    "working_v2_sha256": "bfd9a36dda77772bf053afbb0d006c7f6aa17846ac0d73a42f240de09a439d4e",
+    "restored_sha256": "156bbaef4ad2bcfc024064c79eae6590b433db479ee8a191c64e4a6e1dcb5eb0",
+    "approved_v1_sha256": "156bbaef4ad2bcfc024064c79eae6590b433db479ee8a191c64e4a6e1dcb5eb0",
+    "restored_matches_v1": true,
+    "restored_matches_v2": false,
+    "scope": "Actual disposable-file ZIP backup and restore; not File History, OS cleanup, drive optimisation or malware scanning."
+  },
+  "producer": "Pillow, Python standard library and FFmpeg command-line exports",
+  "native_editor_open_save": "Not performed",
+  "print_profile_and_physical_proof": "Not performed"
+}

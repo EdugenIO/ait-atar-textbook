@@ -1,0 +1,5 @@
+# These fixtures are measured byte-for-byte and must match their reference hashes
+# and ZIP members on Windows and Linux; disable automatic newline conversion.
+practical-packs/production-workflows/** -text whitespace=cr-at-eol
+practical-packs/worked-cases/*.csv -text whitespace=cr-at-eol
+practical-packs/worked-cases/*.json -text whitespace=cr-at-eol

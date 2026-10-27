@@ -1,0 +1,126 @@
+{
+  "practical-packs/production-workflows/animation-plan.json": {
+    "bytes": 423,
+    "sha256": "4b96c779f509ddad26c96b5e32a658d2d95442777f008eacac6ae8d848e5a62c"
+  },
+  "practical-packs/production-workflows/exports/campaign-800.bmp": {
+    "bytes": 1200054,
+    "sha256": "d6f76cab5519afe31c051fe7c7062c901366b88d11d6579d1098c56b49d532c8"
+  },
+  "practical-packs/production-workflows/exports/campaign-800.gif": {
+    "bytes": 76247,
+    "sha256": "6ba3d835451b9a6e008ab6a88077c6261fb056055c31211765ef6438cbaa9a7f"
+  },
+  "practical-packs/production-workflows/exports/campaign-800.jpg": {
+    "bytes": 28592,
+    "sha256": "aa80a1159622920969271ca67153e84929caed063a8ce806b581168d891a69ae"
+  },
+  "practical-packs/production-workflows/exports/campaign-800.png": {
+    "bytes": 111188,
+    "sha256": "dde20716a459cfb47e69ff3c596958743fee5a104fdb4be03d5ff4cf03f750bf"
+  },
+  "practical-packs/production-workflows/exports/campaign-800.tif": {
+    "bytes": 145236,
+    "sha256": "03be7f8afb5b49c419229d8bf229edc6084fbf5594df14ced251ed476e1ac6cb"
+  },
+  "practical-packs/production-workflows/exports/campaign-reference.mp4": {
+    "bytes": 267464,
+    "sha256": "4eec2fbde36b5f5fb0e8a329c55d7272ffa7c4e55e341f23bce6aab2699e9603"
+  },
+  "practical-packs/production-workflows/exports/mix-reference.mp3": {
+    "bytes": 193140,
+    "sha256": "404b4c66823a8f7a25977b7d859057de2b3c12281dd23b05efde5f4de37154b1"
+  },
+  "practical-packs/production-workflows/exports/mix-reference.wav": {
+    "bytes": 1058478,
+    "sha256": "e002be9951dc7ac91d4449d4de1d94037af12c6a28f1dff4e8124ca1c3dfe560"
+  },
+  "practical-packs/production-workflows/exports/mix-reference.wma": {
+    "bytes": 208542,
+    "sha256": "67420ced046bb587066513a789d3ba9fd40c7f221951978feba0d01099b96c07"
+  },
+  "practical-packs/production-workflows/exports/motion-24.gif": {
+    "bytes": 21243,
+    "sha256": "1d9e14f591badf7992cdbd4a7886aec5dce7517ed2d396228a72925c05f291e0"
+  },
+  "practical-packs/production-workflows/exports/video-first.png": {
+    "bytes": 27643,
+    "sha256": "c0c81db6e413537ac87a14b8a5a34e55e295f05e914b8427732599bcd51efdd4"
+  },
+  "practical-packs/production-workflows/exports/video-last.png": {
+    "bytes": 26284,
+    "sha256": "0791bb0e09c5cd312f2d92fab362f7e2bd470c10c1db68c028d6259dff923557"
+  },
+  "practical-packs/production-workflows/exports/video-middle.png": {
+    "bytes": 30564,
+    "sha256": "116db2c775f8ed38b5204ce39ce540bcd745f3eb201c4c98c018897c25d7da82"
+  },
+  "practical-packs/production-workflows/operation-record.csv": {
+    "bytes": 142,
+    "sha256": "6c63151cc6dd7a934f27bab2621506965cb9a847a9be9a14aaeac83d2d7ec689"
+  },
+  "practical-packs/production-workflows/recovery/approved-backup.zip": {
+    "bytes": 165,
+    "sha256": "39f35d18d7ef0146c4ebdaf057067285f535b9025b5c3570a2630fa3a7137cfc"
+  },
+  "practical-packs/production-workflows/recovery/approved-v1.csv": {
+    "bytes": 37,
+    "sha256": "156bbaef4ad2bcfc024064c79eae6590b433db479ee8a191c64e4a6e1dcb5eb0"
+  },
+  "practical-packs/production-workflows/recovery/observed-restore.json": {
+    "bytes": 477,
+    "sha256": "3f60f2dd280fc1e4e2a252cde176933f8bc2e66e53788d437afac24c0de97370"
+  },
+  "practical-packs/production-workflows/recovery/working-v2.csv": {
+    "bytes": 37,
+    "sha256": "bfd9a36dda77772bf053afbb0d006c7f6aa17846ac0d73a42f240de09a439d4e"
+  },
+  "practical-packs/production-workflows/source/ambience-tone.wav": {
+    "bytes": 1058444,
+    "sha256": "8392e1e34ef368f4bb0d6b96b8adc12d5e973291fe3479417bac14551ff4ff37"
+  },
+  "practical-packs/production-workflows/source/narration-reference.wav": {
+    "bytes": 523402,
+    "sha256": "896fa43ff1418a314447c60136cd89121c97bf1b0c0157b400a0b16ef66449ea"
+  },
+  "practical-packs/production-workflows/source/repair-cafe-master.png": {
+    "bytes": 312666,
+    "sha256": "356573e57cc1eb9694e99cc7121b00401cbe1b47ddf135d6d7be0ed4f2ded256"
+  },
+  "practical-packs/production-workflows/source/scene-01.png": {
+    "bytes": 19329,
+    "sha256": "74735ccac6fa705c4966356dcc247938023743f9aa09cf5ef7747757d05bb975"
+  },
+  "practical-packs/production-workflows/source/scene-02.png": {
+    "bytes": 21641,
+    "sha256": "63b0b616275efb04244117f0289e7e81072780fd9fd453234f6ef38fa5a3b216"
+  },
+  "practical-packs/production-workflows/source/scene-03.png": {
+    "bytes": 17113,
+    "sha256": "0c5764fe6faf83b0693f9e187a2754b9562aa75688b2bbee0dc89c0289254fb2"
+  },
+  "practical-packs/production-workflows/timeline-plan.json": {
+    "bytes": 938,
+    "sha256": "08ffad0129b1b1adb934fd250ac086022dfb2d17206668d31c0f3a8beaa4903f"
+  },
+  "practical-packs/production-workflows/verification.json": {
+    "bytes": 2159,
+    "sha256": "bba7b08b1f42225a1f450b76a790fe6976234b32eadd50feb96a30e158827402"
+  },
+  "practical-packs/worked-cases/observation-notes.csv": {
+    "bytes": 538,
+    "sha256": "f32d97f5575129bd9df357d4fe2c4235a99f882ba85904c6f5d49266db99610b"
+  },
+  "practical-packs/worked-cases/source-register.csv": {
+    "bytes": 769,
+    "sha256": "5671fecb6d96df0ff6b31d52d4ffb07ed964cd12ef19fe588a16c60ec83530bf"
+  },
+  "practical-packs/worked-cases/survey-analysis.json": {
+    "bytes": 717,
+    "sha256": "541646f0cb976b2662be895cadfeddda05567ae4b7dfb85865672ef3c2d99d23"
+  },
+  "practical-packs/worked-cases/survey-responses.csv": {
+    "bytes": 744,
+    "sha256": "3880dde4a86c6926ac651d9c15d5a1cfac661169288020e56950b86f06dd22b3"
+  }
+}

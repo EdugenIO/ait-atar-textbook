@@ -1,0 +1,5 @@
+fictional_id,version,observation,interpretation_limit
+F09,before,Opened More twice; did not identify venue within 60 seconds,One invented observation; not a measured accessibility result
+F11,before,Looked for venue beside time; stopped at the timeout,Do not infer a visual or cognitive diagnosis
+F09,after,Read Venue Hall 2 beside the time and completed the task,Repeat exposure may contribute
+client,after,Venue must be visible on each session card; keep phone contact fallback,"Fictional client priority, not universal preference"

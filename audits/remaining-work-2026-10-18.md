@@ -1,5 +1,7 @@
 # AIT textbook remaining work
 
+Edition 0.39: [practical workflows and four worked cases delivered](2026-10-27-practical-workflows-delivery.md). Replace the earlier missing-resource descriptions with the current area review. Next verify native editor/OS workflows and classroom evidence, then expand the nested syllabus mapping.
+
 27 October update: [current syllabus/functionality review](2026-10-27-syllabus-and-functionality-audit.md), edition 0.38, supersedes the next-batch recommendations below. First complete actual native-tool evidence and the missing Year 12 worked data/case sets, then reconcile nested requirements. CS-style ranked search, keyboard scroll regions, route/skip focus and an audit hub are delivered. Planner cards, presentations and AIT-specific assessment/practice libraries are subsequent batches; detailed acceptance criteria are in `#audits` and the current report.
 
 20 October update: [styling, media and content audit](2026-10-20-textbook-audit.md), edition 0.36. All existing checks and the additional resource inventory pass after minor annotation-contrast, image-dimension and documentation corrections. Practical/operational evidence and independent review remain outstanding; the priorities below are retained.
