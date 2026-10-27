@@ -1,18 +1,19 @@
-import {learningStrategy,teachingStrategyGuide} from './instructional-strategies.js?v=0.44';
+import {chapterLessonLinks} from './student-lessons.js?v=0.45';
+import {learningStrategy,teachingStrategyGuide} from './instructional-strategies.js?v=0.45';
 import {practiceStimulus} from './practice-stimuli.js';
-import {topicFigure} from './topic-figures.js?v=0.44';
-import {designExperiences,designExperience} from './design-studio.js?v=0.44';
-import {recoveryLab,participationLab} from './scenario-labs.js?v=0.44';
-import {sources} from './curriculum.js?v=0.44';
-import {typographyLab,typographyTopicSupport} from './typography-lab.js?v=0.44';
-import {studentTopics} from './student-topics.js?v=0.44';
-import {studentPage} from './student-ui.js?v=0.44';
-import {escapeHtml as e,slug,chapterVisual,transferPractice} from './learning-tools.js?v=0.44';
-import {sectionDiagram} from './section-diagrams.js?v=0.44';
-import {processIllustration} from './process-images.js?v=0.44';
-import {reinforcementPractice} from './reinforcement-activities.js?v=0.44';
-import {practicalResources} from './practical-resources.js?v=0.44';
-import {teachingWeeks} from './teaching.js?v=0.44';
+import {topicFigure} from './topic-figures.js?v=0.45';
+import {designExperiences,designExperience} from './design-studio.js?v=0.45';
+import {recoveryLab,participationLab} from './scenario-labs.js?v=0.45';
+import {sources} from './curriculum.js?v=0.45';
+import {typographyLab,typographyTopicSupport} from './typography-lab.js?v=0.45';
+import {studentTopics} from './student-topics.js?v=0.45';
+import {studentPage} from './student-ui.js?v=0.45';
+import {escapeHtml as e,slug,chapterVisual,transferPractice} from './learning-tools.js?v=0.45';
+import {sectionDiagram} from './section-diagrams.js?v=0.45';
+import {processIllustration} from './process-images.js?v=0.45';
+import {reinforcementPractice} from './reinforcement-activities.js?v=0.45';
+import {practicalResources} from './practical-resources.js?v=0.45';
+import {teachingWeeks} from './teaching.js?v=0.45';
 export function chapterPages(t){return [...t.sections.map(([title],i)=>({key:slug(title),title,index:i})),...(t.id==='u1-typography'?[{key:'layout-lab',title:'Explore a poster layout'}]:[]),...(t.id==='u4-data'?[{key:'recovery-lab',title:'Explore a backup recovery'}]:[]),...(t.id==='u4-impacts'?[{key:'participation-lab',title:'Who can take part?'}]:[]),...(designExperiences[t.id]?[designExperiences[t.id]]:[]),{key:'worked-example',title:'Worked example and application'},{key:'more-practice',title:'Optional practice'},{key:'visual-guide',title:'Visual walkthrough'},{key:'resources',title:'Files, worksheets and lesson plans'}];}
 const url=(id,key)=>`#topic/${id}/${key}`;
 const missing=()=>'<h1>Topic not found</h1><p><a href="#contents">Browse textbook contents</a></p>';
@@ -21,7 +22,7 @@ function menu(t,current){return `<nav class="topic-menu no-print" aria-label="To
 function glossary(t){return `<details><summary>Chapter key terms</summary><dl>${t.vocabulary.map(([term,meaning])=>`<dt><a href="#glossary/term-${slug(term)}">${e(term)}</a></dt><dd>${e(meaning)}</dd>`).join('')}</dl></details>`;}
 function chapterNavigation(t){const siblings=studentTopics.filter(chapter=>chapter.unit===t.unit),i=siblings.findIndex(chapter=>chapter.id===t.id);return `<nav class="chapter-nav" aria-label="Chapter navigation">${i>0?`<a href="#read/${siblings[i-1].id}">← ${e(siblings[i-1].title)}</a>`:`<a href="#unit/${t.unit}">← Unit ${t.unit} contents</a>`}${siblings[i+1]?`<a href="#read/${siblings[i+1].id}">${e(siblings[i+1].title)} →</a>`:`<a href="#contents">Textbook contents →</a>`}</nav>`;}
 function answer(label,text){return `<details class="answer"><summary>${label}</summary><p>${e(text)}</p></details>`;}
-export function chapterOverview(id){const t=studentTopics.find(t=>t.id===id);if(!t)return missing();return `<article class="lesson chapter-overview">${trail(t)}<p class="eyebrow">UNIT ${t.unit} · CHAPTER OVERVIEW</p><h1>${e(t.title)}</h1><p class="lede">${e(t.intro)}</p><p class="reference">Classroom draft · teacher review pending</p><h2>What you’ll learn</h2><ul>${t.goals.map(g=>`<li>${e(g)}</li>`).join('')}</ul>${practiceStimulus(id,'overview')}${menu(t)}<p><a class="button" href="${url(id,chapterPages(t)[0].key)}">Start the first topic →</a></p><details><summary>Before you begin</summary>${t.prerequisite?`<p><a href="#read/${t.prerequisite}">Revisit the prerequisite chapter</a></p>`:''}<ul>${t.retrieval.map(q=>`<li>${e(q)}</li>`).join('')}</ul></details>${glossary(t)}<p class="no-print"><a href="#read/${id}/full">Read or print the complete chapter</a> · <a href="${url(id,'resources')}">Chapter resources</a></p>${chapterNavigation(t)}</article>`;}
+export function chapterOverview(id){const t=studentTopics.find(t=>t.id===id);if(!t)return missing();return `<article class="lesson chapter-overview">${trail(t)}<p class="eyebrow">UNIT ${t.unit} · CHAPTER OVERVIEW</p><h1>${e(t.title)}</h1><p class="lede">${e(t.intro)}</p><p class="reference">Classroom draft · teacher review pending</p><h2>What you’ll learn</h2><ul>${t.goals.map(g=>`<li>${e(g)}</li>`).join('')}</ul>${chapterLessonLinks(id)}${practiceStimulus(id,'overview')}${menu(t)}<p><a class="button" href="${url(id,chapterPages(t)[0].key)}">Start the first topic →</a></p><details><summary>Before you begin</summary>${t.prerequisite?`<p><a href="#read/${t.prerequisite}">Revisit the prerequisite chapter</a></p>`:''}<ul>${t.retrieval.map(q=>`<li>${e(q)}</li>`).join('')}</ul></details>${glossary(t)}<p class="no-print"><a href="#read/${id}/full">Read or print the complete chapter</a> · <a href="${url(id,'resources')}">Chapter resources</a></p>${chapterNavigation(t)}</article>`;}
 export function topicPage(id,key){const t=studentTopics.find(t=>t.id===id);if(!t)return missing();const pages=chapterPages(t),position=pages.findIndex(p=>p.key===key),page=pages[position];if(!page)return missing();let body='';
  if(page.index!==undefined){body=`<p class="topic-explanation">${e(t.sections[page.index][1])}</p>${practiceStimulus(id,'section'+page.index)}${sectionDiagram(id,page.index)}${topicFigure(id,page.index)}${id==='u1-typography'?typographyTopicSupport(key):''}${learningStrategy(id,page.index)}`;}
  else if(designExperiences[id]?.key===key){body=designExperience(id);}

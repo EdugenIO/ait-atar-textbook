@@ -23,6 +23,7 @@ export const auditAreas=[
 ].map(([unit,area,pages,topics,status,next])=>({unit,area,pages,topics,status,next,sourceYear:unit<3?11:12}));
 
 export const featureReview=[
+ ['Separate student lesson pages','Implemented in edition 0.45','Review the explicit reading selections, task-specific models, 55-minute classroom load and optional strategies using actual student work. Teacher planner controls and assessment libraries remain separate work.'],
  ['Ranked search, section/glossary destinations and show more','Implemented in this batch','Search the authored AIT content, keep all results reachable and avoid duplicate legacy pilot destinations.'],
  ['Skip-link and route focus','Implemented in this batch','Skip to the current main content without routing to a missing page; focus the new heading after navigation.'],
  ['Keyboard scroll regions for tables and examples','Implemented in this batch','Contain wide content and label focusable regions while preserving print output.'],

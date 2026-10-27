@@ -1,8 +1,8 @@
-import {processVariants} from './process-variants.js?v=0.44';
-import {unit4ProjectPlacement} from './unit4-project-chapter.js?v=0.44';
-import {unit4LearningPlacement} from './unit4-learning-chapter.js?v=0.44';
-import {unit4ImpactsPlacement} from './unit4-impacts-chapter.js?v=0.44';
-import {unit4NetworkPlacement} from './unit4-network-chapter.js?v=0.44';
+import {processVariants} from './process-variants.js?v=0.45';
+import {unit4ProjectPlacement} from './unit4-project-chapter.js?v=0.45';
+import {unit4LearningPlacement} from './unit4-learning-chapter.js?v=0.45';
+import {unit4ImpactsPlacement} from './unit4-impacts-chapter.js?v=0.45';
+import {unit4NetworkPlacement} from './unit4-network-chapter.js?v=0.45';
 export const processImages={
   "computer": {
     "file": "computer-workflow.webp",

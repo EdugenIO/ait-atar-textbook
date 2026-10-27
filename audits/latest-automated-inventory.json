@@ -1,6 +1,6 @@
 {
   "authoredChapters": 24,
-  "inspectedPages": 667,
+  "inspectedPages": 1184,
   "brokenLocalLinks": [],
   "duplicateIds": [],
   "imageTags": 498,
@@ -10,32 +10,32 @@
   "longestChapters": [
     {
       "page": "#read/u4-projects",
-      "words": 3654,
+      "words": 3930,
       "duplicateIds": []
     },
     {
       "page": "#read/u4-impacts",
-      "words": 3581,
-      "duplicateIds": []
-    },
-    {
-      "page": "#read/u4-applications",
-      "words": 3502,
+      "words": 3771,
       "duplicateIds": []
     },
     {
       "page": "#read/u3-applications",
-      "words": 3367,
+      "words": 3634,
+      "duplicateIds": []
+    },
+    {
+      "page": "#read/u4-applications",
+      "words": 3618,
       "duplicateIds": []
     },
     {
       "page": "#read/u2-applications",
-      "words": 3281,
+      "words": 3562,
       "duplicateIds": []
     },
     {
       "page": "#read/u1-hardware",
-      "words": 3242,
+      "words": 3407,
       "duplicateIds": []
     }
   ]

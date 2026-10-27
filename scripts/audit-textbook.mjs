@@ -1,3 +1,4 @@
+import {studentLessons,studentLessonPage,studentLessonIndex} from '../student-lessons.js';
 import {readFile,stat,readdir,mkdir,writeFile} from 'node:fs/promises';
 import {resolve,dirname,relative,extname} from 'node:path';
 import {studentTopics} from '../student-topics.js';
@@ -22,6 +23,8 @@ async function inspect(label,html,base=root){
   for(const m of html.matchAll(/<img\b[^>]*>/g))images.push({page:label,alt:/\balt="[^"]*"/.test(m[0]),dimensions:/\bwidth=/.test(m[0])&&/\bheight=/.test(m[0]),src:/\bsrc="([^"]+)"/.exec(m[0])?.[1]});
 }
 for(const t of studentTopics){await inspect(`#read/${t.id}`,studentPage(t.id));for(const p of chapterPages(t))await inspect(`#topic/${t.id}/${p.key}`,topicPage(t.id,p.key));}
+for(const lesson of studentLessons)await inspect('#learn/'+lesson.id,studentLessonPage(lesson.id));
+for(const unit of [1,2,3,4])await inspect('#learning/'+unit,studentLessonIndex(unit));
 await inspect('#audits',auditHub());
 for(const unit of [1,2,3,4])await inspect(`#teaching/${unit}`,teachingPage(unit));
 for(const lesson of teachingLessons)await inspect(`#session/${lesson.id}`,sessionPage(lesson.id));

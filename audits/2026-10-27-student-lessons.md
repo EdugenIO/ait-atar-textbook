@@ -1,0 +1,27 @@
+# Separate student lesson pages · edition 0.45
+
+The previous `#session/…` pages were teacher outlines linked to broad student chapters. Students now have 256 individual lesson routes (`#learn/U1-W01-L1`) and 256 matching standalone HTML pages, plus unit/week lesson indexes. The 24 chapters remain reference material and link their explicitly mapped lessons. Student contents, unit cards, chapter overviews, full chapters and teacher session plans expose the new pages.
+
+## Content and instructional design
+
+`lesson-sequence.js` explicitly assigns one to three existing chapter sections to every scheduled lesson. It also supplies 256 distinct task-aligned model decisions in the four fictional unit cases. The renderer combines these with chapter introductions/terms, worked reference examples, misconception corrections and related questions. This substantially expands the old task-and-timing outline; it is not a claim that 256 entirely bespoke lessons have been independently written, reviewed or classroom-trialled. Shared scaffolds and some chapter reference questions deliberately recur.
+
+Each lesson includes a specific scheduled task, learning/success checks, the existing 55-minute phase budget, retrieval prompts, substantive selected explanations, a task-specific worked decision, self-explanation, faded reasoning support, comparison/discussion, independent application and an evidence/exit/reflection record. Optional error analysis, supported questions, related/interleaved practice and transfer/challenge sit in a separate disclosure. Support can retain a scaffold or reduce scope; challenge can remove support or vary a relevant condition. Counting strategies is not evidence of learning; teachers should choose the activities and scaffolds that fit the learner and time available.
+
+Rendered pages contain approximately 1,400–1,900 words including optional reference material. This is available content, not a requirement to read/do everything in 55 minutes. Workshop/timed lessons retain their different timing routes. Optional material is substitution/support, not additional required homework. Core printing omits the extension/timing/teacher panels; answer printing reveals the core supported reasoning using the existing print controls.
+
+Students can keep a local blank CSV evidence record; the pages do not collect, grade or store submissions. Practical resources link to existing packs. Classroom and operational limits remain explicit: supplied decisions are models, local previews are not online operation, a proposal is not configuration, and actual observations must not be invented. Formal assessment uses school-approved conditions.
+
+## Structure and publishing
+
+`student-lessons.js` renders the student lesson/index/chapter links. `scripts/export-student-lessons.mjs` emits standalone pages with relative previous/next links, textbook/teacher links, local section anchors, print controls, an index and blank evidence log. `audits/student-lesson-map.json` records the explicit chapter/section selections. The build includes both new runtime modules and copies the standalone directory. New SPA routes support heading links, route focus and the normal bookshelf navigation.
+
+Images are linked through the relevant concept and visual-walkthrough destinations rather than inserting the same chapter process picture on every lesson page. The previous image-diversity checks remain in place.
+
+## Review priorities
+
+Independent teacher review should check each reading/model selection against the precise lesson task, especially integrated revision lessons, OS/platform comparisons and practical workshop sequencing. Existing chapter questions are clearly labelled connected support; they are not all newly authored lesson-specific questions. The current evidence-record and reasoning scaffold should be refined after classroom observation. Future content authoring can add more task-specific worked files, questions and observed examples without changing student URLs or the timetable.
+
+The dedicated regression check verifies all 256 pages and distinct models, valid section selections, 64 lessons per unit, 55-minute budgets, exam separation, unit/chapter/teacher navigation, instructional structures, substantive content depth and generated standalone links. The full suite, resource audit and browser/print verification are required before publishing. These checks establish bounded integrity and behaviour, not SCSA approval, learning gains or complete accessibility conformance.
+
+Release verification: the full automated suite passed, including the existing print-control contracts and loopback response lab. The expanded resource audit inspected 1,184 rendered/static pages (including alternate views of the same lessons) and found no broken local links, duplicate IDs or missing image alternatives/dimensions. The chapter image-diversity guard still passes. Browser checks observed 64 Unit 1 lesson links, navigation into the first student lesson with focus on its heading, a jump to the guided section with focus on that section, keyboard opening of its reasoning disclosure, opening the standalone page and following its relative next-lesson link. The standalone page and final Unit 4 SPA lesson had no page-wide overflow at 390 px; the final lesson preserved the exam-reserve boundary. Viewport overrides were reset. Native print output, second-browser and classroom teaching trials remain unverified.

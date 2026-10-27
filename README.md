@@ -1,6 +1,6 @@
 # Applied Information Technology ATAR — Classroom Textbook
 
-## Current status — edition 0.44, 27 October 2026
+## Current status — edition 0.45, 27 October 2026
 
 All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, thirteen practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current syllabus/functionality audit](audits/2026-10-27-syllabus-and-functionality-audit.md), the browser `#audits` hub and [remaining work](audits/remaining-work-2026-10-18.md).
 
@@ -174,3 +174,8 @@ Two new packs supply actual image/audio/video/animation exports, a disposable ZI
 ## Image diversity · edition 0.44
 
 The chapter process images now use 24 distinct compositions rather than seven reused illustrations. Seventeen original SVG teaching illustrations replace cross-chapter reuse, while the seven original WebPs each remain in one matching chapter. Alternative text, concept-specific explanations, provenance, offline worksheets and a file/hash uniqueness check are included. Repeated views of the same chapter intentionally retain the same teaching model.
+
+
+## Student lesson pages · edition 0.45
+
+All 256 scheduled lessons have a student route (`#learn/U1-W01-L1`) and standalone HTML page in `student-lessons/`. Explicit selections connect each lesson to chapter explanations, with 256 distinct model decisions, supported reasoning, independent evidence tasks and optional error analysis/related practice/transfer. Unit/week indexes and chapter links expose the sequence. These expanded classroom drafts combine existing chapter material with new task-specific models and common instructional scaffolds; they are not 256 independently reviewed or fully trialled lessons. See [delivery scope and review priorities](audits/2026-10-27-student-lessons.md).

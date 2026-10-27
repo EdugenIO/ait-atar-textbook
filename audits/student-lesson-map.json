@@ -1,0 +1,3466 @@
+{
+  "edition": "0.45",
+  "scope": "Editorial lesson-to-chapter section selections, not independent SCSA approval.",
+  "lessons": [
+    {
+      "id": "U1-W01-L1",
+      "unit": 1,
+      "week": 1,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-brief",
+      "sectionIndices": [
+        0,
+        1
+      ],
+      "route": "#learn/U1-W01-L1",
+      "standalone": "student-lessons/U1-W01-L1.html"
+    },
+    {
+      "id": "U1-W01-L2",
+      "unit": 1,
+      "week": 1,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-brief",
+      "sectionIndices": [
+        1,
+        3
+      ],
+      "route": "#learn/U1-W01-L2",
+      "standalone": "student-lessons/U1-W01-L2.html"
+    },
+    {
+      "id": "U1-W01-L3",
+      "unit": 1,
+      "week": 1,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-brief",
+      "sectionIndices": [
+        2,
+        3
+      ],
+      "route": "#learn/U1-W01-L3",
+      "standalone": "student-lessons/U1-W01-L3.html"
+    },
+    {
+      "id": "U1-W01-L4",
+      "unit": 1,
+      "week": 1,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-brief",
+      "sectionIndices": [
+        0,
+        3
+      ],
+      "route": "#learn/U1-W01-L4",
+      "standalone": "student-lessons/U1-W01-L4.html"
+    },
+    {
+      "id": "U1-W02-L1",
+      "unit": 1,
+      "week": 2,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-elements",
+      "sectionIndices": [
+        0,
+        1
+      ],
+      "route": "#learn/U1-W02-L1",
+      "standalone": "student-lessons/U1-W02-L1.html"
+    },
+    {
+      "id": "U1-W02-L2",
+      "unit": 1,
+      "week": 2,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-elements",
+      "sectionIndices": [
+        2,
+        3
+      ],
+      "route": "#learn/U1-W02-L2",
+      "standalone": "student-lessons/U1-W02-L2.html"
+    },
+    {
+      "id": "U1-W02-L3",
+      "unit": 1,
+      "week": 2,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-elements",
+      "sectionIndices": [
+        1,
+        2
+      ],
+      "route": "#learn/U1-W02-L3",
+      "standalone": "student-lessons/U1-W02-L3.html"
+    },
+    {
+      "id": "U1-W02-L4",
+      "unit": 1,
+      "week": 2,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-elements",
+      "sectionIndices": [
+        0,
+        3
+      ],
+      "route": "#learn/U1-W02-L4",
+      "standalone": "student-lessons/U1-W02-L4.html"
+    },
+    {
+      "id": "U1-W03-L1",
+      "unit": 1,
+      "week": 3,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-principles",
+      "sectionIndices": [
+        0,
+        1
+      ],
+      "route": "#learn/U1-W03-L1",
+      "standalone": "student-lessons/U1-W03-L1.html"
+    },
+    {
+      "id": "U1-W03-L2",
+      "unit": 1,
+      "week": 3,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-principles",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U1-W03-L2",
+      "standalone": "student-lessons/U1-W03-L2.html"
+    },
+    {
+      "id": "U1-W03-L3",
+      "unit": 1,
+      "week": 3,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-principles",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U1-W03-L3",
+      "standalone": "student-lessons/U1-W03-L3.html"
+    },
+    {
+      "id": "U1-W03-L4",
+      "unit": 1,
+      "week": 3,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-principles",
+      "sectionIndices": [
+        1,
+        2,
+        3
+      ],
+      "route": "#learn/U1-W03-L4",
+      "standalone": "student-lessons/U1-W03-L4.html"
+    },
+    {
+      "id": "U1-W04-L1",
+      "unit": 1,
+      "week": 4,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-typography",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U1-W04-L1",
+      "standalone": "student-lessons/U1-W04-L1.html"
+    },
+    {
+      "id": "U1-W04-L2",
+      "unit": 1,
+      "week": 4,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-typography",
+      "sectionIndices": [
+        1
+      ],
+      "route": "#learn/U1-W04-L2",
+      "standalone": "student-lessons/U1-W04-L2.html"
+    },
+    {
+      "id": "U1-W04-L3",
+      "unit": 1,
+      "week": 4,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-typography",
+      "sectionIndices": [
+        2,
+        3
+      ],
+      "route": "#learn/U1-W04-L3",
+      "standalone": "student-lessons/U1-W04-L3.html"
+    },
+    {
+      "id": "U1-W04-L4",
+      "unit": 1,
+      "week": 4,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-typography",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U1-W04-L4",
+      "standalone": "student-lessons/U1-W04-L4.html"
+    },
+    {
+      "id": "U1-W05-L1",
+      "unit": 1,
+      "week": 5,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-hardware",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U1-W05-L1",
+      "standalone": "student-lessons/U1-W05-L1.html"
+    },
+    {
+      "id": "U1-W05-L2",
+      "unit": 1,
+      "week": 5,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-hardware",
+      "sectionIndices": [
+        1,
+        2
+      ],
+      "route": "#learn/U1-W05-L2",
+      "standalone": "student-lessons/U1-W05-L2.html"
+    },
+    {
+      "id": "U1-W05-L3",
+      "unit": 1,
+      "week": 5,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-hardware",
+      "sectionIndices": [
+        2,
+        3
+      ],
+      "route": "#learn/U1-W05-L3",
+      "standalone": "student-lessons/U1-W05-L3.html"
+    },
+    {
+      "id": "U1-W05-L4",
+      "unit": 1,
+      "week": 5,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-hardware",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U1-W05-L4",
+      "standalone": "student-lessons/U1-W05-L4.html"
+    },
+    {
+      "id": "U1-W06-L1",
+      "unit": 1,
+      "week": 6,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-hardware",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U1-W06-L1",
+      "standalone": "student-lessons/U1-W06-L1.html"
+    },
+    {
+      "id": "U1-W06-L2",
+      "unit": 1,
+      "week": 6,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-hardware",
+      "sectionIndices": [
+        5,
+        6
+      ],
+      "route": "#learn/U1-W06-L2",
+      "standalone": "student-lessons/U1-W06-L2.html"
+    },
+    {
+      "id": "U1-W06-L3",
+      "unit": 1,
+      "week": 6,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-hardware",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U1-W06-L3",
+      "standalone": "student-lessons/U1-W06-L3.html"
+    },
+    {
+      "id": "U1-W06-L4",
+      "unit": 1,
+      "week": 6,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-hardware",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U1-W06-L4",
+      "standalone": "student-lessons/U1-W06-L4.html"
+    },
+    {
+      "id": "U1-W07-L1",
+      "unit": 1,
+      "week": 7,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U1-W07-L1",
+      "standalone": "student-lessons/U1-W07-L1.html"
+    },
+    {
+      "id": "U1-W07-L2",
+      "unit": 1,
+      "week": 7,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        1
+      ],
+      "route": "#learn/U1-W07-L2",
+      "standalone": "student-lessons/U1-W07-L2.html"
+    },
+    {
+      "id": "U1-W07-L3",
+      "unit": 1,
+      "week": 7,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U1-W07-L3",
+      "standalone": "student-lessons/U1-W07-L3.html"
+    },
+    {
+      "id": "U1-W07-L4",
+      "unit": 1,
+      "week": 7,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        0,
+        1,
+        2
+      ],
+      "route": "#learn/U1-W07-L4",
+      "standalone": "student-lessons/U1-W07-L4.html"
+    },
+    {
+      "id": "U1-W08-L1",
+      "unit": 1,
+      "week": 8,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U1-W08-L1",
+      "standalone": "student-lessons/U1-W08-L1.html"
+    },
+    {
+      "id": "U1-W08-L2",
+      "unit": 1,
+      "week": 8,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U1-W08-L2",
+      "standalone": "student-lessons/U1-W08-L2.html"
+    },
+    {
+      "id": "U1-W08-L3",
+      "unit": 1,
+      "week": 8,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U1-W08-L3",
+      "standalone": "student-lessons/U1-W08-L3.html"
+    },
+    {
+      "id": "U1-W08-L4",
+      "unit": 1,
+      "week": 8,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        3,
+        4
+      ],
+      "route": "#learn/U1-W08-L4",
+      "standalone": "student-lessons/U1-W08-L4.html"
+    },
+    {
+      "id": "U1-W09-L1",
+      "unit": 1,
+      "week": 9,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U1-W09-L1",
+      "standalone": "student-lessons/U1-W09-L1.html"
+    },
+    {
+      "id": "U1-W09-L2",
+      "unit": 1,
+      "week": 9,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U1-W09-L2",
+      "standalone": "student-lessons/U1-W09-L2.html"
+    },
+    {
+      "id": "U1-W09-L3",
+      "unit": 1,
+      "week": 9,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U1-W09-L3",
+      "standalone": "student-lessons/U1-W09-L3.html"
+    },
+    {
+      "id": "U1-W09-L4",
+      "unit": 1,
+      "week": 9,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        5,
+        6,
+        7
+      ],
+      "route": "#learn/U1-W09-L4",
+      "standalone": "student-lessons/U1-W09-L4.html"
+    },
+    {
+      "id": "U1-W10-L1",
+      "unit": 1,
+      "week": 10,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U1-W10-L1",
+      "standalone": "student-lessons/U1-W10-L1.html"
+    },
+    {
+      "id": "U1-W10-L2",
+      "unit": 1,
+      "week": 10,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U1-W10-L2",
+      "standalone": "student-lessons/U1-W10-L2.html"
+    },
+    {
+      "id": "U1-W10-L3",
+      "unit": 1,
+      "week": 10,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        3,
+        7
+      ],
+      "route": "#learn/U1-W10-L3",
+      "standalone": "student-lessons/U1-W10-L3.html"
+    },
+    {
+      "id": "U1-W10-L4",
+      "unit": 1,
+      "week": 10,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        5,
+        6,
+        7
+      ],
+      "route": "#learn/U1-W10-L4",
+      "standalone": "student-lessons/U1-W10-L4.html"
+    },
+    {
+      "id": "U1-W11-L1",
+      "unit": 1,
+      "week": 11,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-impacts",
+      "sectionIndices": [
+        1,
+        2
+      ],
+      "route": "#learn/U1-W11-L1",
+      "standalone": "student-lessons/U1-W11-L1.html"
+    },
+    {
+      "id": "U1-W11-L2",
+      "unit": 1,
+      "week": 11,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-impacts",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U1-W11-L2",
+      "standalone": "student-lessons/U1-W11-L2.html"
+    },
+    {
+      "id": "U1-W11-L3",
+      "unit": 1,
+      "week": 11,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-impacts",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U1-W11-L3",
+      "standalone": "student-lessons/U1-W11-L3.html"
+    },
+    {
+      "id": "U1-W11-L4",
+      "unit": 1,
+      "week": 11,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-impacts",
+      "sectionIndices": [
+        0,
+        3
+      ],
+      "route": "#learn/U1-W11-L4",
+      "standalone": "student-lessons/U1-W11-L4.html"
+    },
+    {
+      "id": "U1-W12-L1",
+      "unit": 1,
+      "week": 12,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-impacts",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U1-W12-L1",
+      "standalone": "student-lessons/U1-W12-L1.html"
+    },
+    {
+      "id": "U1-W12-L2",
+      "unit": 1,
+      "week": 12,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-impacts",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U1-W12-L2",
+      "standalone": "student-lessons/U1-W12-L2.html"
+    },
+    {
+      "id": "U1-W12-L3",
+      "unit": 1,
+      "week": 12,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-impacts",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U1-W12-L3",
+      "standalone": "student-lessons/U1-W12-L3.html"
+    },
+    {
+      "id": "U1-W12-L4",
+      "unit": 1,
+      "week": 12,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-impacts",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U1-W12-L4",
+      "standalone": "student-lessons/U1-W12-L4.html"
+    },
+    {
+      "id": "U1-W13-L1",
+      "unit": 1,
+      "week": 13,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-projects",
+      "sectionIndices": [
+        0,
+        1
+      ],
+      "route": "#learn/U1-W13-L1",
+      "standalone": "student-lessons/U1-W13-L1.html"
+    },
+    {
+      "id": "U1-W13-L2",
+      "unit": 1,
+      "week": 13,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-projects",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U1-W13-L2",
+      "standalone": "student-lessons/U1-W13-L2.html"
+    },
+    {
+      "id": "U1-W13-L3",
+      "unit": 1,
+      "week": 13,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-projects",
+      "sectionIndices": [
+        2,
+        4
+      ],
+      "route": "#learn/U1-W13-L3",
+      "standalone": "student-lessons/U1-W13-L3.html"
+    },
+    {
+      "id": "U1-W13-L4",
+      "unit": 1,
+      "week": 13,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-projects",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U1-W13-L4",
+      "standalone": "student-lessons/U1-W13-L4.html"
+    },
+    {
+      "id": "U1-W14-L1",
+      "unit": 1,
+      "week": 14,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-projects",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U1-W14-L1",
+      "standalone": "student-lessons/U1-W14-L1.html"
+    },
+    {
+      "id": "U1-W14-L2",
+      "unit": 1,
+      "week": 14,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        0,
+        1,
+        2
+      ],
+      "route": "#learn/U1-W14-L2",
+      "standalone": "student-lessons/U1-W14-L2.html"
+    },
+    {
+      "id": "U1-W14-L3",
+      "unit": 1,
+      "week": 14,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-projects",
+      "sectionIndices": [
+        5,
+        6
+      ],
+      "route": "#learn/U1-W14-L3",
+      "standalone": "student-lessons/U1-W14-L3.html"
+    },
+    {
+      "id": "U1-W14-L4",
+      "unit": 1,
+      "week": 14,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-projects",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U1-W14-L4",
+      "standalone": "student-lessons/U1-W14-L4.html"
+    },
+    {
+      "id": "U1-W15-L1",
+      "unit": 1,
+      "week": 15,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-projects",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U1-W15-L1",
+      "standalone": "student-lessons/U1-W15-L1.html"
+    },
+    {
+      "id": "U1-W15-L2",
+      "unit": 1,
+      "week": 15,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-typography",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U1-W15-L2",
+      "standalone": "student-lessons/U1-W15-L2.html"
+    },
+    {
+      "id": "U1-W15-L3",
+      "unit": 1,
+      "week": 15,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-hardware",
+      "sectionIndices": [
+        0,
+        7
+      ],
+      "route": "#learn/U1-W15-L3",
+      "standalone": "student-lessons/U1-W15-L3.html"
+    },
+    {
+      "id": "U1-W15-L4",
+      "unit": 1,
+      "week": 15,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-impacts",
+      "sectionIndices": [
+        0,
+        3
+      ],
+      "route": "#learn/U1-W15-L4",
+      "standalone": "student-lessons/U1-W15-L4.html"
+    },
+    {
+      "id": "U1-W16-L1",
+      "unit": 1,
+      "week": 16,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u1-principles",
+      "sectionIndices": [
+        1,
+        2,
+        3
+      ],
+      "route": "#learn/U1-W16-L1",
+      "standalone": "student-lessons/U1-W16-L1.html"
+    },
+    {
+      "id": "U1-W16-L2",
+      "unit": 1,
+      "week": 16,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u1-applications",
+      "sectionIndices": [
+        0,
+        2,
+        7
+      ],
+      "route": "#learn/U1-W16-L2",
+      "standalone": "student-lessons/U1-W16-L2.html"
+    },
+    {
+      "id": "U1-W16-L3",
+      "unit": 1,
+      "week": 16,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u1-projects",
+      "sectionIndices": [
+        0,
+        1,
+        6
+      ],
+      "route": "#learn/U1-W16-L3",
+      "standalone": "student-lessons/U1-W16-L3.html"
+    },
+    {
+      "id": "U1-W16-L4",
+      "unit": 1,
+      "week": 16,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u1-brief",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U1-W16-L4",
+      "standalone": "student-lessons/U1-W16-L4.html"
+    },
+    {
+      "id": "U2-W01-L1",
+      "unit": 2,
+      "week": 1,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-projects",
+      "sectionIndices": [
+        0,
+        1
+      ],
+      "route": "#learn/U2-W01-L1",
+      "standalone": "student-lessons/U2-W01-L1.html"
+    },
+    {
+      "id": "U2-W01-L2",
+      "unit": 2,
+      "week": 1,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-projects",
+      "sectionIndices": [
+        1,
+        3
+      ],
+      "route": "#learn/U2-W01-L2",
+      "standalone": "student-lessons/U2-W01-L2.html"
+    },
+    {
+      "id": "U2-W01-L3",
+      "unit": 2,
+      "week": 1,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-projects",
+      "sectionIndices": [
+        2,
+        4
+      ],
+      "route": "#learn/U2-W01-L3",
+      "standalone": "student-lessons/U2-W01-L3.html"
+    },
+    {
+      "id": "U2-W01-L4",
+      "unit": 2,
+      "week": 1,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-projects",
+      "sectionIndices": [
+        6,
+        7
+      ],
+      "route": "#learn/U2-W01-L4",
+      "standalone": "student-lessons/U2-W01-L4.html"
+    },
+    {
+      "id": "U2-W02-L1",
+      "unit": 2,
+      "week": 2,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-data",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U2-W02-L1",
+      "standalone": "student-lessons/U2-W02-L1.html"
+    },
+    {
+      "id": "U2-W02-L2",
+      "unit": 2,
+      "week": 2,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-data",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U2-W02-L2",
+      "standalone": "student-lessons/U2-W02-L2.html"
+    },
+    {
+      "id": "U2-W02-L3",
+      "unit": 2,
+      "week": 2,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-data",
+      "sectionIndices": [
+        1
+      ],
+      "route": "#learn/U2-W02-L3",
+      "standalone": "student-lessons/U2-W02-L3.html"
+    },
+    {
+      "id": "U2-W02-L4",
+      "unit": 2,
+      "week": 2,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-data",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U2-W02-L4",
+      "standalone": "student-lessons/U2-W02-L4.html"
+    },
+    {
+      "id": "U2-W03-L1",
+      "unit": 2,
+      "week": 3,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-data",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U2-W03-L1",
+      "standalone": "student-lessons/U2-W03-L1.html"
+    },
+    {
+      "id": "U2-W03-L2",
+      "unit": 2,
+      "week": 3,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-data",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U2-W03-L2",
+      "standalone": "student-lessons/U2-W03-L2.html"
+    },
+    {
+      "id": "U2-W03-L3",
+      "unit": 2,
+      "week": 3,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-data",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U2-W03-L3",
+      "standalone": "student-lessons/U2-W03-L3.html"
+    },
+    {
+      "id": "U2-W03-L4",
+      "unit": 2,
+      "week": 3,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-data",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U2-W03-L4",
+      "standalone": "student-lessons/U2-W03-L4.html"
+    },
+    {
+      "id": "U2-W04-L1",
+      "unit": 2,
+      "week": 4,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-data",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U2-W04-L1",
+      "standalone": "student-lessons/U2-W04-L1.html"
+    },
+    {
+      "id": "U2-W04-L2",
+      "unit": 2,
+      "week": 4,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-data",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U2-W04-L2",
+      "standalone": "student-lessons/U2-W04-L2.html"
+    },
+    {
+      "id": "U2-W04-L3",
+      "unit": 2,
+      "week": 4,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-data",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U2-W04-L3",
+      "standalone": "student-lessons/U2-W04-L3.html"
+    },
+    {
+      "id": "U2-W04-L4",
+      "unit": 2,
+      "week": 4,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-data",
+      "sectionIndices": [
+        5,
+        6
+      ],
+      "route": "#learn/U2-W04-L4",
+      "standalone": "student-lessons/U2-W04-L4.html"
+    },
+    {
+      "id": "U2-W05-L1",
+      "unit": 2,
+      "week": 5,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-networks",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U2-W05-L1",
+      "standalone": "student-lessons/U2-W05-L1.html"
+    },
+    {
+      "id": "U2-W05-L2",
+      "unit": 2,
+      "week": 5,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-networks",
+      "sectionIndices": [
+        1
+      ],
+      "route": "#learn/U2-W05-L2",
+      "standalone": "student-lessons/U2-W05-L2.html"
+    },
+    {
+      "id": "U2-W05-L3",
+      "unit": 2,
+      "week": 5,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-networks",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U2-W05-L3",
+      "standalone": "student-lessons/U2-W05-L3.html"
+    },
+    {
+      "id": "U2-W05-L4",
+      "unit": 2,
+      "week": 5,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-networks",
+      "sectionIndices": [
+        1,
+        2
+      ],
+      "route": "#learn/U2-W05-L4",
+      "standalone": "student-lessons/U2-W05-L4.html"
+    },
+    {
+      "id": "U2-W06-L1",
+      "unit": 2,
+      "week": 6,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-networks",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U2-W06-L1",
+      "standalone": "student-lessons/U2-W06-L1.html"
+    },
+    {
+      "id": "U2-W06-L2",
+      "unit": 2,
+      "week": 6,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-networks",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U2-W06-L2",
+      "standalone": "student-lessons/U2-W06-L2.html"
+    },
+    {
+      "id": "U2-W06-L3",
+      "unit": 2,
+      "week": 6,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-networks",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U2-W06-L3",
+      "standalone": "student-lessons/U2-W06-L3.html"
+    },
+    {
+      "id": "U2-W06-L4",
+      "unit": 2,
+      "week": 6,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-networks",
+      "sectionIndices": [
+        4,
+        5
+      ],
+      "route": "#learn/U2-W06-L4",
+      "standalone": "student-lessons/U2-W06-L4.html"
+    },
+    {
+      "id": "U2-W07-L1",
+      "unit": 2,
+      "week": 7,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-networks",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U2-W07-L1",
+      "standalone": "student-lessons/U2-W07-L1.html"
+    },
+    {
+      "id": "U2-W07-L2",
+      "unit": 2,
+      "week": 7,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-networks",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U2-W07-L2",
+      "standalone": "student-lessons/U2-W07-L2.html"
+    },
+    {
+      "id": "U2-W07-L3",
+      "unit": 2,
+      "week": 7,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-networks",
+      "sectionIndices": [
+        3,
+        5
+      ],
+      "route": "#learn/U2-W07-L3",
+      "standalone": "student-lessons/U2-W07-L3.html"
+    },
+    {
+      "id": "U2-W07-L4",
+      "unit": 2,
+      "week": 7,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-networks",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U2-W07-L4",
+      "standalone": "student-lessons/U2-W07-L4.html"
+    },
+    {
+      "id": "U2-W08-L1",
+      "unit": 2,
+      "week": 8,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-impacts",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U2-W08-L1",
+      "standalone": "student-lessons/U2-W08-L1.html"
+    },
+    {
+      "id": "U2-W08-L2",
+      "unit": 2,
+      "week": 8,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-impacts",
+      "sectionIndices": [
+        1
+      ],
+      "route": "#learn/U2-W08-L2",
+      "standalone": "student-lessons/U2-W08-L2.html"
+    },
+    {
+      "id": "U2-W08-L3",
+      "unit": 2,
+      "week": 8,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-impacts",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U2-W08-L3",
+      "standalone": "student-lessons/U2-W08-L3.html"
+    },
+    {
+      "id": "U2-W08-L4",
+      "unit": 2,
+      "week": 8,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-impacts",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U2-W08-L4",
+      "standalone": "student-lessons/U2-W08-L4.html"
+    },
+    {
+      "id": "U2-W09-L1",
+      "unit": 2,
+      "week": 9,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-impacts",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U2-W09-L1",
+      "standalone": "student-lessons/U2-W09-L1.html"
+    },
+    {
+      "id": "U2-W09-L2",
+      "unit": 2,
+      "week": 9,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-impacts",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U2-W09-L2",
+      "standalone": "student-lessons/U2-W09-L2.html"
+    },
+    {
+      "id": "U2-W09-L3",
+      "unit": 2,
+      "week": 9,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-impacts",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U2-W09-L3",
+      "standalone": "student-lessons/U2-W09-L3.html"
+    },
+    {
+      "id": "U2-W09-L4",
+      "unit": 2,
+      "week": 9,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-impacts",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U2-W09-L4",
+      "standalone": "student-lessons/U2-W09-L4.html"
+    },
+    {
+      "id": "U2-W10-L1",
+      "unit": 2,
+      "week": 10,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        0,
+        1
+      ],
+      "route": "#learn/U2-W10-L1",
+      "standalone": "student-lessons/U2-W10-L1.html"
+    },
+    {
+      "id": "U2-W10-L2",
+      "unit": 2,
+      "week": 10,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U2-W10-L2",
+      "standalone": "student-lessons/U2-W10-L2.html"
+    },
+    {
+      "id": "U2-W10-L3",
+      "unit": 2,
+      "week": 10,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U2-W10-L3",
+      "standalone": "student-lessons/U2-W10-L3.html"
+    },
+    {
+      "id": "U2-W10-L4",
+      "unit": 2,
+      "week": 10,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        0,
+        3
+      ],
+      "route": "#learn/U2-W10-L4",
+      "standalone": "student-lessons/U2-W10-L4.html"
+    },
+    {
+      "id": "U2-W11-L1",
+      "unit": 2,
+      "week": 11,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U2-W11-L1",
+      "standalone": "student-lessons/U2-W11-L1.html"
+    },
+    {
+      "id": "U2-W11-L2",
+      "unit": 2,
+      "week": 11,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U2-W11-L2",
+      "standalone": "student-lessons/U2-W11-L2.html"
+    },
+    {
+      "id": "U2-W11-L3",
+      "unit": 2,
+      "week": 11,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        0,
+        4,
+        5
+      ],
+      "route": "#learn/U2-W11-L3",
+      "standalone": "student-lessons/U2-W11-L3.html"
+    },
+    {
+      "id": "U2-W11-L4",
+      "unit": 2,
+      "week": 11,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U2-W11-L4",
+      "standalone": "student-lessons/U2-W11-L4.html"
+    },
+    {
+      "id": "U2-W12-L1",
+      "unit": 2,
+      "week": 12,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U2-W12-L1",
+      "standalone": "student-lessons/U2-W12-L1.html"
+    },
+    {
+      "id": "U2-W12-L2",
+      "unit": 2,
+      "week": 12,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U2-W12-L2",
+      "standalone": "student-lessons/U2-W12-L2.html"
+    },
+    {
+      "id": "U2-W12-L3",
+      "unit": 2,
+      "week": 12,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        6,
+        7
+      ],
+      "route": "#learn/U2-W12-L3",
+      "standalone": "student-lessons/U2-W12-L3.html"
+    },
+    {
+      "id": "U2-W12-L4",
+      "unit": 2,
+      "week": 12,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U2-W12-L4",
+      "standalone": "student-lessons/U2-W12-L4.html"
+    },
+    {
+      "id": "U2-W13-L1",
+      "unit": 2,
+      "week": 13,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        8
+      ],
+      "route": "#learn/U2-W13-L1",
+      "standalone": "student-lessons/U2-W13-L1.html"
+    },
+    {
+      "id": "U2-W13-L2",
+      "unit": 2,
+      "week": 13,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        8
+      ],
+      "route": "#learn/U2-W13-L2",
+      "standalone": "student-lessons/U2-W13-L2.html"
+    },
+    {
+      "id": "U2-W13-L3",
+      "unit": 2,
+      "week": 13,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        9
+      ],
+      "route": "#learn/U2-W13-L3",
+      "standalone": "student-lessons/U2-W13-L3.html"
+    },
+    {
+      "id": "U2-W13-L4",
+      "unit": 2,
+      "week": 13,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        9
+      ],
+      "route": "#learn/U2-W13-L4",
+      "standalone": "student-lessons/U2-W13-L4.html"
+    },
+    {
+      "id": "U2-W14-L1",
+      "unit": 2,
+      "week": 14,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-projects",
+      "sectionIndices": [
+        1,
+        2,
+        4
+      ],
+      "route": "#learn/U2-W14-L1",
+      "standalone": "student-lessons/U2-W14-L1.html"
+    },
+    {
+      "id": "U2-W14-L2",
+      "unit": 2,
+      "week": 14,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        0,
+        7
+      ],
+      "route": "#learn/U2-W14-L2",
+      "standalone": "student-lessons/U2-W14-L2.html"
+    },
+    {
+      "id": "U2-W14-L3",
+      "unit": 2,
+      "week": 14,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-projects",
+      "sectionIndices": [
+        5,
+        6
+      ],
+      "route": "#learn/U2-W14-L3",
+      "standalone": "student-lessons/U2-W14-L3.html"
+    },
+    {
+      "id": "U2-W14-L4",
+      "unit": 2,
+      "week": 14,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-projects",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U2-W14-L4",
+      "standalone": "student-lessons/U2-W14-L4.html"
+    },
+    {
+      "id": "U2-W15-L1",
+      "unit": 2,
+      "week": 15,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-projects",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U2-W15-L1",
+      "standalone": "student-lessons/U2-W15-L1.html"
+    },
+    {
+      "id": "U2-W15-L2",
+      "unit": 2,
+      "week": 15,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-networks",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U2-W15-L2",
+      "standalone": "student-lessons/U2-W15-L2.html"
+    },
+    {
+      "id": "U2-W15-L3",
+      "unit": 2,
+      "week": 15,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-impacts",
+      "sectionIndices": [
+        0,
+        3,
+        4
+      ],
+      "route": "#learn/U2-W15-L3",
+      "standalone": "student-lessons/U2-W15-L3.html"
+    },
+    {
+      "id": "U2-W15-L4",
+      "unit": 2,
+      "week": 15,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-impacts",
+      "sectionIndices": [
+        1,
+        2
+      ],
+      "route": "#learn/U2-W15-L4",
+      "standalone": "student-lessons/U2-W15-L4.html"
+    },
+    {
+      "id": "U2-W16-L1",
+      "unit": 2,
+      "week": 16,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u2-data",
+      "sectionIndices": [
+        0,
+        4,
+        5
+      ],
+      "route": "#learn/U2-W16-L1",
+      "standalone": "student-lessons/U2-W16-L1.html"
+    },
+    {
+      "id": "U2-W16-L2",
+      "unit": 2,
+      "week": 16,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u2-applications",
+      "sectionIndices": [
+        3,
+        5,
+        8
+      ],
+      "route": "#learn/U2-W16-L2",
+      "standalone": "student-lessons/U2-W16-L2.html"
+    },
+    {
+      "id": "U2-W16-L3",
+      "unit": 2,
+      "week": 16,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u2-projects",
+      "sectionIndices": [
+        1,
+        6,
+        7
+      ],
+      "route": "#learn/U2-W16-L3",
+      "standalone": "student-lessons/U2-W16-L3.html"
+    },
+    {
+      "id": "U2-W16-L4",
+      "unit": 2,
+      "week": 16,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u2-projects",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U2-W16-L4",
+      "standalone": "student-lessons/U2-W16-L4.html"
+    },
+    {
+      "id": "U3-W01-L1",
+      "unit": 3,
+      "week": 1,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        0,
+        1
+      ],
+      "route": "#learn/U3-W01-L1",
+      "standalone": "student-lessons/U3-W01-L1.html"
+    },
+    {
+      "id": "U3-W01-L2",
+      "unit": 3,
+      "week": 1,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U3-W01-L2",
+      "standalone": "student-lessons/U3-W01-L2.html"
+    },
+    {
+      "id": "U3-W01-L3",
+      "unit": 3,
+      "week": 1,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        0,
+        5
+      ],
+      "route": "#learn/U3-W01-L3",
+      "standalone": "student-lessons/U3-W01-L3.html"
+    },
+    {
+      "id": "U3-W01-L4",
+      "unit": 3,
+      "week": 1,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U3-W01-L4",
+      "standalone": "student-lessons/U3-W01-L4.html"
+    },
+    {
+      "id": "U3-W02-L1",
+      "unit": 3,
+      "week": 2,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        1
+      ],
+      "route": "#learn/U3-W02-L1",
+      "standalone": "student-lessons/U3-W02-L1.html"
+    },
+    {
+      "id": "U3-W02-L2",
+      "unit": 3,
+      "week": 2,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        1
+      ],
+      "route": "#learn/U3-W02-L2",
+      "standalone": "student-lessons/U3-W02-L2.html"
+    },
+    {
+      "id": "U3-W02-L3",
+      "unit": 3,
+      "week": 2,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        1,
+        6
+      ],
+      "route": "#learn/U3-W02-L3",
+      "standalone": "student-lessons/U3-W02-L3.html"
+    },
+    {
+      "id": "U3-W02-L4",
+      "unit": 3,
+      "week": 2,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U3-W02-L4",
+      "standalone": "student-lessons/U3-W02-L4.html"
+    },
+    {
+      "id": "U3-W03-L1",
+      "unit": 3,
+      "week": 3,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U3-W03-L1",
+      "standalone": "student-lessons/U3-W03-L1.html"
+    },
+    {
+      "id": "U3-W03-L2",
+      "unit": 3,
+      "week": 3,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U3-W03-L2",
+      "standalone": "student-lessons/U3-W03-L2.html"
+    },
+    {
+      "id": "U3-W03-L3",
+      "unit": 3,
+      "week": 3,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U3-W03-L3",
+      "standalone": "student-lessons/U3-W03-L3.html"
+    },
+    {
+      "id": "U3-W03-L4",
+      "unit": 3,
+      "week": 3,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        3,
+        6
+      ],
+      "route": "#learn/U3-W03-L4",
+      "standalone": "student-lessons/U3-W03-L4.html"
+    },
+    {
+      "id": "U3-W04-L1",
+      "unit": 3,
+      "week": 4,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        0,
+        3
+      ],
+      "route": "#learn/U3-W04-L1",
+      "standalone": "student-lessons/U3-W04-L1.html"
+    },
+    {
+      "id": "U3-W04-L2",
+      "unit": 3,
+      "week": 4,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U3-W04-L2",
+      "standalone": "student-lessons/U3-W04-L2.html"
+    },
+    {
+      "id": "U3-W04-L3",
+      "unit": 3,
+      "week": 4,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U3-W04-L3",
+      "standalone": "student-lessons/U3-W04-L3.html"
+    },
+    {
+      "id": "U3-W04-L4",
+      "unit": 3,
+      "week": 4,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U3-W04-L4",
+      "standalone": "student-lessons/U3-W04-L4.html"
+    },
+    {
+      "id": "U3-W05-L1",
+      "unit": 3,
+      "week": 5,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-hardware",
+      "sectionIndices": [
+        1
+      ],
+      "route": "#learn/U3-W05-L1",
+      "standalone": "student-lessons/U3-W05-L1.html"
+    },
+    {
+      "id": "U3-W05-L2",
+      "unit": 3,
+      "week": 5,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-hardware",
+      "sectionIndices": [
+        0,
+        1
+      ],
+      "route": "#learn/U3-W05-L2",
+      "standalone": "student-lessons/U3-W05-L2.html"
+    },
+    {
+      "id": "U3-W05-L3",
+      "unit": 3,
+      "week": 5,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-hardware",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U3-W05-L3",
+      "standalone": "student-lessons/U3-W05-L3.html"
+    },
+    {
+      "id": "U3-W05-L4",
+      "unit": 3,
+      "week": 5,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-hardware",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U3-W05-L4",
+      "standalone": "student-lessons/U3-W05-L4.html"
+    },
+    {
+      "id": "U3-W06-L1",
+      "unit": 3,
+      "week": 6,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-hardware",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U3-W06-L1",
+      "standalone": "student-lessons/U3-W06-L1.html"
+    },
+    {
+      "id": "U3-W06-L2",
+      "unit": 3,
+      "week": 6,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-hardware",
+      "sectionIndices": [
+        3,
+        4
+      ],
+      "route": "#learn/U3-W06-L2",
+      "standalone": "student-lessons/U3-W06-L2.html"
+    },
+    {
+      "id": "U3-W06-L3",
+      "unit": 3,
+      "week": 6,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-hardware",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U3-W06-L3",
+      "standalone": "student-lessons/U3-W06-L3.html"
+    },
+    {
+      "id": "U3-W06-L4",
+      "unit": 3,
+      "week": 6,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-hardware",
+      "sectionIndices": [
+        2,
+        3,
+        5
+      ],
+      "route": "#learn/U3-W06-L4",
+      "standalone": "student-lessons/U3-W06-L4.html"
+    },
+    {
+      "id": "U3-W07-L1",
+      "unit": 3,
+      "week": 7,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-impacts",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U3-W07-L1",
+      "standalone": "student-lessons/U3-W07-L1.html"
+    },
+    {
+      "id": "U3-W07-L2",
+      "unit": 3,
+      "week": 7,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-impacts",
+      "sectionIndices": [
+        0,
+        1
+      ],
+      "route": "#learn/U3-W07-L2",
+      "standalone": "student-lessons/U3-W07-L2.html"
+    },
+    {
+      "id": "U3-W07-L3",
+      "unit": 3,
+      "week": 7,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-impacts",
+      "sectionIndices": [
+        2,
+        3
+      ],
+      "route": "#learn/U3-W07-L3",
+      "standalone": "student-lessons/U3-W07-L3.html"
+    },
+    {
+      "id": "U3-W07-L4",
+      "unit": 3,
+      "week": 7,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-impacts",
+      "sectionIndices": [
+        4,
+        5
+      ],
+      "route": "#learn/U3-W07-L4",
+      "standalone": "student-lessons/U3-W07-L4.html"
+    },
+    {
+      "id": "U3-W08-L1",
+      "unit": 3,
+      "week": 8,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-impacts",
+      "sectionIndices": [
+        6,
+        7
+      ],
+      "route": "#learn/U3-W08-L1",
+      "standalone": "student-lessons/U3-W08-L1.html"
+    },
+    {
+      "id": "U3-W08-L2",
+      "unit": 3,
+      "week": 8,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U3-W08-L2",
+      "standalone": "student-lessons/U3-W08-L2.html"
+    },
+    {
+      "id": "U3-W08-L3",
+      "unit": 3,
+      "week": 8,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U3-W08-L3",
+      "standalone": "student-lessons/U3-W08-L3.html"
+    },
+    {
+      "id": "U3-W08-L4",
+      "unit": 3,
+      "week": 8,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        0,
+        6
+      ],
+      "route": "#learn/U3-W08-L4",
+      "standalone": "student-lessons/U3-W08-L4.html"
+    },
+    {
+      "id": "U3-W09-L1",
+      "unit": 3,
+      "week": 9,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        1
+      ],
+      "route": "#learn/U3-W09-L1",
+      "standalone": "student-lessons/U3-W09-L1.html"
+    },
+    {
+      "id": "U3-W09-L2",
+      "unit": 3,
+      "week": 9,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U3-W09-L2",
+      "standalone": "student-lessons/U3-W09-L2.html"
+    },
+    {
+      "id": "U3-W09-L3",
+      "unit": 3,
+      "week": 9,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U3-W09-L3",
+      "standalone": "student-lessons/U3-W09-L3.html"
+    },
+    {
+      "id": "U3-W09-L4",
+      "unit": 3,
+      "week": 9,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U3-W09-L4",
+      "standalone": "student-lessons/U3-W09-L4.html"
+    },
+    {
+      "id": "U3-W10-L1",
+      "unit": 3,
+      "week": 10,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U3-W10-L1",
+      "standalone": "student-lessons/U3-W10-L1.html"
+    },
+    {
+      "id": "U3-W10-L2",
+      "unit": 3,
+      "week": 10,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        4,
+        6
+      ],
+      "route": "#learn/U3-W10-L2",
+      "standalone": "student-lessons/U3-W10-L2.html"
+    },
+    {
+      "id": "U3-W10-L3",
+      "unit": 3,
+      "week": 10,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        4,
+        6
+      ],
+      "route": "#learn/U3-W10-L3",
+      "standalone": "student-lessons/U3-W10-L3.html"
+    },
+    {
+      "id": "U3-W10-L4",
+      "unit": 3,
+      "week": 10,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        6,
+        8
+      ],
+      "route": "#learn/U3-W10-L4",
+      "standalone": "student-lessons/U3-W10-L4.html"
+    },
+    {
+      "id": "U3-W11-L1",
+      "unit": 3,
+      "week": 11,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U3-W11-L1",
+      "standalone": "student-lessons/U3-W11-L1.html"
+    },
+    {
+      "id": "U3-W11-L2",
+      "unit": 3,
+      "week": 11,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U3-W11-L2",
+      "standalone": "student-lessons/U3-W11-L2.html"
+    },
+    {
+      "id": "U3-W11-L3",
+      "unit": 3,
+      "week": 11,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        1,
+        3,
+        7
+      ],
+      "route": "#learn/U3-W11-L3",
+      "standalone": "student-lessons/U3-W11-L3.html"
+    },
+    {
+      "id": "U3-W11-L4",
+      "unit": 3,
+      "week": 11,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        7,
+        8
+      ],
+      "route": "#learn/U3-W11-L4",
+      "standalone": "student-lessons/U3-W11-L4.html"
+    },
+    {
+      "id": "U3-W12-L1",
+      "unit": 3,
+      "week": 12,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        1
+      ],
+      "route": "#learn/U3-W12-L1",
+      "standalone": "student-lessons/U3-W12-L1.html"
+    },
+    {
+      "id": "U3-W12-L2",
+      "unit": 3,
+      "week": 12,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U3-W12-L2",
+      "standalone": "student-lessons/U3-W12-L2.html"
+    },
+    {
+      "id": "U3-W12-L3",
+      "unit": 3,
+      "week": 12,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U3-W12-L3",
+      "standalone": "student-lessons/U3-W12-L3.html"
+    },
+    {
+      "id": "U3-W12-L4",
+      "unit": 3,
+      "week": 12,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U3-W12-L4",
+      "standalone": "student-lessons/U3-W12-L4.html"
+    },
+    {
+      "id": "U3-W13-L1",
+      "unit": 3,
+      "week": 13,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U3-W13-L1",
+      "standalone": "student-lessons/U3-W13-L1.html"
+    },
+    {
+      "id": "U3-W13-L2",
+      "unit": 3,
+      "week": 13,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U3-W13-L2",
+      "standalone": "student-lessons/U3-W13-L2.html"
+    },
+    {
+      "id": "U3-W13-L3",
+      "unit": 3,
+      "week": 13,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U3-W13-L3",
+      "standalone": "student-lessons/U3-W13-L3.html"
+    },
+    {
+      "id": "U3-W13-L4",
+      "unit": 3,
+      "week": 13,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U3-W13-L4",
+      "standalone": "student-lessons/U3-W13-L4.html"
+    },
+    {
+      "id": "U3-W14-L1",
+      "unit": 3,
+      "week": 14,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        3,
+        4
+      ],
+      "route": "#learn/U3-W14-L1",
+      "standalone": "student-lessons/U3-W14-L1.html"
+    },
+    {
+      "id": "U3-W14-L2",
+      "unit": 3,
+      "week": 14,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-applications",
+      "sectionIndices": [
+        4,
+        7
+      ],
+      "route": "#learn/U3-W14-L2",
+      "standalone": "student-lessons/U3-W14-L2.html"
+    },
+    {
+      "id": "U3-W14-L3",
+      "unit": 3,
+      "week": 14,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U3-W14-L3",
+      "standalone": "student-lessons/U3-W14-L3.html"
+    },
+    {
+      "id": "U3-W14-L4",
+      "unit": 3,
+      "week": 14,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U3-W14-L4",
+      "standalone": "student-lessons/U3-W14-L4.html"
+    },
+    {
+      "id": "U3-W15-L1",
+      "unit": 3,
+      "week": 15,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U3-W15-L1",
+      "standalone": "student-lessons/U3-W15-L1.html"
+    },
+    {
+      "id": "U3-W15-L2",
+      "unit": 3,
+      "week": 15,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        1,
+        6
+      ],
+      "route": "#learn/U3-W15-L2",
+      "standalone": "student-lessons/U3-W15-L2.html"
+    },
+    {
+      "id": "U3-W15-L3",
+      "unit": 3,
+      "week": 15,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-hardware",
+      "sectionIndices": [
+        1,
+        3,
+        5
+      ],
+      "route": "#learn/U3-W15-L3",
+      "standalone": "student-lessons/U3-W15-L3.html"
+    },
+    {
+      "id": "U3-W15-L4",
+      "unit": 3,
+      "week": 15,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U3-W15-L4",
+      "standalone": "student-lessons/U3-W15-L4.html"
+    },
+    {
+      "id": "U3-W16-L1",
+      "unit": 3,
+      "week": 16,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u3-design",
+      "sectionIndices": [
+        2,
+        4,
+        5
+      ],
+      "route": "#learn/U3-W16-L1",
+      "standalone": "student-lessons/U3-W16-L1.html"
+    },
+    {
+      "id": "U3-W16-L2",
+      "unit": 3,
+      "week": 16,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u3-impacts",
+      "sectionIndices": [
+        0,
+        6,
+        7
+      ],
+      "route": "#learn/U3-W16-L2",
+      "standalone": "student-lessons/U3-W16-L2.html"
+    },
+    {
+      "id": "U3-W16-L3",
+      "unit": 3,
+      "week": 16,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        0,
+        5,
+        6
+      ],
+      "route": "#learn/U3-W16-L3",
+      "standalone": "student-lessons/U3-W16-L3.html"
+    },
+    {
+      "id": "U3-W16-L4",
+      "unit": 3,
+      "week": 16,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u3-projects",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U3-W16-L4",
+      "standalone": "student-lessons/U3-W16-L4.html"
+    },
+    {
+      "id": "U4-W01-L1",
+      "unit": 4,
+      "week": 1,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-data",
+      "sectionIndices": [
+        0,
+        8
+      ],
+      "route": "#learn/U4-W01-L1",
+      "standalone": "student-lessons/U4-W01-L1.html"
+    },
+    {
+      "id": "U4-W01-L2",
+      "unit": 4,
+      "week": 1,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-web",
+      "sectionIndices": [
+        8
+      ],
+      "route": "#learn/U4-W01-L2",
+      "standalone": "student-lessons/U4-W01-L2.html"
+    },
+    {
+      "id": "U4-W01-L3",
+      "unit": 4,
+      "week": 1,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U4-W01-L3",
+      "standalone": "student-lessons/U4-W01-L3.html"
+    },
+    {
+      "id": "U4-W01-L4",
+      "unit": 4,
+      "week": 1,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        6,
+        7
+      ],
+      "route": "#learn/U4-W01-L4",
+      "standalone": "student-lessons/U4-W01-L4.html"
+    },
+    {
+      "id": "U4-W02-L1",
+      "unit": 4,
+      "week": 2,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-data",
+      "sectionIndices": [
+        0,
+        3
+      ],
+      "route": "#learn/U4-W02-L1",
+      "standalone": "student-lessons/U4-W02-L1.html"
+    },
+    {
+      "id": "U4-W02-L2",
+      "unit": 4,
+      "week": 2,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-data",
+      "sectionIndices": [
+        1
+      ],
+      "route": "#learn/U4-W02-L2",
+      "standalone": "student-lessons/U4-W02-L2.html"
+    },
+    {
+      "id": "U4-W02-L3",
+      "unit": 4,
+      "week": 2,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-data",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U4-W02-L3",
+      "standalone": "student-lessons/U4-W02-L3.html"
+    },
+    {
+      "id": "U4-W02-L4",
+      "unit": 4,
+      "week": 2,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-data",
+      "sectionIndices": [
+        2,
+        8
+      ],
+      "route": "#learn/U4-W02-L4",
+      "standalone": "student-lessons/U4-W02-L4.html"
+    },
+    {
+      "id": "U4-W03-L1",
+      "unit": 4,
+      "week": 3,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-data",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U4-W03-L1",
+      "standalone": "student-lessons/U4-W03-L1.html"
+    },
+    {
+      "id": "U4-W03-L2",
+      "unit": 4,
+      "week": 3,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-data",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U4-W03-L2",
+      "standalone": "student-lessons/U4-W03-L2.html"
+    },
+    {
+      "id": "U4-W03-L3",
+      "unit": 4,
+      "week": 3,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-data",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U4-W03-L3",
+      "standalone": "student-lessons/U4-W03-L3.html"
+    },
+    {
+      "id": "U4-W03-L4",
+      "unit": 4,
+      "week": 3,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-data",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U4-W03-L4",
+      "standalone": "student-lessons/U4-W03-L4.html"
+    },
+    {
+      "id": "U4-W04-L1",
+      "unit": 4,
+      "week": 4,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-web",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U4-W04-L1",
+      "standalone": "student-lessons/U4-W04-L1.html"
+    },
+    {
+      "id": "U4-W04-L2",
+      "unit": 4,
+      "week": 4,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-web",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U4-W04-L2",
+      "standalone": "student-lessons/U4-W04-L2.html"
+    },
+    {
+      "id": "U4-W04-L3",
+      "unit": 4,
+      "week": 4,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-web",
+      "sectionIndices": [
+        1,
+        3
+      ],
+      "route": "#learn/U4-W04-L3",
+      "standalone": "student-lessons/U4-W04-L3.html"
+    },
+    {
+      "id": "U4-W04-L4",
+      "unit": 4,
+      "week": 4,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-web",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U4-W04-L4",
+      "standalone": "student-lessons/U4-W04-L4.html"
+    },
+    {
+      "id": "U4-W05-L1",
+      "unit": 4,
+      "week": 5,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-web",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U4-W05-L1",
+      "standalone": "student-lessons/U4-W05-L1.html"
+    },
+    {
+      "id": "U4-W05-L2",
+      "unit": 4,
+      "week": 5,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-web",
+      "sectionIndices": [
+        1,
+        4
+      ],
+      "route": "#learn/U4-W05-L2",
+      "standalone": "student-lessons/U4-W05-L2.html"
+    },
+    {
+      "id": "U4-W05-L3",
+      "unit": 4,
+      "week": 5,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-web",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U4-W05-L3",
+      "standalone": "student-lessons/U4-W05-L3.html"
+    },
+    {
+      "id": "U4-W05-L4",
+      "unit": 4,
+      "week": 5,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-web",
+      "sectionIndices": [
+        7
+      ],
+      "route": "#learn/U4-W05-L4",
+      "standalone": "student-lessons/U4-W05-L4.html"
+    },
+    {
+      "id": "U4-W06-L1",
+      "unit": 4,
+      "week": 6,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-applications",
+      "sectionIndices": [
+        0,
+        1
+      ],
+      "route": "#learn/U4-W06-L1",
+      "standalone": "student-lessons/U4-W06-L1.html"
+    },
+    {
+      "id": "U4-W06-L2",
+      "unit": 4,
+      "week": 6,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-applications",
+      "sectionIndices": [
+        2,
+        3,
+        4
+      ],
+      "route": "#learn/U4-W06-L2",
+      "standalone": "student-lessons/U4-W06-L2.html"
+    },
+    {
+      "id": "U4-W06-L3",
+      "unit": 4,
+      "week": 6,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-applications",
+      "sectionIndices": [
+        6,
+        7
+      ],
+      "route": "#learn/U4-W06-L3",
+      "standalone": "student-lessons/U4-W06-L3.html"
+    },
+    {
+      "id": "U4-W06-L4",
+      "unit": 4,
+      "week": 6,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-applications",
+      "sectionIndices": [
+        8,
+        9
+      ],
+      "route": "#learn/U4-W06-L4",
+      "standalone": "student-lessons/U4-W06-L4.html"
+    },
+    {
+      "id": "U4-W07-L1",
+      "unit": 4,
+      "week": 7,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-networks",
+      "sectionIndices": [
+        1
+      ],
+      "route": "#learn/U4-W07-L1",
+      "standalone": "student-lessons/U4-W07-L1.html"
+    },
+    {
+      "id": "U4-W07-L2",
+      "unit": 4,
+      "week": 7,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-networks",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U4-W07-L2",
+      "standalone": "student-lessons/U4-W07-L2.html"
+    },
+    {
+      "id": "U4-W07-L3",
+      "unit": 4,
+      "week": 7,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-networks",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U4-W07-L3",
+      "standalone": "student-lessons/U4-W07-L3.html"
+    },
+    {
+      "id": "U4-W07-L4",
+      "unit": 4,
+      "week": 7,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-networks",
+      "sectionIndices": [
+        0,
+        3
+      ],
+      "route": "#learn/U4-W07-L4",
+      "standalone": "student-lessons/U4-W07-L4.html"
+    },
+    {
+      "id": "U4-W08-L1",
+      "unit": 4,
+      "week": 8,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-networks",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U4-W08-L1",
+      "standalone": "student-lessons/U4-W08-L1.html"
+    },
+    {
+      "id": "U4-W08-L2",
+      "unit": 4,
+      "week": 8,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-networks",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U4-W08-L2",
+      "standalone": "student-lessons/U4-W08-L2.html"
+    },
+    {
+      "id": "U4-W08-L3",
+      "unit": 4,
+      "week": 8,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-networks",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U4-W08-L3",
+      "standalone": "student-lessons/U4-W08-L3.html"
+    },
+    {
+      "id": "U4-W08-L4",
+      "unit": 4,
+      "week": 8,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-networks",
+      "sectionIndices": [
+        8
+      ],
+      "route": "#learn/U4-W08-L4",
+      "standalone": "student-lessons/U4-W08-L4.html"
+    },
+    {
+      "id": "U4-W09-L1",
+      "unit": 4,
+      "week": 9,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-impacts",
+      "sectionIndices": [
+        0,
+        1
+      ],
+      "route": "#learn/U4-W09-L1",
+      "standalone": "student-lessons/U4-W09-L1.html"
+    },
+    {
+      "id": "U4-W09-L2",
+      "unit": 4,
+      "week": 9,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-impacts",
+      "sectionIndices": [
+        2
+      ],
+      "route": "#learn/U4-W09-L2",
+      "standalone": "student-lessons/U4-W09-L2.html"
+    },
+    {
+      "id": "U4-W09-L3",
+      "unit": 4,
+      "week": 9,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-impacts",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U4-W09-L3",
+      "standalone": "student-lessons/U4-W09-L3.html"
+    },
+    {
+      "id": "U4-W09-L4",
+      "unit": 4,
+      "week": 9,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-impacts",
+      "sectionIndices": [
+        3
+      ],
+      "route": "#learn/U4-W09-L4",
+      "standalone": "student-lessons/U4-W09-L4.html"
+    },
+    {
+      "id": "U4-W10-L1",
+      "unit": 4,
+      "week": 10,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-impacts",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U4-W10-L1",
+      "standalone": "student-lessons/U4-W10-L1.html"
+    },
+    {
+      "id": "U4-W10-L2",
+      "unit": 4,
+      "week": 10,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-impacts",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U4-W10-L2",
+      "standalone": "student-lessons/U4-W10-L2.html"
+    },
+    {
+      "id": "U4-W10-L3",
+      "unit": 4,
+      "week": 10,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-impacts",
+      "sectionIndices": [
+        6,
+        7
+      ],
+      "route": "#learn/U4-W10-L3",
+      "standalone": "student-lessons/U4-W10-L3.html"
+    },
+    {
+      "id": "U4-W10-L4",
+      "unit": 4,
+      "week": 10,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-impacts",
+      "sectionIndices": [
+        10
+      ],
+      "route": "#learn/U4-W10-L4",
+      "standalone": "student-lessons/U4-W10-L4.html"
+    },
+    {
+      "id": "U4-W11-L1",
+      "unit": 4,
+      "week": 11,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-impacts",
+      "sectionIndices": [
+        8
+      ],
+      "route": "#learn/U4-W11-L1",
+      "standalone": "student-lessons/U4-W11-L1.html"
+    },
+    {
+      "id": "U4-W11-L2",
+      "unit": 4,
+      "week": 11,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U4-W11-L2",
+      "standalone": "student-lessons/U4-W11-L2.html"
+    },
+    {
+      "id": "U4-W11-L3",
+      "unit": 4,
+      "week": 11,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        4
+      ],
+      "route": "#learn/U4-W11-L3",
+      "standalone": "student-lessons/U4-W11-L3.html"
+    },
+    {
+      "id": "U4-W11-L4",
+      "unit": 4,
+      "week": 11,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-impacts",
+      "sectionIndices": [
+        9,
+        11
+      ],
+      "route": "#learn/U4-W11-L4",
+      "standalone": "student-lessons/U4-W11-L4.html"
+    },
+    {
+      "id": "U4-W12-L1",
+      "unit": 4,
+      "week": 12,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        1
+      ],
+      "route": "#learn/U4-W12-L1",
+      "standalone": "student-lessons/U4-W12-L1.html"
+    },
+    {
+      "id": "U4-W12-L2",
+      "unit": 4,
+      "week": 12,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        2,
+        3
+      ],
+      "route": "#learn/U4-W12-L2",
+      "standalone": "student-lessons/U4-W12-L2.html"
+    },
+    {
+      "id": "U4-W12-L3",
+      "unit": 4,
+      "week": 12,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        5
+      ],
+      "route": "#learn/U4-W12-L3",
+      "standalone": "student-lessons/U4-W12-L3.html"
+    },
+    {
+      "id": "U4-W12-L4",
+      "unit": 4,
+      "week": 12,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        4,
+        5
+      ],
+      "route": "#learn/U4-W12-L4",
+      "standalone": "student-lessons/U4-W12-L4.html"
+    },
+    {
+      "id": "U4-W13-L1",
+      "unit": 4,
+      "week": 13,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        0
+      ],
+      "route": "#learn/U4-W13-L1",
+      "standalone": "student-lessons/U4-W13-L1.html"
+    },
+    {
+      "id": "U4-W13-L2",
+      "unit": 4,
+      "week": 13,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        6
+      ],
+      "route": "#learn/U4-W13-L2",
+      "standalone": "student-lessons/U4-W13-L2.html"
+    },
+    {
+      "id": "U4-W13-L3",
+      "unit": 4,
+      "week": 13,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-applications",
+      "sectionIndices": [
+        2,
+        3
+      ],
+      "route": "#learn/U4-W13-L3",
+      "standalone": "student-lessons/U4-W13-L3.html"
+    },
+    {
+      "id": "U4-W13-L4",
+      "unit": 4,
+      "week": 13,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-applications",
+      "sectionIndices": [
+        6,
+        7,
+        9
+      ],
+      "route": "#learn/U4-W13-L4",
+      "standalone": "student-lessons/U4-W13-L4.html"
+    },
+    {
+      "id": "U4-W14-L1",
+      "unit": 4,
+      "week": 14,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-web",
+      "sectionIndices": [
+        6,
+        7
+      ],
+      "route": "#learn/U4-W14-L1",
+      "standalone": "student-lessons/U4-W14-L1.html"
+    },
+    {
+      "id": "U4-W14-L2",
+      "unit": 4,
+      "week": 14,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        7,
+        8
+      ],
+      "route": "#learn/U4-W14-L2",
+      "standalone": "student-lessons/U4-W14-L2.html"
+    },
+    {
+      "id": "U4-W14-L3",
+      "unit": 4,
+      "week": 14,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        7,
+        9
+      ],
+      "route": "#learn/U4-W14-L3",
+      "standalone": "student-lessons/U4-W14-L3.html"
+    },
+    {
+      "id": "U4-W14-L4",
+      "unit": 4,
+      "week": 14,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        9,
+        10
+      ],
+      "route": "#learn/U4-W14-L4",
+      "standalone": "student-lessons/U4-W14-L4.html"
+    },
+    {
+      "id": "U4-W15-L1",
+      "unit": 4,
+      "week": 15,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        0,
+        4
+      ],
+      "route": "#learn/U4-W15-L1",
+      "standalone": "student-lessons/U4-W15-L1.html"
+    },
+    {
+      "id": "U4-W15-L2",
+      "unit": 4,
+      "week": 15,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-networks",
+      "sectionIndices": [
+        4,
+        5,
+        8
+      ],
+      "route": "#learn/U4-W15-L2",
+      "standalone": "student-lessons/U4-W15-L2.html"
+    },
+    {
+      "id": "U4-W15-L3",
+      "unit": 4,
+      "week": 15,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-impacts",
+      "sectionIndices": [
+        1,
+        6,
+        8
+      ],
+      "route": "#learn/U4-W15-L3",
+      "standalone": "student-lessons/U4-W15-L3.html"
+    },
+    {
+      "id": "U4-W15-L4",
+      "unit": 4,
+      "week": 15,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        9,
+        10
+      ],
+      "route": "#learn/U4-W15-L4",
+      "standalone": "student-lessons/U4-W15-L4.html"
+    },
+    {
+      "id": "U4-W16-L1",
+      "unit": 4,
+      "week": 16,
+      "slot": 1,
+      "minutes": 55,
+      "chapter": "u4-data",
+      "sectionIndices": [
+        1,
+        6,
+        7
+      ],
+      "route": "#learn/U4-W16-L1",
+      "standalone": "student-lessons/U4-W16-L1.html"
+    },
+    {
+      "id": "U4-W16-L2",
+      "unit": 4,
+      "week": 16,
+      "slot": 2,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        5,
+        7,
+        9
+      ],
+      "route": "#learn/U4-W16-L2",
+      "standalone": "student-lessons/U4-W16-L2.html"
+    },
+    {
+      "id": "U4-W16-L3",
+      "unit": 4,
+      "week": 16,
+      "slot": 3,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        0,
+        4,
+        6
+      ],
+      "route": "#learn/U4-W16-L3",
+      "standalone": "student-lessons/U4-W16-L3.html"
+    },
+    {
+      "id": "U4-W16-L4",
+      "unit": 4,
+      "week": 16,
+      "slot": 4,
+      "minutes": 55,
+      "chapter": "u4-projects",
+      "sectionIndices": [
+        9,
+        10
+      ],
+      "route": "#learn/U4-W16-L4",
+      "standalone": "student-lessons/U4-W16-L4.html"
+    }
+  ]
+}
