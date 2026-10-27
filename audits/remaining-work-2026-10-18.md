@@ -71,3 +71,6 @@ Unit 1 spreadsheet resource authoring is delivered: editable workbook, exact ver
 
 
 Edition 0.40: Unit 1 individual content reconciliation is authored with 133 source-order rows and targeted teaching bridges. Subject review and learner verification remain open. Next expand Unit 2 using the same evidence contract, then Units 3–4. See [Unit 1 review](2026-10-27-unit1-reconciliation.md).
+
+
+Edition 0.41: Unit 2 reconciliation delivered with 89 rows and eight targeted guides. Units 1–2 now have detailed content maps; Units 3–4 are next. Actual supervised OS utility use, native learner outputs and independent subject review remain open. See [Unit 2 review](2026-10-27-unit2-reconciliation.md).

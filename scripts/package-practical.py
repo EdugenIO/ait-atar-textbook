@@ -27,7 +27,7 @@ def portable_html(source, included_root, destination):
         return match.group(0)
     return re.sub(r'href="([^"]+)"', rewrite, text)
 
-folders = ['media-starter', 'maintenance-lab', 'response-lab', 'animation-multimedia', 'web-standards', 'publication-workflow', 'spreadsheet-lookups', 'production-workflows', 'worked-cases', 'unit1-evidence']
+folders = ['media-starter', 'maintenance-lab', 'response-lab', 'animation-multimedia', 'web-standards', 'publication-workflow', 'spreadsheet-lookups', 'production-workflows', 'worked-cases', 'unit1-evidence', 'unit2-evidence']
 selected = sys.argv[1:] or folders
 assert all(folder in folders for folder in selected), 'Unknown practical pack'
 for folder in selected:

@@ -1,4 +1,4 @@
-import {escapeHtml as e} from './learning-tools.js?v=0.40';
+import {escapeHtml as e} from './learning-tools.js?v=0.41';
 export const designExperiences={
  'u1-brief':{key:'brief-investigation',title:'Investigate a client request'},
  'u1-elements':{key:'elements-studio',title:'Explore tone, colour and scale'},

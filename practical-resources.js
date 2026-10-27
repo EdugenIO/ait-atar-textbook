@@ -1,4 +1,7 @@
 export const practicalResources={
+  "u2-projects": [["Unit 2 requirement-linked worked evidence", "practical-packs/unit2-evidence/project.html"]],
+  "u2-impacts": [["Unit 2 requirement-linked worked evidence", "practical-packs/unit2-evidence/privacy.html"]],
+  "u2-networks": [["Unit 2 requirement-linked worked evidence", "practical-packs/unit2-evidence/lan.html"]],
   "u1-projects": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/planning.html"]],
   "u1-impacts": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/rights.html"]],
   "u1-hardware": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/hardware.html"]],
@@ -10,14 +13,14 @@ export const practicalResources={
   "u4-data": [["Source verifiability, accuracy and currency case", "practical-packs/worked-cases/source-checking.html"]],
   "u3-hardware": [["Dated mobile-device trend: worked comparison", "practical-packs/worked-cases/mobile-trend.html"]],
   "u1-applications": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/formats.html"],["Measured image/audio export workflow", "practical-packs/production-workflows/formats.html"],["Editable spreadsheet lookups, tasks and explained answers", "practical-packs/spreadsheet-lookups/index.html"]],
-  "u2-data": [["File export and restore workflows", "practical-packs/production-workflows/index.html"],
+  "u2-data": [["Unit 2 requirement-linked worked evidence", "practical-packs/unit2-evidence/versions.html"],["File export and restore workflows", "practical-packs/production-workflows/index.html"],
     [
       "Maintenance practice lab",
       "practical-packs/maintenance-lab/index.html"
     ]
   ],
   "u4-web": [["Conflicting sources: five-document worked case", "practical-packs/worked-cases/source-checking.html"],["Web standards implementation pack", "practical-packs/web-standards/index.html"]],
-  "u2-applications": [["Working animation, edited audio and exported media", "practical-packs/production-workflows/index.html"],["Web standards implementation pack", "practical-packs/web-standards/index.html"],
+  "u2-applications": [["Unit 2 requirement-linked worked evidence", "practical-packs/unit2-evidence/web.html"],["Working animation, edited audio and exported media", "practical-packs/production-workflows/index.html"],["Web standards implementation pack", "practical-packs/web-standards/index.html"],
     [
       "Animation starter and reference frames",
       "practical-packs/animation-multimedia/animation.html"

@@ -1,8 +1,8 @@
 # Applied Information Technology ATAR — Classroom Textbook
 
-## Current status — edition 0.40, 27 October 2026
+## Current status — edition 0.41, 27 October 2026
 
-All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, ten practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current syllabus/functionality audit](audits/2026-10-27-syllabus-and-functionality-audit.md), the browser `#audits` hub and [remaining work](audits/remaining-work-2026-10-18.md).
+All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, eleven practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current syllabus/functionality audit](audits/2026-10-27-syllabus-and-functionality-audit.md), the browser `#audits` hub and [remaining work](audits/remaining-work-2026-10-18.md).
 
 The dated edition notes below are historical: statements that an earlier batch was local or unpublished describe that milestone, not today's deployed site.
 
@@ -154,3 +154,8 @@ Two new packs supply actual image/audio/video/animation exports, a disposable ZI
 ## Individual Unit 1 reconciliation · edition 0.40
 
 133 source-order rows (108 leaves, 25 parent contexts) map Unit 1 content to focused explanation, worked evidence and independent application. Ten targeted bridges address weak example coverage. Read [findings and limits](audits/2026-10-27-unit1-reconciliation.md). Units 2–4 still use the broader inventory; no SCSA or learner-performance sign-off is claimed. Regenerate with `python scripts/build-unit1-reconciliation.py`, then rebuild the unit1-evidence archive and run the checks.
+
+
+## Individual Unit 2 reconciliation · edition 0.41
+
+89 source-order rows (73 leaves, 16 parent contexts) map Unit 2 content to explanation, worked models and independent tasks. Eight targeted guides include an annotated LAN model and functional three-page HTML/CSS reference. [Findings and limits](audits/2026-10-27-unit2-reconciliation.md). Actual OS utility use remains an explicit operational gap. Regenerate with `python scripts/build-unit2-reconciliation.py`, package unit2-evidence and run checks.
