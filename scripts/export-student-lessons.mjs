@@ -1,3 +1,4 @@
+import {softwareLicenceComment,reuseFooter} from './reuse-notice.mjs';
 import {mkdir,writeFile} from 'node:fs/promises';
 import {studentLessons,studentLessonPage,studentLessonIndex} from '../student-lessons.js';
 const out='student-lessons';await mkdir(out,{recursive:true});
@@ -9,7 +10,7 @@ function portable(html){return html.replace(/href="([^"]+)"/g,(all,url)=>{
  if(url.startsWith('student-lessons/'))return 'href="'+url.slice('student-lessons/'.length)+'"';
  return 'href="../'+url+'"';
 });}
-const shell=(title,body)=>`<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${title.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))} · AIT ATAR</title><link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="../learning.css"></head><body data-print-mode="student"><a class="skip" href="#lesson-main">Skip to lesson</a><main id="lesson-main" tabindex="-1" class="standalone-student-lesson">${body}</main><script type="module">import {bindPrintControls} from '../learning-tools.js?v=0.45';bindPrintControls();</script></body></html>`;
+const shell=(title,body)=>`<!doctype html>${softwareLicenceComment}<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${title.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))} · AIT ATAR</title><link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="../learning.css"></head><body data-print-mode="student"><a class="skip" href="#lesson-main">Skip to lesson</a><main id="lesson-main" tabindex="-1" class="standalone-student-lesson">${body}${reuseFooter('../')}</main><script type="module">import {bindPrintControls} from '../learning-tools.js?v=0.45';bindPrintControls();</script></body></html>`;
 for(const l of studentLessons)await writeFile(`${out}/${l.id}.html`,shell(l.task,portable(studentLessonPage(l.id))));
 await writeFile(`${out}/index.html`,shell('Student lessons',portable(studentLessonIndex())));
 await writeFile(`${out}/evidence-log.csv`,'\uFEFFlesson_id,requirement,expected_result,tool_and_environment,actual_observation,revision,retest,remaining_limit\n,,,,,,,\n');

@@ -42,6 +42,8 @@ for folder in selected:
                 archive.writestr(relative, portable_html(source, included_root, destination))
             else:
                 archive.write(source, relative)
+        for notice in ['LICENSE.md', 'LICENSE-CODE.txt', 'LICENSE-CONTENT.txt']:
+            archive.write(repository / notice, folder + '/' + notice)
 
 destination = root / 'practical-resources-v1.zip'
 with zipfile.ZipFile(destination, 'w', zipfile.ZIP_DEFLATED) as archive:
@@ -53,9 +55,14 @@ with zipfile.ZipFile(destination, 'w', zipfile.ZIP_DEFLATED) as archive:
             archive.writestr(relative, portable_html(source, root, destination))
         else:
             archive.write(source, relative)
+    for notice in ['LICENSE.md', 'LICENSE-CODE.txt', 'LICENSE-CONTENT.txt']:
+        archive.write(repository / notice, 'practical-packs/' + notice)
 
 for source in sorted(root.glob('*.zip')):
     with zipfile.ZipFile(source) as archive:
         assert archive.testzip() is None, source
         assert all('..' not in Path(name).parts for name in archive.namelist()), source
+        for notice in ['LICENSE.md', 'LICENSE-CODE.txt', 'LICENSE-CONTENT.txt']:
+            expected = ('practical-packs' if source.name == 'practical-resources-v1.zip' else source.stem.removesuffix('-v1')) + '/' + notice
+            assert archive.read(expected) == (repository / notice).read_bytes(), (source, notice)
         print(source.name, len(archive.namelist()), 'files; integrity checked')

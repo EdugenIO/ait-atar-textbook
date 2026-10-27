@@ -1,9 +1,9 @@
-import {studentTopics} from './student-topics.js?v=0.45';
-import {teachingWeeks,teachingLessons} from './teaching.js?v=0.45';
-import {lessonSelections,weeklyLessonModels,unitLessonCases} from './lesson-sequence.js?v=0.45';
-import {sessionPhases} from './planner-ui.js?v=0.45';
-import {practicalResources} from './practical-resources.js?v=0.45';
-import {escapeHtml as e,slug} from './learning-tools.js?v=0.45';
+import {studentTopics} from './student-topics.js?v=0.46';
+import {teachingWeeks,teachingLessons} from './teaching.js?v=0.46';
+import {lessonSelections,weeklyLessonModels,unitLessonCases} from './lesson-sequence.js?v=0.46';
+import {sessionPhases} from './planner-ui.js?v=0.46';
+import {practicalResources} from './practical-resources.js?v=0.46';
+import {escapeHtml as e,slug} from './learning-tools.js?v=0.46';
 export const studentLessons=teachingLessons.map(l=>({...l,...lessonSelections[l.unit][l.week-1][l.slot-1],model:weeklyLessonModels[l.unit][l.week-1][l.slot-1]}));
 const getTopic=l=>studentTopics.find(t=>t.id===l.chapter);
 const answer=(title,body)=>`<details class="answer"><summary>${e(title)}</summary>${body}</details>`;

@@ -425,3 +425,6 @@ Guided reasoning: Use thumbnail alternatives for the poster’s layout. Use a st
 
 Independent comparison: A strong plan links the event details to clear groups, uses consistent type treatments and records a meaningful comparison of alternatives. Its review reports observed tasks, explains a specific revision and states what the limited trial cannot establish. Different layouts can be valid when justified with evidence.
 
+
+
+© 2026 Brett Sullivan and contributors. Original content: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ . Source: https://github.com/EdugenIO/ait-atar-textbook . Preserve attribution and indicate changes; third-party exceptions: https://edugenio.github.io/ait-atar-textbook/licensing.html .

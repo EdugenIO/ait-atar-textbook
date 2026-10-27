@@ -1,0 +1,3 @@
+import {readFile} from 'node:fs/promises';
+export const softwareLicenceComment='<!-- Original software: MIT licence\n'+(await readFile(new URL('../LICENSE-CODE.txt',import.meta.url),'utf8'))+'\n-->\n';
+export const reuseFooter=(prefix='')=>`<p class="reuse-notice">© 2026 Brett Sullivan and contributors. Original textbook content: <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; original software: <a href="${prefix}LICENSE-CODE.txt">MIT</a>. Credit the authors, link to the source/licence and indicate changes. <a href="${prefix}licensing.html">Reuse scope and third-party exceptions</a> · <a href="https://github.com/EdugenIO/ait-atar-textbook">Public source</a>.</p>`;

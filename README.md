@@ -1,6 +1,14 @@
 # Applied Information Technology ATAR — Classroom Textbook
 
-## Current status — edition 0.45, 27 October 2026
+A free, openly licensed classroom resource for WA Applied Information Technology ATAR. Read [the live textbook](https://edugenio.github.io/ait-atar-textbook/) or browse [the student lessons](https://edugenio.github.io/ait-atar-textbook/#learning/1).
+
+## Reuse and contribute
+
+Original textbook content is **CC BY 4.0**. Original software, styles, tests and runnable examples are **MIT-licensed**. Educational prose inside JavaScript/HTML remains CC BY 4.0. See [LICENSE.md](LICENSE.md) for attribution, scope and third-party exceptions; full texts are in [LICENSE-CONTENT.txt](LICENSE-CONTENT.txt) and [LICENSE-CODE.txt](LICENSE-CODE.txt).
+
+Credit Brett Sullivan and contributors, link to the source and licence, indicate content changes and preserve software notices. Official SCSA documents and other third-party materials retain their own terms. The repository is public; fork it to adapt the book, or propose corrections through issues and pull requests. Read [CONTRIBUTING.md](CONTRIBUTING.md) for local commands, review expectations and applicable contribution licences.
+
+## Current status — edition 0.46, 27 October 2026
 
 All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, thirteen practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current syllabus/functionality audit](audits/2026-10-27-syllabus-and-functionality-audit.md), the browser `#audits` hub and [remaining work](audits/remaining-work-2026-10-18.md).
 
