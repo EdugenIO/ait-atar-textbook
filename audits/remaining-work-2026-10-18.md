@@ -77,3 +77,6 @@ Edition 0.41: Unit 2 reconciliation delivered with 89 rows and eight targeted gu
 
 
 Edition 0.42: Unit 3 individual reconciliation is authored: 75 rows, 67 leaf reviews and seven targeted guides. Units 1–3 have detailed maps; Unit 4 is next. Actual learner application projects, profile/output checks and independent teacher review remain unverified. See [Unit 3 review](2026-10-27-unit3-reconciliation.md).
+
+
+Edition 0.43: Unit 4 content map authored with 87 review rows, eight worked guides and links across all six student chapters. All four unit maps are available. Next: independent subject review, resolve the flagged secure-processing source indentation, and classroom verification of actual application/online operation and browser compatibility. Detailed content authoring is not SCSA approval. See [Unit 4 review](2026-10-27-unit4-reconciliation.md).

@@ -1,0 +1,14 @@
+{
+  "fictional": true,
+  "assumptions": [
+    "30-day window",
+    "24 hours per day",
+    "no excluded maintenance in this example"
+  ],
+  "window_minutes": 43200,
+  "target_percent": 99.5,
+  "allowed_unavailability_minutes": 216,
+  "hypothetical_outage_minutes": 180,
+  "calculated_availability_percent": 99.58333333333333,
+  "limit": "An illustrative calculation, not an actual service measurement or contractual guarantee."
+}

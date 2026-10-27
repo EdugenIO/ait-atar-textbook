@@ -1,26 +1,26 @@
 {
   "authoredChapters": 24,
-  "inspectedPages": 656,
+  "inspectedPages": 666,
   "brokenLocalLinks": [],
   "duplicateIds": [],
-  "imageTags": 473,
+  "imageTags": 474,
   "imagesWithoutAlt": [],
   "imagesWithoutDimensions": 0,
-  "uniqueExternalLinks": 95,
+  "uniqueExternalLinks": 102,
   "longestChapters": [
     {
       "page": "#read/u4-projects",
-      "words": 3656,
+      "words": 3662,
       "duplicateIds": []
     },
     {
       "page": "#read/u4-impacts",
-      "words": 3595,
+      "words": 3601,
       "duplicateIds": []
     },
     {
       "page": "#read/u4-applications",
-      "words": 3510,
+      "words": 3516,
       "duplicateIds": []
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "page": "#read/u4-networks",
-      "words": 3256,
+      "words": 3270,
       "duplicateIds": []
     }
   ]

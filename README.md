@@ -1,8 +1,8 @@
 # Applied Information Technology ATAR — Classroom Textbook
 
-## Current status — edition 0.42, 27 October 2026
+## Current status — edition 0.43, 27 October 2026
 
-All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, twelve practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current syllabus/functionality audit](audits/2026-10-27-syllabus-and-functionality-audit.md), the browser `#audits` hub and [remaining work](audits/remaining-work-2026-10-18.md).
+All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, thirteen practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current syllabus/functionality audit](audits/2026-10-27-syllabus-and-functionality-audit.md), the browser `#audits` hub and [remaining work](audits/remaining-work-2026-10-18.md).
 
 The dated edition notes below are historical: statements that an earlier batch was local or unpublished describe that milestone, not today's deployed site.
 
@@ -164,3 +164,8 @@ Two new packs supply actual image/audio/video/animation exports, a disposable ZI
 ## Individual Unit 3 reconciliation · edition 0.42
 
 75 source-order rows (67 leaves, eight parent contexts) link the 2027 Year 12 Unit 3 requirements to specific explanations, seven worked guides and independent production/check sequences. The editable festival HTML/CSS provides navigation, contextual help and print structure; the planning model distinguishes representations and dependency/resource checks. Actual learner/native-tool output and independent subject review remain unverified, including multi-track projects and colour-profile/proof operations. Unit 4 is the remaining individual content map. See [the Unit 3 review](audits/2026-10-27-unit3-reconciliation.md).
+
+
+## Individual Unit 4 reconciliation · edition 0.43
+
+87 review rows (74 leaves, 13 parent contexts) connect the 2027 Unit 4 content to explanations, eight worked guides and independent tasks. The extracted mining/secure-processing indentation is explicitly flagged rather than presented as an official semantic hierarchy. All four units now have individual content maps; teacher review, online/native operation and second-browser evidence remain open. See [Unit 4 findings](audits/2026-10-27-unit4-reconciliation.md).

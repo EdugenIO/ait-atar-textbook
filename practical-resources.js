@@ -1,4 +1,5 @@
 export const practicalResources={
+  "u4-networks": [["Unit 4 requirement-linked worked evidence", "practical-packs/unit4-evidence/network.html"]],
   "u3-design": [["Unit 3 requirement-linked worked evidence", "practical-packs/unit3-evidence/interface.html"]],
   "u3-impacts": [["Unit 3 requirement-linked worked evidence", "practical-packs/unit3-evidence/rights.html"]],
   "u2-projects": [["Unit 2 requirement-linked worked evidence", "practical-packs/unit2-evidence/project.html"]],
@@ -11,8 +12,8 @@ export const practicalResources={
   "u1-principles": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/principles.html"]],
   "u1-elements": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/elements.html"]],
   "u1-brief": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/planning.html"]],
-  "u4-impacts": [["Historical global access-restriction comparison", "practical-packs/worked-cases/global-access.html"]],
-  "u4-data": [["Source verifiability, accuracy and currency case", "practical-packs/worked-cases/source-checking.html"]],
+  "u4-impacts": [["Unit 4 requirement-linked worked evidence", "practical-packs/unit4-evidence/policy.html"],["Historical global access-restriction comparison", "practical-packs/worked-cases/global-access.html"]],
+  "u4-data": [["Unit 4 requirement-linked worked evidence", "practical-packs/unit4-evidence/recovery.html"],["Source verifiability, accuracy and currency case", "practical-packs/worked-cases/source-checking.html"]],
   "u3-hardware": [["Unit 3 requirement-linked worked evidence", "practical-packs/unit3-evidence/devices.html"],["Dated mobile-device trend: worked comparison", "practical-packs/worked-cases/mobile-trend.html"]],
   "u1-applications": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/formats.html"],["Measured image/audio export workflow", "practical-packs/production-workflows/formats.html"],["Editable spreadsheet lookups, tasks and explained answers", "practical-packs/spreadsheet-lookups/index.html"]],
   "u2-data": [["Unit 2 requirement-linked worked evidence", "practical-packs/unit2-evidence/versions.html"],["File export and restore workflows", "practical-packs/production-workflows/index.html"],
@@ -21,7 +22,7 @@ export const practicalResources={
       "practical-packs/maintenance-lab/index.html"
     ]
   ],
-  "u4-web": [["Conflicting sources: five-document worked case", "practical-packs/worked-cases/source-checking.html"],["Web standards implementation pack", "practical-packs/web-standards/index.html"]],
+  "u4-web": [["Unit 4 requirement-linked worked evidence", "practical-packs/unit4-evidence/web.html"],["Conflicting sources: five-document worked case", "practical-packs/worked-cases/source-checking.html"],["Web standards implementation pack", "practical-packs/web-standards/index.html"]],
   "u2-applications": [["Unit 2 requirement-linked worked evidence", "practical-packs/unit2-evidence/web.html"],["Working animation, edited audio and exported media", "practical-packs/production-workflows/index.html"],["Web standards implementation pack", "practical-packs/web-standards/index.html"],
     [
       "Animation starter and reference frames",
@@ -35,13 +36,13 @@ export const practicalResources={
       "practical-packs/animation-multimedia/timeline.html"
     ]
   ],
-  "u4-applications": [["Accessible tutorial page and browser checks", "practical-packs/web-standards/index.html"],
+  "u4-applications": [["Unit 4 requirement-linked worked evidence", "practical-packs/unit4-evidence/learning.html"],["Accessible tutorial page and browser checks", "practical-packs/web-standards/index.html"],
     [
       "Local response-handling lab",
       "practical-packs/response-lab/index.html"
     ]
   ],
-  "u4-projects": [["Survey findings, implemented revision and retest model", "practical-packs/worked-cases/survey-revision.html"],
+  "u4-projects": [["Unit 4 requirement-linked worked evidence", "practical-packs/unit4-evidence/evaluation.html"],["Survey findings, implemented revision and retest model", "practical-packs/worked-cases/survey-revision.html"],
     [
       "Response review and evaluation lab",
       "practical-packs/response-lab/index.html"
