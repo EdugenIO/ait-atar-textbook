@@ -1,8 +1,8 @@
 # Applied Information Technology ATAR — Classroom Textbook
 
-## Current status — edition 0.39, 27 October 2026
+## Current status — edition 0.40, 27 October 2026
 
-All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, nine practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current syllabus/functionality audit](audits/2026-10-27-syllabus-and-functionality-audit.md), the browser `#audits` hub and [remaining work](audits/remaining-work-2026-10-18.md).
+All 24 main reading chapters are authored classroom drafts (8/5/5/6 by unit), with student/answer worksheets, ten practical packs and 256 scheduled 55-minute lessons. No independent syllabus or accessibility sign-off is claimed. See [the current syllabus/functionality audit](audits/2026-10-27-syllabus-and-functionality-audit.md), the browser `#audits` hub and [remaining work](audits/remaining-work-2026-10-18.md).
 
 The dated edition notes below are historical: statements that an earlier batch was local or unpublished describe that milestone, not today's deployed site.
 
@@ -149,3 +149,8 @@ Unit 1 weeks 9–10 now link an editable four-sheet workbook, student tasks, exp
 ## Practical workflows and worked cases · edition 0.39
 
 Two new packs supply actual image/audio/video/animation exports, a disposable ZIP-restore example, four worked evidence cases and independent tasks. Linked in nine chapters, relevant sessions, worksheets and the practical library. See [delivery evidence and limits](audits/2026-10-27-practical-workflows-delivery.md). Desktop-editor, OS-utility and printer-specific trials remain separate checks.
+
+
+## Individual Unit 1 reconciliation · edition 0.40
+
+133 source-order rows (108 leaves, 25 parent contexts) map Unit 1 content to focused explanation, worked evidence and independent application. Ten targeted bridges address weak example coverage. Read [findings and limits](audits/2026-10-27-unit1-reconciliation.md). Units 2–4 still use the broader inventory; no SCSA or learner-performance sign-off is claimed. Regenerate with `python scripts/build-unit1-reconciliation.py`, then rebuild the unit1-evidence archive and run the checks.

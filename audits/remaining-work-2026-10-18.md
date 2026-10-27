@@ -68,3 +68,6 @@ Next authoring batch: real maintenance and version recovery walkthrough, sample 
 ## Spreadsheet practical delivery · edition 0.37
 
 Unit 1 spreadsheet resource authoring is delivered: editable workbook, exact vertical/horizontal lookups, missing/duplicate/zero/space cases, safe sort/filter tasks, independent practice and explained answers. Linked in the chapter, weeks 9–10, print worksheets and practical library. Formula recalculation, input changes and duplicate record swaps were checked; native Excel/LibreOffice filtering remains unperformed. The legacy/current-format comparison and independent syllabus review remain open. See [verification and limits](2026-10-20-spreadsheet-practical.md).
+
+
+Edition 0.40: Unit 1 individual content reconciliation is authored with 133 source-order rows and targeted teaching bridges. Subject review and learner verification remain open. Next expand Unit 2 using the same evidence contract, then Units 3–4. See [Unit 1 review](2026-10-27-unit1-reconciliation.md).

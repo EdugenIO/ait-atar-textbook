@@ -1,4 +1,4 @@
-import {escapeHtml as e} from './learning-tools.js?v=0.39';
+import {escapeHtml as e} from './learning-tools.js?v=0.40';
 const defaults={align:'center',size:24,leading:1.2,spacing:4};
 export function layoutState(values={}){return {align:values.align==='left'?'left':'center',size:Math.max(24,Math.min(40,Number(values.size)||24)),leading:Math.max(1.2,Math.min(1.8,Number(values.leading)||1.2)),spacing:Math.max(4,Math.min(24,Number(values.spacing)||4))};}
 function poster(label,editable=false){return `<figure class="poster-comparison"><figcaption>${label}</figcaption><div class="demo-poster${editable?' editable-poster':''}"${editable?' id="layout-poster"':''}><p class="poster-tag">NORTHSIDE YOUTH CENTRE</p><p class="poster-title">Make something<br>that matters.</p><p class="poster-copy">Join our design workshop. Create a poster for a local event and share your ideas with other young designers.</p><p class="poster-details"><strong>Saturday 18 April · 10 am–12 pm</strong><br>Studio 2, Northside Youth Centre<br>Free entry · Materials supplied</p><p class="poster-action">Book a place at the front desk.</p></div></figure>`;}

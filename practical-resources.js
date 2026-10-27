@@ -1,8 +1,15 @@
 export const practicalResources={
+  "u1-projects": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/planning.html"]],
+  "u1-impacts": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/rights.html"]],
+  "u1-hardware": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/hardware.html"]],
+  "u1-typography": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/typography.html"]],
+  "u1-principles": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/principles.html"]],
+  "u1-elements": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/elements.html"]],
+  "u1-brief": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/planning.html"]],
   "u4-impacts": [["Historical global access-restriction comparison", "practical-packs/worked-cases/global-access.html"]],
   "u4-data": [["Source verifiability, accuracy and currency case", "practical-packs/worked-cases/source-checking.html"]],
   "u3-hardware": [["Dated mobile-device trend: worked comparison", "practical-packs/worked-cases/mobile-trend.html"]],
-  "u1-applications": [["Measured image/audio export workflow", "practical-packs/production-workflows/formats.html"],["Editable spreadsheet lookups, tasks and explained answers", "practical-packs/spreadsheet-lookups/index.html"]],
+  "u1-applications": [["Unit 1 requirement-linked worked evidence", "practical-packs/unit1-evidence/formats.html"],["Measured image/audio export workflow", "practical-packs/production-workflows/formats.html"],["Editable spreadsheet lookups, tasks and explained answers", "practical-packs/spreadsheet-lookups/index.html"]],
   "u2-data": [["File export and restore workflows", "practical-packs/production-workflows/index.html"],
     [
       "Maintenance practice lab",
